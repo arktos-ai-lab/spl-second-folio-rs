@@ -159,12 +159,14 @@ pub struct Interpreter<R: BufRead, W: Write> {
     pub output: W,
     /// If true, trace each operation to stderr
     pub trace: bool,
+    /// When set, trace lines are also appended here (for the web UI)
+    pub trace_buf: Vec<String>,
 }
 
 impl<R: BufRead, W: Write> Interpreter<R, W> {
     pub fn new(play: Play, input: R, output: W) -> Self {
         let state = State::new(&play);
-        Interpreter { play, state, input, output, trace: false }
+        Interpreter { play, state, input, output, trace: false, trace_buf: Vec::new() }
     }
 
     pub fn run(&mut self) -> Result<()> {
@@ -174,7 +176,12 @@ impl<R: BufRead, W: Write> Interpreter<R, W> {
             let flat = self.play.ops[idx].clone();
 
             if self.trace {
-                eprintln!("[line {}] {:?}", flat.line, flat.op);
+                let line = format!("[line {:4}]  op {:4}  spk={:<15}  {:?}",
+                    flat.line, idx,
+                    if flat.speaker.is_empty() { "<stage>" } else { &flat.speaker },
+                    flat.op);
+                eprintln!("{}", line);
+                self.trace_buf.push(line);
             }
 
             self.execute(&flat)?;

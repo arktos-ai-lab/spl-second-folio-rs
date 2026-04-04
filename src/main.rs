@@ -141,13 +141,20 @@ mod serve {
     struct RunRequest {
         source: String,
         stdin: String,
+        #[serde(default)]
+        trace: bool,
     }
 
     #[derive(Serialize)]
     struct RunResponse {
         output: String,
         error: Option<String>,
+        /// Total number of operations in the compiled play
         ops: usize,
+        /// How many operations were executed before completion or error
+        ops_run: usize,
+        /// Structured log lines (parse summary + optional trace)
+        logs: Vec<String>,
     }
 
     async fn example_handler(
@@ -167,28 +174,82 @@ mod serve {
     }
 
     async fn run_handler(Json(req): Json<RunRequest>) -> Json<RunResponse> {
-        // Hard cap: 100 000 output bytes to avoid infinite-loop floods
         const MAX_OUTPUT: usize = 100_000;
+        const MAX_TRACE: usize  = 2_000;   // cap trace lines sent to browser
 
-        let result: Result<String, String> = (|| {
-            let play = parse_play(&req.source).map_err(|e| e.to_string())?;
-            let ops = play.ops.len();
-            let input = io::Cursor::new(req.stdin.into_bytes());
-            let mut output = Vec::new();
-            let mut interp = Interpreter::new(play, io::BufReader::new(input), &mut output);
-            // Limit execution steps to avoid runaway programs in the UI
-            interp.run().map_err(|e| e.to_string())?;
-            let s = String::from_utf8_lossy(&output[..output.len().min(MAX_OUTPUT)]).into_owned();
-            Ok(s)
-        })();
+        let mut logs: Vec<String> = Vec::new();
 
-        match result {
-            Ok(out) => {
-                // parse again just for op count (already parsed above — accept the dup)
-                let ops = parse_play(&req.source).map(|p| p.ops.len()).unwrap_or(0);
-                Json(RunResponse { output: out, error: None, ops })
+        // ── Parse phase ───────────────────────────────────────────────────────
+        let play = match parse_play(&req.source) {
+            Ok(p) => {
+                logs.push(format!(
+                    "[parse]  OK  —  {} characters,  {} operations,  {} scenes",
+                    p.characters.len(), p.ops.len(), p.scene_index.len()
+                ));
+                p
             }
-            Err(e) => Json(RunResponse { output: String::new(), error: Some(e), ops: 0 }),
+            Err(e) => {
+                logs.push(format!("[parse]  ERROR  —  {}", e));
+                return Json(RunResponse {
+                    output: String::new(),
+                    error: Some(format!("Parse error: {}", e)),
+                    ops: 0,
+                    ops_run: 0,
+                    logs,
+                });
+            }
+        };
+
+        let total_ops = play.ops.len();
+
+        // ── Run phase ─────────────────────────────────────────────────────────
+        let input = io::Cursor::new(req.stdin.into_bytes());
+        let mut output: Vec<u8> = Vec::new();
+        let mut interp = Interpreter::new(play, io::BufReader::new(input), &mut output);
+        interp.trace = req.trace;
+
+        let run_result = interp.run();
+        let ops_run = interp.state.pc;
+
+        // Collect trace lines (capped to avoid flooding the browser)
+        if !interp.trace_buf.is_empty() {
+            let shown = interp.trace_buf.len().min(MAX_TRACE);
+            for line in &interp.trace_buf[..shown] {
+                logs.push(format!("[trace]  {}", line));
+            }
+            if interp.trace_buf.len() > MAX_TRACE {
+                logs.push(format!(
+                    "[trace]  … {} more lines truncated",
+                    interp.trace_buf.len() - MAX_TRACE
+                ));
+            }
+        }
+
+        let out_str = String::from_utf8_lossy(
+            &output[..output.len().min(MAX_OUTPUT)]
+        ).into_owned();
+
+        match run_result {
+            Ok(()) => {
+                logs.push(format!("[run]    OK  —  {} / {} ops executed", ops_run, total_ops));
+                Json(RunResponse {
+                    output: out_str,
+                    error: None,
+                    ops: total_ops,
+                    ops_run,
+                    logs,
+                })
+            }
+            Err(e) => {
+                logs.push(format!("[run]    ERROR at op {}  —  {}", ops_run, e));
+                Json(RunResponse {
+                    output: out_str,
+                    error: Some(format!("{}", e)),
+                    ops: total_ops,
+                    ops_run,
+                    logs,
+                })
+            }
         }
     }
 
@@ -230,26 +291,41 @@ mod serve {
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: 'Georgia', serif; background: #1a1a1a; color: #e8e0d0; height: 100vh; display: flex; flex-direction: column; }
-  header { background: #2c2416; border-bottom: 1px solid #5a4a2a; padding: 10px 20px; display: flex; align-items: center; gap: 16px; }
+  header { background: #2c2416; border-bottom: 1px solid #5a4a2a; padding: 10px 20px; display: flex; align-items: center; gap: 16px; flex-shrink: 0; }
   header h1 { font-size: 1.2rem; color: #d4a850; }
   header span { color: #888; font-size: 0.85rem; font-family: monospace; }
-  .main { display: flex; flex: 1; overflow: hidden; gap: 0; }
-  .pane { display: flex; flex-direction: column; flex: 1; overflow: hidden; }
-  .pane-label { background: #252018; color: #a09070; font-size: 0.75rem; font-family: monospace; padding: 4px 12px; border-bottom: 1px solid #3a3020; text-transform: uppercase; letter-spacing: 0.08em; }
-  textarea, .output-box { flex: 1; font-family: 'Courier New', monospace; font-size: 0.88rem; padding: 12px; background: #161410; color: #d0c8b8; border: none; resize: none; outline: none; overflow: auto; white-space: pre-wrap; word-break: break-all; }
-  .divider { width: 4px; background: #3a3020; cursor: col-resize; }
-  .controls { background: #252018; border-top: 1px solid #3a3020; padding: 8px 12px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .main { display: flex; flex: 1; overflow: hidden; min-height: 0; }
+  .pane { display: flex; flex-direction: column; flex: 1; overflow: hidden; min-height: 0; }
+  .pane-label { background: #252018; color: #a09070; font-size: 0.75rem; font-family: monospace; padding: 4px 12px; border-bottom: 1px solid #3a3020; text-transform: uppercase; letter-spacing: 0.08em; flex-shrink: 0; position: relative; }
+  textarea { flex: 1; font-family: 'Courier New', monospace; font-size: 0.88rem; padding: 12px; background: #161410; color: #d0c8b8; border: none; resize: none; outline: none; overflow: auto; white-space: pre; }
+  .output-box { flex: 1; font-family: 'Courier New', monospace; font-size: 0.88rem; padding: 12px; background: #161410; color: #d0c8b8; overflow: auto; white-space: pre-wrap; word-break: break-all; min-height: 0; }
+  .output-box.error { color: #e06060; }
+  .divider { width: 4px; background: #3a3020; cursor: col-resize; flex-shrink: 0; }
+  /* Right column: output on top, log below */
+  .right-col { display: flex; flex-direction: column; flex: 2; overflow: hidden; min-height: 0; }
+  .log-section { display: flex; flex-direction: column; border-top: 2px solid #3a3020; flex-shrink: 0; }
+  .log-header { background: #1e1a10; color: #806040; font-size: 0.72rem; font-family: monospace; padding: 3px 12px; display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
+  .log-header:hover { background: #252018; }
+  .log-header .log-title { text-transform: uppercase; letter-spacing: 0.08em; }
+  .log-header .log-toggle { margin-left: auto; color: #666; font-size: 0.7rem; }
+  .log-body { font-family: 'Courier New', monospace; font-size: 0.75rem; overflow-y: auto; background: #0e0c08; color: #a09060; padding: 6px 12px; max-height: 200px; min-height: 60px; white-space: pre-wrap; word-break: break-all; }
+  .log-body.hidden { display: none; }
+  .log-line-parse  { color: #70a870; }
+  .log-line-run    { color: #70a870; }
+  .log-line-error  { color: #e06060; }
+  .log-line-trace  { color: #606888; }
+  .log-line-trunc  { color: #806040; font-style: italic; }
+  /* Controls bar */
+  .controls { background: #252018; border-top: 1px solid #3a3020; padding: 8px 12px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; flex-shrink: 0; }
   .lbl { color: #888; font-size: 0.78rem; font-family: monospace; white-space: nowrap; }
   #stdin { font-family: monospace; font-size: 0.85rem; background: #161410; color: #c8c0a8; border: 1px solid #3a3020; border-radius: 3px; padding: 4px 8px; flex: 1; min-width: 80px; }
   button { background: #5a3e10; color: #f0d890; border: 1px solid #8a6020; border-radius: 3px; padding: 6px 18px; font-family: Georgia, serif; font-size: 0.9rem; cursor: pointer; white-space: nowrap; }
   button:hover { background: #7a5418; }
   button:active { background: #3a2808; }
-  button.tog { background: #1a2a1a; border-color: #3a5a3a; color: #90c890; }
+  button.tog { background: #1a2a1a; border-color: #3a5a3a; color: #90c890; font-size: 0.82rem; padding: 5px 12px; }
   button.tog.on { background: #2a4a2a; border-color: #5a9a5a; color: #b0f0b0; }
   #examples-select { background: #161410; color: #c8c0a8; border: 1px solid #3a3020; border-radius: 3px; padding: 4px 8px; font-family: monospace; font-size: 0.82rem; }
-  .output-box.error { color: #e06060; }
-  .status { font-size: 0.75rem; font-family: monospace; color: #888; margin-left: auto; }
-  .pane-label { position: relative; }
+  .status { font-size: 0.75rem; font-family: monospace; color: #888; margin-left: auto; white-space: nowrap; }
   .decoded-badge { position: absolute; right: 8px; top: 2px; font-size: 0.7rem; background: #2a4a2a; color: #80d080; border-radius: 3px; padding: 1px 6px; }
 </style>
 </head>
@@ -264,9 +340,19 @@ mod serve {
     <textarea id="source" spellcheck="false" placeholder="Enter a Shakespeare PL program here…"></textarea>
   </div>
   <div class="divider"></div>
-  <div class="pane" style="flex:2">
-    <div class="pane-label">Output <span id="decoded-badge" class="decoded-badge" style="display:none">decoded</span></div>
-    <div class="output-box" id="output">Press <strong>Run</strong> to execute.</div>
+  <div class="right-col">
+    <div class="pane">
+      <div class="pane-label">Output <span id="decoded-badge" class="decoded-badge" style="display:none">decoded</span></div>
+      <div class="output-box" id="output">Press <strong>Run</strong> to execute.</div>
+    </div>
+    <div class="log-section">
+      <div class="log-header" onclick="toggleLog()">
+        <span class="log-title">Log</span>
+        <span id="log-summary" style="color:#666;font-size:0.7rem"></span>
+        <span class="log-toggle" id="log-caret">▲ hide</span>
+      </div>
+      <div class="log-body" id="log-body"></div>
+    </div>
   </div>
 </div>
 <div class="controls">
@@ -285,23 +371,19 @@ mod serve {
   <label class="lbl" title="Text that the program can read as input (like typing at a keyboard)">Input to program:</label>
   <input id="stdin" type="text" placeholder="leave blank if program needs no input">
   <button class="tog" id="ascii-btn" onclick="toggleAscii()" title="SPL programs that use 'Speak your mind!' output raw numbers. This decodes them as ASCII characters.">ASCII decode: off</button>
+  <button class="tog" id="trace-btn" onclick="toggleTrace()" title="Log every operation as it executes. Slow for large programs.">Trace: off</button>
   <button onclick="runSPL()">&#9654; Run</button>
   <span class="status" id="status"></span>
 </div>
 
 <script>
-// Examples are loaded from /example/:name (served from the examples/ directory)
+// ── State ─────────────────────────────────────────────────────────────────────
+let asciiOn  = false;
+let traceOn  = false;
+let logOpen  = true;
+let lastRaw  = '';
 
 // ── ASCII decode ─────────────────────────────────────────────────────────────
-// SPL programs using "Speak your mind!" output raw integers with no separator.
-// e.g. "Hello World!\n" comes out as "7210110810811132871111141081003310"
-// We greedily parse left-to-right: try 3-digit number first (if ≤127),
-// then 2-digit, then 1-digit, converting each to a char.
-// Numbers that map to non-printable / outside ASCII are shown as [N].
-
-let asciiOn = false;
-let lastRaw = '';
-
 function decodeAsAscii(s) {
   let out = '';
   let i = 0;
@@ -310,23 +392,14 @@ function decodeAsAscii(s) {
     for (const len of [3, 2, 1]) {
       if (i + len > s.length) continue;
       const chunk = s.slice(i, i + len);
-      if (chunk[0] === '-') continue; // skip negatives
+      if (chunk[0] === '-') continue;
       const n = parseInt(chunk, 10);
       if (isNaN(n)) continue;
-      // Accept if it's a plausible ASCII value (printable, tab, LF, CR)
       if (n >= 32 && n <= 126 || n === 9 || n === 10 || n === 13) {
         out += String.fromCharCode(n);
-        i += len;
-        matched = true;
-        break;
+        i += len; matched = true; break;
       }
-      // For 1-digit, accept 0 as NUL (show as placeholder) and move on
-      if (len === 1) {
-        out += `[${n}]`;
-        i += 1;
-        matched = true;
-        break;
-      }
+      if (len === 1) { out += `[${n}]`; i += 1; matched = true; break; }
     }
     if (!matched) { out += s[i]; i++; }
   }
@@ -338,7 +411,14 @@ function toggleAscii() {
   const btn = document.getElementById('ascii-btn');
   btn.textContent = asciiOn ? 'ASCII decode: on' : 'ASCII decode: off';
   btn.className = asciiOn ? 'tog on' : 'tog';
-  if (lastRaw) showOutput(lastRaw);
+  if (lastRaw !== '') showOutput(lastRaw);
+}
+
+function toggleTrace() {
+  traceOn = !traceOn;
+  const btn = document.getElementById('trace-btn');
+  btn.textContent = traceOn ? 'Trace: on' : 'Trace: off';
+  btn.className = traceOn ? 'tog on' : 'tog';
 }
 
 function showOutput(raw) {
@@ -354,29 +434,61 @@ function showOutput(raw) {
   }
 }
 
-// ── Examples ──────────────────────────────────────────────────────────────────
+// ── Log panel ─────────────────────────────────────────────────────────────────
+function toggleLog() {
+  logOpen = !logOpen;
+  document.getElementById('log-body').className = logOpen ? 'log-body' : 'log-body hidden';
+  document.getElementById('log-caret').textContent = logOpen ? '▲ hide' : '▼ show';
+}
 
+function renderLogs(logs) {
+  const body = document.getElementById('log-body');
+  body.innerHTML = '';
+  if (!logs || logs.length === 0) {
+    body.textContent = '(no log entries)';
+    return;
+  }
+  for (const line of logs) {
+    const span = document.createElement('div');
+    if (line.startsWith('[parse]') && line.includes('ERROR'))    span.className = 'log-line-error';
+    else if (line.startsWith('[run]')  && line.includes('ERROR')) span.className = 'log-line-error';
+    else if (line.startsWith('[parse]'))  span.className = 'log-line-parse';
+    else if (line.startsWith('[run]'))    span.className = 'log-line-run';
+    else if (line.startsWith('[trace]'))  span.className = 'log-line-trace';
+    else if (line.includes('truncated')) span.className = 'log-line-trunc';
+    span.textContent = line;
+    body.appendChild(span);
+  }
+  // Auto-scroll to bottom so latest entries are visible
+  body.scrollTop = body.scrollHeight;
+  // Show summary in log header
+  const errLines = logs.filter(l => l.includes('ERROR')).length;
+  const summary = document.getElementById('log-summary');
+  summary.textContent = errLines ? `${errLines} error(s)` : `${logs.length} line(s)`;
+  summary.style.color = errLines ? '#e06060' : '#606060';
+}
+
+// ── Examples ──────────────────────────────────────────────────────────────────
 async function loadExample(name) {
   if (!name) return;
   const stdinDefaults = { primes: '20', truth_machine: '0', reverse: 'hello' };
   document.getElementById('stdin').value = stdinDefaults[name] || '';
-  // Auto-enable ASCII decode for programs that use numeric char output
   const numericOutput = ['hello', 'primes', 'reverse', 'shakesbeer'];
   asciiOn = numericOutput.includes(name);
   const btn = document.getElementById('ascii-btn');
   btn.textContent = asciiOn ? 'ASCII decode: on' : 'ASCII decode: off';
   btn.className = asciiOn ? 'tog on' : 'tog';
-  // Fetch actual source from server
   try {
     const r = await fetch(`/example/${name}`);
     document.getElementById('source').value = r.ok ? await r.text() : `(could not load ${name}.spl)`;
   } catch (e) {
     document.getElementById('source').value = `(network error: ${e.message})`;
   }
+  renderLogs([]);
+  document.getElementById('status').textContent = '';
 }
 
 // ── Run ───────────────────────────────────────────────────────────────────────
-
 async function runSPL() {
   const source = document.getElementById('source').value;
   const stdin  = document.getElementById('stdin').value;
@@ -388,30 +500,37 @@ async function runSPL() {
   outEl.textContent = 'Running…';
   badge.style.display = 'none';
   status.textContent = '';
+  renderLogs(['[…] running…']);
 
   const t0 = performance.now();
   try {
     const resp = await fetch('/run', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ source, stdin }),
+      body: JSON.stringify({ source, stdin, trace: traceOn }),
     });
     const data = await resp.json();
     const ms = (performance.now() - t0).toFixed(0);
+
+    renderLogs(data.logs || []);
 
     if (data.error) {
       outEl.className = 'output-box error';
       outEl.textContent = data.error;
       badge.style.display = 'none';
-      status.textContent = `error · ${ms}ms`;
+      status.textContent = `error · op ${data.ops_run}/${data.ops} · ${ms}ms`;
+      // Make sure log is open when there's an error
+      if (!logOpen) toggleLog();
     } else {
       outEl.className = 'output-box';
       showOutput(data.output);
-      status.textContent = `${data.ops} ops · ${ms}ms`;
+      status.textContent = `${data.ops_run} ops · ${ms}ms`;
     }
   } catch (e) {
     outEl.className = 'output-box error';
     outEl.textContent = 'Network error: ' + e.message;
+    renderLogs([`[error]  Network error: ${e.message}`]);
+    status.textContent = 'network error';
   }
 }
 
