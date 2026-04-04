@@ -156,7 +156,6 @@ Let us proceed to act II.
 
 | File | Description | Source |
 |------|-------------|--------|
-| `hello_world.spl` | Extended hello world variant | [shakespeare.sourceforge.net](http://shakespeare.sourceforge.net) |
 | `truth_machine.spl` | Reads an integer; prints `1` forever or `0` once | [esolangs.org/wiki/Shakespeare](https://esolangs.org/wiki/Shakespeare) |
 
 ---
