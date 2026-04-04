@@ -1,0 +1,22 @@
+[package]
+name = "shakespeare-spl-folio-rs"
+version = "0.1.0"
+edition = "2021"
+description = "A Rust interpreter for the Shakespeare Programming Language (SPL)"
+license = "MIT"
+repository = "https://github.com/arktos-ai-lab/shakespeare-spl-folio-rs"
+
+[[bin]]
+name = "shakespeare"
+path = "src/main.rs"
+
+[lib]
+name = "spl"
+path = "src/lib.rs"
+
+[dependencies]
+clap       = { version = "4", features = ["derive"] }
+thiserror  = "1"
+anyhow     = "1"
+
+[dev-dependencies]
