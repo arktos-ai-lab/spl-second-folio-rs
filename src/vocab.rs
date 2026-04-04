@@ -250,6 +250,7 @@ pub const CHARACTER_NAMES: &[&str] = &[
     "king lear",
     "king richard",
     // L
+    "lady macbeth",
     "laertes",
     "lafeu",
     "launce",
@@ -416,6 +417,8 @@ pub const CHARACTER_NAMES: &[&str] = &[
     "stephano",
     "strato",
     // T
+    "the abbot of westminster",
+    "the ghost",
     "tamora",
     "thaisa",
     "thaliard",
@@ -465,23 +468,27 @@ pub const CHARACTER_NAMES: &[&str] = &[
 // ---------------------------------------------------------------------------
 
 pub const POSITIVE_ADJECTIVES: &[&str] = &[
-    "beautiful", "blossoming", "brave", "charming", "cleaner", "clearest",
-    "clever", "courageous", "cunning", "cute", "delicious", "embroidered",
-    "fair", "fine", "flirtatious", "gentle", "golden", "good", "handsome",
-    "happy", "healthy", "honest", "innocent", "kind", "lovely", "loving",
-    "meek", "merry", "noble", "peaceful", "pretty", "prompt", "proud",
-    "pure", "rich", "smooth", "sunny", "sweet", "sweetest", "trustworthy",
-    "warm", "white", "wonderful", "young",
+    "amazing", "beautiful", "big", "blossoming", "bluest", "bold",
+    "bottomless", "brave", "charming", "cleaner", "clearest", "clever",
+    "courageous", "cunning", "cute", "delicious", "embroidered", "fair",
+    "fine", "flirtatious", "furry", "gentle", "golden", "good", "handsome",
+    "happy", "healthy", "honest", "innocent", "kind", "large", "lovely",
+    "loving", "meek", "merry", "mighty", "noble", "normal", "peaceful",
+    "pretty", "prompt", "proud", "pure", "red", "reddest", "rich", "smooth",
+    "sunny", "sweet", "sweetest", "trustworthy", "warm", "white", "wonderful",
+    "yellow", "young",
 ];
 
 pub const NEGATIVE_ADJECTIVES: &[&str] = &[
-    "bad", "cowardly", "cursed", "damned", "dark", "disagreeable",
-    "disgusting", "distasteful", "dusty", "evil", "fat", "filthy",
-    "foolish", "foul", "gruesome", "horrible", "horrid", "infected",
-    "lazy", "lewd", "lying", "miserable", "miserly", "odious", "old",
-    "rotten", "rude", "sorry", "squalid", "stupid", "terrible", "ugly",
-    "unhappy", "unkind", "vile", "villainous", "wicked", "worried",
-    "worthless",
+    "bad", "black", "cowardly", "cursed", "damned", "dark", "dirty",
+    "disagreeable", "disgusting", "distasteful", "dusty", "evil", "fat",
+    "fatherless", "filthy", "foolish", "foul", "gruesome", "half-witted",
+    "hairy", "hard", "horrible", "horrid", "imminent", "infected", "lazy",
+    "lewd", "little", "lying", "miserable", "miserly", "misused", "odious",
+    "old", "oozing", "rotten", "rude", "rural", "small", "smelly", "snotty",
+    "sorry", "squalid", "stinking", "stuffed", "stupid", "terrible", "tiny",
+    "ugly", "unhappy", "unkind", "vile", "villainous",
+    "wicked", "worried", "worthless",
 ];
 
 // ---------------------------------------------------------------------------
@@ -489,20 +496,23 @@ pub const NEGATIVE_ADJECTIVES: &[&str] = &[
 // ---------------------------------------------------------------------------
 
 pub const POSITIVE_NOUNS: &[&str] = &[
-    "angel", "best", "cat", "chihuahua", "cow", "daughter", "flower",
-    "fluffy", "friend", "hamster", "happiness", "hero", "horse", "lamp",
-    "lord", "lover", "man", "master", "miracle", "moon", "morning",
-    "mother", "nose", "owner", "pony", "purse", "rose", "sky", "son",
-    "songbird", "summer", "sun", "sunshine", "treasure", "wizard", "woman",
+    "angel", "animal", "best", "brother", "cat", "chihuahua", "childhood",
+    "cow", "day", "daughter", "father", "flower", "fluffy", "friend", "hair",
+    "hamster", "happiness", "hero", "horse", "kingdom", "lamp", "lord",
+    "lover", "man", "master", "miracle", "mistletoe", "moon", "morning",
+    "mother", "nose", "owner", "plum", "pony", "purse", "roman", "rose",
+    "sky", "son", "songbird", "squirrel", "stone", "summer", "sun",
+    "sunshine", "thing", "town", "treasure", "wall", "wizard", "woman",
 ];
 
 pub const NEGATIVE_NOUNS: &[&str] = &[
     "answer", "bastard", "beggar", "blister", "codpiece", "coward",
     "criminal", "curse", "death", "devil", "dog", "drunkard", "dunghill",
-    "evil", "fat", "festering", "flirt", "fool", "gorgon", "hag", "hate",
-    "hatred", "insect", "louse", "lying", "mistrust", "misuse", "noise",
-    "pig", "plague", "pox", "rascal", "road", "scoundrel", "sieve",
-    "spite", "toad", "town", "traitor", "villain", "witch", "wolf", "worm",
+    "evil", "fat", "festering", "flirt", "flirt-gill", "fool", "goat",
+    "gorgon", "hag", "hate", "hatred", "hog", "hound", "insect", "leech",
+    "louse", "lying", "mistrust", "misuse", "noise", "pig", "plague",
+    "pox", "rascal", "road", "scoundrel", "sieve", "spite", "toad",
+    "traitor", "villain", "witch", "wolf", "worm",
 ];
 
 // ---------------------------------------------------------------------------
@@ -523,10 +533,21 @@ fn eq_lower(word: &str, list: &[&str]) -> bool {
     list.iter().any(|&s| s == w)
 }
 
+/// Like eq_lower but also strips a trailing "'s" (possessive), so "summer's"
+/// matches "summer".
+fn eq_lower_possessive(word: &str, list: &[&str]) -> bool {
+    let w = word.to_lowercase();
+    if list.iter().any(|&s| s == w.as_str()) { return true; }
+    if let Some(base) = w.strip_suffix("'s") {
+        if list.iter().any(|&s| s == base) { return true; }
+    }
+    false
+}
+
 pub fn is_positive_adjective(word: &str) -> bool { eq_lower(word, POSITIVE_ADJECTIVES) }
 pub fn is_negative_adjective(word: &str) -> bool { eq_lower(word, NEGATIVE_ADJECTIVES) }
-pub fn is_positive_noun(word: &str) -> bool      { eq_lower(word, POSITIVE_NOUNS)      }
-pub fn is_negative_noun(word: &str) -> bool      { eq_lower(word, NEGATIVE_NOUNS)      }
+pub fn is_positive_noun(word: &str) -> bool      { eq_lower_possessive(word, POSITIVE_NOUNS) }
+pub fn is_negative_noun(word: &str) -> bool      { eq_lower_possessive(word, NEGATIVE_NOUNS) }
 pub fn is_article(word: &str) -> bool            { eq_lower(word, ARTICLES)            }
 
 /// Returns Some(canonical_lowercase_name) if `s` is a recognised SPL character name.

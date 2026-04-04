@@ -38,11 +38,13 @@ struct ExprParser<'a> {
     tokens: &'a [&'a str],
     pos: usize,
     line: usize,
+    /// Declared character names (lowercase) for this play.
+    char_names: &'a [String],
 }
 
 impl<'a> ExprParser<'a> {
-    fn new(tokens: &'a [&'a str], line: usize) -> Self {
-        ExprParser { tokens, pos: 0, line }
+    fn new(tokens: &'a [&'a str], line: usize, char_names: &'a [String]) -> Self {
+        ExprParser { tokens, pos: 0, line, char_names }
     }
 
     fn peek(&self) -> Option<&str> {
@@ -89,6 +91,29 @@ impl<'a> ExprParser<'a> {
         }
     }
 
+    /// Try to consume a character name (greedy, longest match) from current position.
+    /// Only matches names that are actually declared in this play.
+    fn try_consume_char_name(&mut self) -> Option<String> {
+        let remaining = self.tokens.len() - self.pos;
+        let max_len = remaining.min(4);
+        let mut best: Option<(usize, String)> = None;
+        for len in 1..=max_len {
+            let words: Vec<String> = self.tokens[self.pos..self.pos + len]
+                .iter().map(|s| norm(s)).collect();
+            let joined = words.join(" ");
+            // Only accept if declared in this play
+            if self.char_names.iter().any(|n| n == &joined) {
+                best = Some((len, joined));
+            }
+        }
+        if let Some((len, name)) = best {
+            self.pos += len;
+            Some(name)
+        } else {
+            None
+        }
+    }
+
     pub fn parse_expr(&mut self) -> Result<Expr> {
         // Skip articles at start — but NOT "the", which is also the prefix for
         // operator forms like "the sum of X and Y".  We let "the" fall through to
@@ -126,7 +151,13 @@ impl<'a> ExprParser<'a> {
                 let inner = self.parse_expr()?;
                 Ok(Expr::Unary { op: UnaryOp::Twice, operand: Box::new(inner) })
             }
-            _ => self.parse_noun_phrase(),
+            _ => {
+                // Try character name reference before noun phrase
+                if let Some(name) = self.try_consume_char_name() {
+                    return Ok(Expr::CharRef(name));
+                }
+                self.parse_noun_phrase()
+            }
         }
     }
 
@@ -177,6 +208,12 @@ impl<'a> ExprParser<'a> {
                 let r = self.parse_expr()?;
                 Ok(Expr::Binary { op: BinaryOp::Remainder, left: Box::new(l), right: Box::new(r) })
             }
+            // "the twice X" — treat "the" as decorative before "twice"
+            Some("twice") => {
+                self.consume();
+                let inner = self.parse_expr()?;
+                Ok(Expr::Unary { op: UnaryOp::Twice, operand: Box::new(inner) })
+            }
             Some("square") => {
                 self.consume();
                 match self.peek_norm().as_deref() {
@@ -207,6 +244,19 @@ impl<'a> ExprParser<'a> {
                 Ok(Expr::Unary { op: UnaryOp::Factorial, operand: Box::new(inner) })
             }
             _ => {
+                // Check if "the [remaining...]" forms a character name (e.g. "the Ghost").
+                // "the" was already consumed; try to match remaining tokens with "the " prepended.
+                let saved_pos = self.pos;
+                for len in (1..=self.tokens.len().saturating_sub(self.pos).min(4)).rev() {
+                    let words: Vec<String> = self.tokens[self.pos..self.pos + len]
+                        .iter().map(|s| norm(s)).collect();
+                    let with_the = format!("the {}", words.join(" "));
+                    if self.char_names.iter().any(|n| n == &with_the) {
+                        self.pos += len;
+                        return Ok(Expr::CharRef(with_the));
+                    }
+                }
+                self.pos = saved_pos;
                 // "the" used as a noun-phrase article: "the horse", "the beautiful rose", etc.
                 // We already consumed "the"; parse_noun_phrase skips any remaining articles.
                 self.parse_noun_phrase()
@@ -215,6 +265,9 @@ impl<'a> ExprParser<'a> {
     }
 
     /// Parse a noun phrase: (article?) (adjective*) noun
+    ///
+    /// Sign rule: always determined by the noun, regardless of adjectives.
+    /// All adjectives (positive or negative) double the magnitude.
     fn parse_noun_phrase(&mut self) -> Result<Expr> {
         // Skip articles
         while self.peek_norm().as_deref().map(|w| is_article(w)).unwrap_or(false) {
@@ -222,19 +275,12 @@ impl<'a> ExprParser<'a> {
         }
 
         let mut adj_count: u32 = 0;
-        let mut polarity: Option<bool> = None; // true = positive, false = negative
 
-        // Consume adjectives
+        // Consume adjectives (all adjectives just double magnitude)
         loop {
             match self.peek_norm().as_deref() {
-                Some(w) if is_positive_adjective(w) => {
+                Some(w) if is_positive_adjective(w) || is_negative_adjective(w) => {
                     adj_count += 1;
-                    polarity = Some(true);
-                    self.consume();
-                }
-                Some(w) if is_negative_adjective(w) => {
-                    adj_count += 1;
-                    polarity = Some(false);
                     self.consume();
                 }
                 _ => break,
@@ -245,25 +291,15 @@ impl<'a> ExprParser<'a> {
             }
         }
 
-        // Consume the noun
+        // Consume the noun — noun always determines sign
         match self.peek_norm().as_deref() {
             Some(w) if is_positive_noun(w) => {
                 self.consume();
-                let p = polarity.unwrap_or(true);
-                if p {
-                    Ok(Expr::positive(adj_count))
-                } else {
-                    Ok(Expr::negative(adj_count))
-                }
+                Ok(Expr::positive(adj_count))
             }
             Some(w) if is_negative_noun(w) => {
                 self.consume();
-                let p = polarity.unwrap_or(false);
-                if p {
-                    Ok(Expr::positive(adj_count))
-                } else {
-                    Ok(Expr::negative(adj_count))
-                }
+                Ok(Expr::negative(adj_count))
             }
             other => Err(SplError::parse(
                 self.line,
@@ -277,7 +313,7 @@ impl<'a> ExprParser<'a> {
 // Comparison parser helper (used in Question sentences)
 // ---------------------------------------------------------------------------
 
-fn parse_comparison(tokens: &[&str], line: usize) -> Result<Comparison> {
+fn parse_comparison(tokens: &[&str], line: usize, char_names: &[String]) -> Result<Comparison> {
     // Patterns:
     //   "Am I as good as X?"           → first == X (numeric "as good as" = equal)
     //   "Is X greater than Y?"
@@ -289,49 +325,60 @@ fn parse_comparison(tokens: &[&str], line: usize) -> Result<Comparison> {
     let toks: Vec<String> = tokens.iter().map(|s| norm(s)).collect();
     let ts: Vec<&str> = toks.iter().map(|s| s.as_str()).collect();
 
-    let cmp_op = if contains_seq(&ts, &["as", "good", "as"]) || contains_seq(&ts, &["equal"]) {
-        CmpOp::Equal
-    } else if contains_seq(&ts, &["greater", "than", "or", "equal"]) {
-        CmpOp::GreaterOrEqual
-    } else if contains_seq(&ts, &["less", "than", "or", "equal"]) {
-        CmpOp::LessOrEqual
-    } else if contains_seq(&ts, &["greater", "than"]) {
-        CmpOp::GreaterThan
-    } else if contains_seq(&ts, &["less", "than"]) {
-        CmpOp::LessThan
-    } else if contains_seq(&ts, &["not", "as", "good", "as"]) {
-        CmpOp::NotEqual
+    // Find "as X as" (any single word between two "as") — means Equal in comparisons.
+    // We search BEFORE other patterns so "not as good as" is still checked below.
+    let as_x_as_pos: Option<usize> = if !contains_seq(&ts, &["not", "as", "good", "as"]) {
+        (0..ts.len().saturating_sub(2))
+            .find(|&i| ts[i] == "as" && ts[i+2] == "as")
+    } else {
+        None
+    };
+
+    let (cmp_op, op_start, op_len): (CmpOp, usize, usize) =
+    if contains_seq(&ts, &["not", "as", "good", "as"]) {
+        (CmpOp::NotEqual, find_seq(&ts, &["not", "as", "good", "as"]).unwrap(), 4)
+    } else if contains_seq(&ts, &["equal"]) {
+        (CmpOp::Equal, find_seq(&ts, &["equal"]).unwrap(), 1)
+    } else if let Some(pos) = as_x_as_pos {
+        (CmpOp::Equal, pos, 3)
+    } else if let Some(pos) = find_seq(&ts, &["greater", "than", "or", "equal"])
+        .or_else(|| find_seq(&ts, &["better", "than", "or", "equal"])) {
+        (CmpOp::GreaterOrEqual, pos, 4)
+    } else if let Some(pos) = find_seq(&ts, &["less", "than", "or", "equal"])
+        .or_else(|| find_seq(&ts, &["worse", "than", "or", "equal"])) {
+        (CmpOp::LessOrEqual, pos, 4)
+    } else if let Some(pos) = find_seq(&ts, &["greater", "than"])
+        .or_else(|| find_seq(&ts, &["better", "than"]))
+        .or_else(|| find_seq(&ts, &["more", "cunning", "than"]).map(|p| (p, 3usize)).map(|(p,l)| p))
+        .or_else(|| find_seq(&ts, &["more", "than"]))
+        .or_else(|| find_seq(&ts, &["bigger", "than"]))
+        .or_else(|| find_seq(&ts, &["larger", "than"]))
+        .or_else(|| find_seq(&ts, &["older", "than"]))
+    {
+        let len = if find_seq(&ts, &["more", "cunning", "than"]) == Some(pos) { 3 } else { 2 };
+        (CmpOp::GreaterThan, pos, len)
+    } else if let Some(pos) = find_seq(&ts, &["less", "than"])
+        .or_else(|| find_seq(&ts, &["worse", "than"]))
+        .or_else(|| find_seq(&ts, &["smaller", "than"]))
+        .or_else(|| find_seq(&ts, &["younger", "than"]))
+        .or_else(|| find_seq(&ts, &["shorter", "than"]))
+    {
+        (CmpOp::LessThan, pos, 2)
     } else {
         return Err(SplError::parse(line, "unrecognised comparison operator"));
     };
 
-    // Find "is" or "am" / "are" to locate start, then split around the operator
-    // Simple heuristic: find keyword positions and parse expressions on both sides
-    let op_keywords: &[&str] = match cmp_op {
-        CmpOp::Equal         => &["as", "good", "as"],
-        CmpOp::NotEqual      => &["not", "as", "good", "as"],
-        CmpOp::GreaterThan   => &["greater", "than"],
-        CmpOp::LessThan      => &["less", "than"],
-        CmpOp::GreaterOrEqual => &["greater", "than", "or", "equal"],
-        CmpOp::LessOrEqual   => &["less", "than", "or", "equal"],
-        CmpOp::NotEqual      => &["not", "equal"],
-    };
+    // Split tokens around the operator sequence
+    let left_tokens = &tokens[..op_start];
+    let right_tokens = &tokens[op_start + op_len..];
 
-    // Split tokens around first occurrence of the operator sequence
-    if let Some(op_start) = find_seq(&ts, op_keywords) {
-        let left_tokens = &tokens[..op_start];
-        let right_tokens = &tokens[op_start + op_keywords.len()..];
+    // Strip leading "is" / "am" / "are" / "art" / "?" from left
+    let left_stripped = strip_question_lead(left_tokens);
+    let right_stripped = strip_question_trail(right_tokens);
 
-        // Strip leading "is" / "am" / "are" / "?" from left
-        let left_stripped = strip_question_lead(left_tokens);
-        let right_stripped = strip_question_trail(right_tokens);
-
-        let left  = ExprParser::new(left_stripped, line).parse_expr()?;
-        let right = ExprParser::new(right_stripped, line).parse_expr()?;
-        Ok(Comparison { op: cmp_op, left, right })
-    } else {
-        Err(SplError::parse(line, "could not split comparison into left/right"))
-    }
+    let left  = ExprParser::new(left_stripped, line, char_names).parse_expr()?;
+    let right = ExprParser::new(right_stripped, line, char_names).parse_expr()?;
+    Ok(Comparison { op: cmp_op, left, right })
 }
 
 fn contains_seq(haystack: &[&str], needle: &[&str]) -> bool {
@@ -340,6 +387,7 @@ fn contains_seq(haystack: &[&str], needle: &[&str]) -> bool {
 
 fn find_seq(haystack: &[&str], needle: &[&str]) -> Option<usize> {
     if needle.is_empty() { return Some(0); }
+    if needle.len() > haystack.len() { return None; }
     'outer: for i in 0..=haystack.len().saturating_sub(needle.len()) {
         for (j, n) in needle.iter().enumerate() {
             if haystack[i + j] != *n { continue 'outer; }
@@ -351,7 +399,7 @@ fn find_seq(haystack: &[&str], needle: &[&str]) -> Option<usize> {
 
 fn strip_question_lead<'a>(tokens: &'a [&'a str]) -> &'a [&'a str] {
     let mut start = 0;
-    let skip = ["is", "am", "are", "?"];
+    let skip = ["is", "am", "are", "art", "?"];
     while start < tokens.len() {
         let w = norm(tokens[start]);
         if skip.iter().any(|s| *s == w.as_str()) {
@@ -376,7 +424,7 @@ fn strip_question_trail<'a>(tokens: &'a [&'a str]) -> &'a [&'a str] {
 // Sentence parser
 // ---------------------------------------------------------------------------
 
-fn parse_sentence(tokens: &[&str], line: usize) -> Result<Op> {
+fn parse_sentence(tokens: &[&str], line: usize, char_names: &[String]) -> Result<Op> {
     if tokens.is_empty() {
         return Err(SplError::parse(line, "empty sentence"));
     }
@@ -399,24 +447,33 @@ fn parse_sentence(tokens: &[&str], line: usize) -> Result<Op> {
     let rs: Vec<&str> = rt.iter().map(|s| s.as_str()).collect();
 
     // Question — must check before assignment
-    if rs.first().map(|w| *w == "am" || *w == "is" || *w == "are").unwrap_or(false) {
-        let cmp = parse_comparison(rest_tokens, line)?;
-        return Ok(Op::Question { cmp });
+    // "Am I...", "Is X...", "Are X...", "Art thou..."
+    let is_question_lead = matches!(rs.first().copied(), Some("am") | Some("is") | Some("are") | Some("art"));
+    if is_question_lead {
+        if let Ok(cmp) = parse_comparison(rest_tokens, line, char_names) {
+            return Ok(Op::Question { cmp });
+        }
     }
 
-    // Goto: "let us proceed to scene N" / "let us return to scene N"
-    if rs.first() == Some(&"let") {
-        return parse_goto(&rs, line, cond);
+    // Goto: "let us proceed to scene N" / "we must return to scene N" / etc.
+    if rs.first() == Some(&"let") || rs.first() == Some(&"we") {
+        if let Ok(op) = parse_goto(&rs, line, cond) {
+            return Ok(op);
+        }
     }
 
-    // Output: "speak your mind" (number) / "open your heart" (char)
+    // Output: "speak your/thy mind" (number) / "open your/thy heart" (char)
     if contains_seq(&rs, &["speak", "your", "mind"])
+        || contains_seq(&rs, &["speak", "thy", "mind"])
         || contains_seq(&rs, &["open", "your", "heart"])
+        || contains_seq(&rs, &["open", "thy", "heart"])
     {
         return Ok(Op::Output { kind: IoKind::Numeric, cond });
     }
     if contains_seq(&rs, &["speak", "your", "heart"])
+        || contains_seq(&rs, &["speak", "thy", "heart"])
         || contains_seq(&rs, &["open", "your", "mouth"])
+        || contains_seq(&rs, &["open", "thy", "mouth"])
     {
         return Ok(Op::Output { kind: IoKind::Char, cond });
     }
@@ -440,7 +497,7 @@ fn parse_sentence(tokens: &[&str], line: usize) -> Result<Op> {
         {
             return Ok(Op::Push { expr: Expr::SecondPerson, cond });
         }
-        let expr = ExprParser::new(expr_tokens, line).parse_expr()?;
+        let expr = ExprParser::new(expr_tokens, line, char_names).parse_expr()?;
         return Ok(Op::Push { expr, cond });
     }
 
@@ -453,9 +510,27 @@ fn parse_sentence(tokens: &[&str], line: usize) -> Result<Op> {
     if (rs.first() == Some(&"you") && rs.get(1) == Some(&"are"))
         || (rs.first() == Some(&"thou") && rs.get(1) == Some(&"art"))
     {
-        let expr_tokens = &rest_tokens[2..];
-        let expr = ExprParser::new(expr_tokens, line).parse_expr()?;
+        let mut expr_tokens = &rest_tokens[2..];
+        // Strip decorative "as [word] as" comparative prefix (e.g. "you are as brave as X")
+        if expr_tokens.len() >= 3 && norm(expr_tokens[0]) == "as" && norm(expr_tokens[2]) == "as" {
+            expr_tokens = &expr_tokens[3..];
+        }
+        let expr = ExprParser::new(expr_tokens, line, char_names).parse_expr()?;
         return Ok(Op::Assign { expr, cond });
+    }
+
+    // Short assignment: "you <noun-phrase>" / "thou <noun-phrase>" (no copula)
+    // e.g. "You lying stupid coward!" — second word is an adjective or noun, not a verb.
+    if rs.first() == Some(&"you") || rs.first() == Some(&"thou") {
+        if let Some(w) = rs.get(1) {
+            let is_verb = matches!(*w, "are" | "art" | "is" | "am" | "were" | "was");
+            if !is_verb {
+                let expr_tokens = &rest_tokens[1..];
+                if let Ok(expr) = ExprParser::new(expr_tokens, line, char_names).parse_expr() {
+                    return Ok(Op::Assign { expr, cond });
+                }
+            }
+        }
     }
 
     Err(SplError::parse(line, format!("unrecognised sentence: {:?}", &ts[..ts.len().min(6)])))
@@ -634,12 +709,43 @@ pub fn parse_play(source: &str) -> Result<Play> {
         line_no += 1;
     }
 
+    // Collect declared character names (lowercase) for use during expression parsing.
+    let char_names: Vec<String> = characters.iter().map(|c| c.name.clone()).collect();
+
     // --- Acts and Scenes ---
     let mut ops: Vec<FlatOp> = Vec::new();
     let mut scene_index: HashMap<(u32, u32), usize> = HashMap::new();
     let mut current_act = 1u32;
     let mut current_scene = 1u32;
     let mut current_speaker = String::new();
+    // Buffer to accumulate dialogue across physical lines (sentences may span lines).
+    let mut pending_dialogue = String::new();
+    let mut pending_line = 0usize;
+
+    // Drain all complete sentences (ending with . ! ?) from pending_dialogue.
+    let flush_pending = |pending: &mut String, speaker: &str, pline: usize, ops: &mut Vec<FlatOp>, cnames: &[String]| {
+        loop {
+            let term = pending.find(|c| c == '.' || c == '!' || c == '?');
+            match term {
+                None => break,
+                Some(pos) => {
+                    let end = pos + 1;
+                    let sentence_str = pending[..end].trim().to_string();
+                    *pending = pending[end..].trim_start().to_string();
+                    if sentence_str.is_empty() { continue; }
+                    let tokens: Vec<&str> = sentence_str.split_whitespace().collect();
+                    match parse_sentence(&tokens, pline, cnames) {
+                        Ok(op) => ops.push(FlatOp {
+                            speaker: speaker.to_string(),
+                            op,
+                            line: pline,
+                        }),
+                        Err(_) => {} // flavour text / unrecognised — skip silently
+                    }
+                }
+            }
+        }
+    };
 
     while line_no < lines.len() {
         let raw = lines[line_no];
@@ -652,6 +758,8 @@ pub fn parse_play(source: &str) -> Result<Play> {
 
         // Act header: "Act I: ..."
         if lower.starts_with("act ") {
+            flush_pending(&mut pending_dialogue, &current_speaker, pending_line, &mut ops, &char_names);
+            pending_dialogue.clear();
             let tok: Vec<&str> = l.split_whitespace().collect();
             // tok[1] may be "I:" — strip trailing punctuation before parsing
             if let Some(num) = tok.get(1)
@@ -666,6 +774,8 @@ pub fn parse_play(source: &str) -> Result<Play> {
 
         // Scene header: "Scene I: ..."
         if lower.starts_with("scene ") {
+            flush_pending(&mut pending_dialogue, &current_speaker, pending_line, &mut ops, &char_names);
+            pending_dialogue.clear();
             let tok: Vec<&str> = l.split_whitespace().collect();
             // tok[1] may be "I:" — strip trailing punctuation before parsing
             if let Some(num) = tok.get(1)
@@ -681,6 +791,8 @@ pub fn parse_play(source: &str) -> Result<Play> {
 
         // Stage direction: "[...]"
         if l.starts_with('[') && l.ends_with(']') {
+            flush_pending(&mut pending_dialogue, &current_speaker, pending_line, &mut ops, &char_names);
+            pending_dialogue.clear();
             let inner = &l[1..l.len() - 1];
             match parse_stage_direction(inner, line_no) {
                 Ok(op) => ops.push(FlatOp {
@@ -698,33 +810,30 @@ pub fn parse_play(source: &str) -> Result<Play> {
         if l.ends_with(':') {
             let name_part = l.trim_end_matches(':').trim();
             if let Some(canonical) = as_character_name(name_part) {
+                flush_pending(&mut pending_dialogue, &current_speaker, pending_line, &mut ops, &char_names);
+                pending_dialogue.clear();
                 current_speaker = canonical.to_string();
                 continue;
             }
         }
 
-        // Otherwise: dialogue sentence(s) spoken by current_speaker
-        // A line may contain multiple sentences separated by .!?
+        // Otherwise: dialogue spoken by current_speaker.
+        // Accumulate into pending buffer — sentences may span multiple physical lines.
         if current_speaker.is_empty() { continue; }
 
-        for sentence_str in split_sentences(l) {
-            let sentence_str = sentence_str.trim();
-            if sentence_str.is_empty() { continue; }
-            let tokens: Vec<&str> = sentence_str.split_whitespace().collect();
-            match parse_sentence(&tokens, line_no) {
-                Ok(op) => ops.push(FlatOp {
-                    speaker: current_speaker.clone(),
-                    op,
-                    line: line_no,
-                }),
-                Err(e) => {
-                    // Non-fatal: skip unrecognised sentences (comments, flavour text)
-                    // In a stricter mode, return Err(e).
-                    let _ = e;
-                }
-            }
+        if pending_dialogue.is_empty() {
+            pending_line = line_no;
+        } else {
+            pending_dialogue.push(' ');
         }
+        pending_dialogue.push_str(l);
+
+        // Extract and parse any complete sentences now present in the buffer.
+        flush_pending(&mut pending_dialogue, &current_speaker, pending_line, &mut ops, &char_names);
     }
+
+    // Flush any remaining dialogue at end of file.
+    flush_pending(&mut pending_dialogue, &current_speaker, pending_line, &mut ops, &char_names);
 
     Ok(Play {
         title,
@@ -764,7 +873,7 @@ mod tests {
     #[test]
     fn parse_simple_assignment() {
         let tokens = vec!["You", "are", "a", "beautiful", "rose"];
-        let op = parse_sentence(&tokens, 1).unwrap();
+        let op = parse_sentence(&tokens, 1, &[]).unwrap();
         match op {
             Op::Assign { expr: Expr::Positive { adjective_count: 1 }, cond: None } => {}
             other => panic!("unexpected: {:?}", other),
@@ -774,7 +883,7 @@ mod tests {
     #[test]
     fn parse_nothing() {
         let tokens = vec!["You", "are", "nothing"];
-        let op = parse_sentence(&tokens, 1).unwrap();
+        let op = parse_sentence(&tokens, 1, &[]).unwrap();
         match op {
             Op::Assign { expr: Expr::Nothing, .. } => {}
             other => panic!("unexpected: {:?}", other),
@@ -784,7 +893,7 @@ mod tests {
     #[test]
     fn parse_output_char() {
         let tokens = vec!["Open", "your", "mouth"];
-        let op = parse_sentence(&tokens, 1).unwrap();
+        let op = parse_sentence(&tokens, 1, &[]).unwrap();
         match op {
             Op::Output { kind: IoKind::Char, .. } => {}
             other => panic!("unexpected: {:?}", other),
@@ -794,7 +903,7 @@ mod tests {
     #[test]
     fn parse_goto_scene() {
         let tokens = vec!["Let", "us", "proceed", "to", "scene", "II"];
-        let op = parse_sentence(&tokens, 1).unwrap();
+        let op = parse_sentence(&tokens, 1, &[]).unwrap();
         match op {
             Op::Goto { scene: 2, .. } => {}
             other => panic!("unexpected: {:?}", other),

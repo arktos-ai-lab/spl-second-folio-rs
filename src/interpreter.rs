@@ -90,6 +90,7 @@ fn eval_expr(expr: &Expr, state: &State, speaker: &str) -> Result<i64> {
             let opp = state.opposite(speaker)?;
             Ok(state.character(opp)?.value)
         }
+        Expr::CharRef(name) => Ok(state.character(name)?.value),
         Expr::Nothing => Ok(0),
         Expr::Positive { adjective_count } => Ok(2_i64.pow(*adjective_count)),
         Expr::Negative { adjective_count } => Ok(-(2_i64.pow(*adjective_count))),

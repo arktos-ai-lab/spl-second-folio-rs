@@ -10,6 +10,8 @@ pub enum Expr {
     FirstPerson,
     /// "you" / "thee" / "yourself" — the character being spoken to
     SecondPerson,
+    /// A reference to another character by name (e.g. "Romeo" in an expression)
+    CharRef(String),
     /// A positive noun phrase: value = 2^(adjective_count)
     Positive { adjective_count: u32 },
     /// A negative noun phrase: value = -(2^(adjective_count))
