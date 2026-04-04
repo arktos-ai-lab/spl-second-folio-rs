@@ -179,6 +179,16 @@ All characters must be named after Shakespearean figures. The full list recognis
 
 ---
 
+## Related projects
+
+**[zmbc/shakespearelang](https://github.com/zmbc/shakespearelang)** — Python implementation of the canonical SPL spec. The closest prior art to this project; `spl-rs` targets the same spec and is tested for compatibility.
+
+**[ThyLang](https://github.com/Aruniaaa/ThyLang)** — A Python toy language with Shakespearean-flavored keywords (`hath`, `shouldst`, `printeth`). Note: ThyLang is a *different, independently invented language* — it is not an implementation of the canonical SPL spec. It has no concept of SPL's characters-as-variables, Acts/Scenes, or comparative arithmetic encoding. If you want to run programs written in Shakespeare Programming Language (the 2001 KTH spec), you want this repo, not ThyLang.
+
+**[spl2c](http://shakespeare.sourceforge.net)** — The original 2001 C implementation by Hasselström & Åslund. Compiles SPL to C. The canonical reference for original behaviour.
+
+---
+
 ## Running the tests
 
 ```bash
