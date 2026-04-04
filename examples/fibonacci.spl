@@ -1,61 +1,63 @@
-The Fibonacci Calculations, a play in two acts that needs some improvement. Source: https://github.com/m-fol/Shakespearelang/blob/main/Fibonacci.spl
+By Peter Nillius 2001-08-31. Source: http://shakespeare.sourceforge.net
+<nillius at nada dot kth dot se>
 
-Romeo, one of the Fibonacci numbers and the previous one.
-Juliet, the second Fibonacci number.
-Ophelia, the loop and variable controller.
-Macbeth, the king utilized as a space and as the end of the loop.
+Fibonacci's numbers.
+
+Romeo, a lover with an accumulative memory.
+Juliet, a beautiful but domineering woman.
+Ulysses, a spaceman.
 
 
-			Act I: The Fibonacci Calculation.
+                    Act I: A Minimalistic Play.
 
-		Scene I: The Initialization of a Helpful Variable.
+                    Scene I: Juliet Sets Things Straight.
 
-[Enter Ophelia and Macbeth]
+[Enter Romeo and Juliet]
 
-Ophelia:
- Thou art as pretty as a beautiful fair peaceful sunny warm summer's day!
-
-[Exit Macbeth]
-[Enter Romeo]
-
-Ophelia:
-  Open your heart!
-  You animal.
+Juliet:
+ You are nothing. Remember yourself.
+ You are the difference between nothing and a pig.
+ Open your heart!
 
 [Exit Romeo]
-[Enter Macbeth]
 
-Ophelia:
- Speak your mind!
+[Enter Ulysses]
 
-			Scene II: The Start of the Loop.
+Juliet:
+ You are the twice the square of the product of an stinking
+ goat and a fat pig. Speak your mind!
 
-[Exit Macbeth]
-[Enter Juliet]
+                    Scene II: Accumulative Juggling.
 
-Ophelia:
-  Thou art as pretty as the sum of yourself and Romeo!
-  Open your heart!
+[Exit Ulysses]
 
-[Exit Juliet]
 [Enter Romeo]
 
-Ophelia:
- Thou art as brave as the difference between Juliet and thyself!
+Romeo:
+ You are me.
 
+Juliet:
+ Recall your inner most fears. You are the sum of me and thyself. 
+ Are you better than nothing?
+
+Romeo:
+ If not, we shall proceed to scene IV.
+
+Juliet:
+ Open your heart! Remember me.
+ 
 [Exit Romeo]
-[Enter Macbeth]
 
-Ophelia:
- Speak your mind!
+                    Scene III: A Spaceman Interferes.
 
-Macbeth:
- Thou art as pretty as the sum of thyself and a horse!
+[Enter Ulysses]
 
-Ophelia:
- Am I not better than yourself?
+Juliet:
+ Speak thy mind! 
 
-Macbeth:
- If so, let us proceed to scene II.
+Ulysses:
+ We must return to Scene II.
+
+                    Scene IV: Romeo's head overflows.
 
 [Exeunt]

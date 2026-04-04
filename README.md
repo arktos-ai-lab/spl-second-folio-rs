@@ -140,21 +140,24 @@ Let us proceed to act II.
 
 ## Examples
 
-### Hello World (`examples/hello_world.spl`)
+### Original distribution (source: [shakespeare.sourceforge.net](http://shakespeare.sourceforge.net))
 
-The original SPL hello world program. Prints a greeting by encoding ASCII values as arithmetic expressions. Source: [shakespeare.sourceforge.net](http://shakespeare.sourceforge.net)
+| File | Description |
+|------|-------------|
+| `hello.spl` | Hello World — the canonical SPL hello world program |
+| `fibonacci.spl` | Fibonacci sequence, by Peter Nillius |
+| `fibonacci2.spl` | Alternate Fibonacci, by Björn Stenberg and Linus Nielsen Feltzing |
+| `primes.spl` | Prime number computation via trial division |
+| `reverse.spl` | Reads stdin and prints it reversed using the stack |
+| `guess.spl` | Binary-search number guessing game (1–1000), by Jonas Sjöbergh |
+| `shakesbeer.spl` | Prints the full "99 bottles of beer" song, by Jonas Sjöbergh |
 
-### Echo (`examples/echo.spl`)
+### Additional examples
 
-Reads characters from stdin and echoes them to stdout until EOF (detected as −1).
-
-### Truth Machine (`examples/truth_machine.spl`)
-
-Reads an integer: prints `1` forever if the input is `1`, prints `0` once and exits if the input is `0`. A classic esolang benchmark. Source: [esolangs.org/wiki/Shakespeare](https://esolangs.org/wiki/Shakespeare)
-
-### Fibonacci (`examples/fibonacci.spl`)
-
-Reads an integer `n` and prints the first `n` Fibonacci numbers. Demonstrates multi-character programs and loop control across scenes. Source: [github.com/m-fol/Shakespearelang](https://github.com/m-fol/Shakespearelang/blob/main/Fibonacci.spl)
+| File | Description | Source |
+|------|-------------|--------|
+| `hello_world.spl` | Extended hello world variant | [shakespeare.sourceforge.net](http://shakespeare.sourceforge.net) |
+| `truth_machine.spl` | Reads an integer; prints `1` forever or `0` once | [esolangs.org/wiki/Shakespeare](https://esolangs.org/wiki/Shakespeare) |
 
 ---
 
