@@ -16,58 +16,40 @@ The original SPL specification exists as an informal document bundled with the `
 
 ---
 
-### D-001 — Character Name Vocabulary Expansion
+### D-001 — Character Name Vocabulary
 
-**Date:** 2026-04  
+**Date:** 2026-04 (revised 2026-04)  
 **Status:** Accepted  
 **Affects:** `src/vocab.rs`, character declaration parsing, `[Enter …]` / `[Exit …]` parsing
 
 #### Summary
 
-The original `spl2c` distribution recognised approximately 152 character names, drawn informally from a subset of Shakespeare's plays. `shakespeare-spl-folio-rs` expands this to 400+ names, sourced from the full Open Source Shakespeare character database (opensourceshakespeare.org).
+`shakespeare-spl-folio-rs` uses the canonical 152-name character list from the original `spl2c` distribution (Hasselström & Åslund, 2001), cross-checked against the `zmbc/shakespearelang` EBNF grammar and the `drsam94/Spl` character wordlist.
+
+An earlier version of this codebase expanded the list to 400+ names using the Open Source Shakespeare database (opensourceshakespeare.org). That expansion has been reverted: the OSS database is a structured schema built from editorial metadata, not from the primary Shakespearean text corpus, and is therefore not an appropriate provenance source for SPL vocabulary (see SPL 1.1 design notes).
 
 #### Original behaviour
 
-The 2001 `spl2c` release bundled a fixed list of roughly 152 names. The list was not exhaustive, not documented as a normative constraint, and contained no filtering criteria. It was simply the set of names the authors happened to include.
+The 2001 `spl2c` release bundled a fixed list of 152 names drawn from a selection of Shakespeare's plays. Two typos in the original are preserved as-is for compatibility:
 
-#### Departure
+| In spec | Should be |
+|---------|-----------|
+| `Cymberline` | Cymbeline |
+| `Hermonie` | Hermione |
 
-`vocab.rs` contains every individually named character appearing in the Open Source Shakespeare database (1,223 entries), filtered by the following rules:
+#### Current behaviour
 
-| Rule | Decision |
-|------|----------|
-| Characters with a proper name (Aaron, Hamlet, Friar Laurence …) | **Included** |
-| Generic roles without a name (Messenger, Servant, Captain …) | **Excluded** |
-| Numbered / ordinal characters (First Citizen, Second Murderer …) | **Excluded** |
-| Collective nouns (All, Both, Citizens, Soldiers …) | **Excluded** |
-| Title-only roles with no proper name (Lord Mayor, Ambassador …) | **Excluded** |
+`vocab.rs` contains exactly the canonical 152 names. Any program using a name outside this list will be rejected at parse time (character declaration stage). Because character references in expressions are already scoped to names *declared in the current play*, the size of the global allow-list matters only for the declaration check.
 
-This yields 400+ accepted names. All names from the original 152-name list are a strict subset of this expanded list, so all programs valid under `spl2c` remain valid here.
+#### Compatibility
 
-#### Rationale
-
-1. **Completeness.** The original list was an artefact of manual curation, not a principled boundary. There is no semantic reason why `Aaron` (present in spl2c) should be valid but `Adriana` (absent) should not.
-2. **Reproducibility.** The filtering rules above are explicit and reproducible from a publicly available database, unlike the original undocumented list.
-3. **Research use.** The broader vocabulary meaningfully increases the space of syntactically valid programs that can be synthesised for training data purposes.
-4. **Backward compatibility.** The original ~152 names remain valid. No existing program is broken.
-
-#### Compatibility implications
-
-Programs using names from the extended vocabulary (e.g. `Diana`) will not run under `spl2c` or `zmbc/shakespearelang`. This creates a three-tier compatibility model:
-
-| Tier | Vocabulary | Compatible with |
-|------|------------|-----------------|
-| spl2c-compat | ~152 original names | spl2c, zmbc, spl-rs |
-| zmbc-compat | ~152 names + zmbc additions | zmbc, spl-rs |
-| spl-rs extended | 400+ names | spl-rs only |
-
-A future `--strict` flag may enforce the original 152-name list for maximum compatibility. See the roadmap in `README.md`.
+All programs valid under `spl2c` or `zmbc/shakespearelang` remain valid here. Programs that relied on the previous OSS-expanded list (names such as `Aaron`, `Ariel`, `Caliban`, etc.) must be updated to use canonical names or declare characters using canonical alternatives.
 
 #### References
 
 - Hasselström & Åslund (2001), spl2c v1.2.1, http://shakespeare.sourceforge.net
-- Open Source Shakespeare, https://opensourceshakespeare.org
-- `SPECIFICATION.md` §12.4 — Character name vocabulary scope
+- zmbc/shakespearelang EBNF — `shakespeare.ebnf`
+- drsam94/Spl — `include/character.wordlist`
 
 ---
 
@@ -75,4 +57,5 @@ A future `--strict` flag may enforce the original 152-name list for maximum comp
 
 | Version | Date | Entry |
 |---------|------|-------|
-| 0.1.0 | 2026-04 | D-001: Character name vocabulary expanded from ~152 to 400+ names |
+| 0.1.0 | 2026-04 | D-001: Character name vocabulary initially expanded from ~152 to 400+ OSS names |
+| 0.1.1 | 2026-04 | D-001: Reverted to canonical 152-name spl2c list; OSS expansion removed |

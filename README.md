@@ -162,7 +162,7 @@ Let us proceed to act II.
 
 ## Character names
 
-All characters must be named after Shakespearean figures. The full list recognised by this interpreter is in [`src/vocab.rs`](src/vocab.rs) and includes over 400 names, a strict superset of the original ~152 names from the spl2c reference implementation.
+All characters must be named after Shakespearean figures. The full list recognised by this interpreter is the canonical 152-name set from the original `spl2c` distribution (Hasselström & Åslund, 2001), defined in [`src/vocab.rs`](src/vocab.rs).
 
 ---
 
@@ -175,7 +175,7 @@ All characters must be named after Shakespearean figures. The full list recognis
 | Goto scene-only | Uses current act | Uses current act | Uses current act |
 | EOF on char input | Undefined | Returns −1 | Returns −1 |
 | Re-entering on-stage character | Undefined | No-op | No-op |
-| Character name vocabulary | ~152 | ~152 | 400+ |
+| Character name vocabulary | ~152 | ~152 | 152 (canonical spl2c list) |
 
 ---
 
