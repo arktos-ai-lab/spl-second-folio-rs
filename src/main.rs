@@ -174,8 +174,10 @@ mod serve {
     }
 
     async fn run_handler(Json(req): Json<RunRequest>) -> Json<RunResponse> {
-        const MAX_OUTPUT: usize = 100_000;
-        const MAX_TRACE: usize  = 2_000;   // cap trace lines sent to browser
+        const MAX_OUTPUT: usize  = 100_000;
+        const MAX_TRACE: usize   = 2_000;
+        const MAX_STEPS: u64     = 2_000_000;
+        const TIMEOUT_SECS: u64  = 30;
 
         let mut logs: Vec<String> = Vec::new();
 
@@ -193,61 +195,78 @@ mod serve {
                 return Json(RunResponse {
                     output: String::new(),
                     error: Some(format!("Parse error: {}", e)),
-                    ops: 0,
-                    ops_run: 0,
-                    logs,
+                    ops: 0, ops_run: 0, logs,
                 });
             }
         };
 
         let total_ops = play.ops.len();
+        let do_trace  = req.trace;
+        let stdin_bytes = req.stdin.into_bytes();
 
-        // ── Run phase ─────────────────────────────────────────────────────────
-        let input = io::Cursor::new(req.stdin.into_bytes());
-        let mut output: Vec<u8> = Vec::new();
-        let mut interp = Interpreter::new(play, io::BufReader::new(input), &mut output);
-        interp.trace = req.trace;
+        // ── Run phase (in a blocking thread with a wall-clock timeout) ────────
+        let run_task = tokio::task::spawn_blocking(move || {
+            let input  = io::Cursor::new(stdin_bytes);
+            let mut output: Vec<u8> = Vec::new();
+            let mut interp = Interpreter::new(play, io::BufReader::new(input), &mut output);
+            interp.trace     = do_trace;
+            interp.max_steps = MAX_STEPS;
+            let result = interp.run();
+            (result, interp.state.pc, interp.trace_buf, output)
+        });
 
-        let run_result = interp.run();
-        let ops_run = interp.state.pc;
+        let task_result = tokio::time::timeout(
+            std::time::Duration::from_secs(TIMEOUT_SECS),
+            run_task,
+        ).await;
 
-        // Collect trace lines (capped to avoid flooding the browser)
-        if !interp.trace_buf.is_empty() {
-            let shown = interp.trace_buf.len().min(MAX_TRACE);
-            for line in &interp.trace_buf[..shown] {
+        let (run_result, ops_run, trace_buf, raw_output) = match task_result {
+            Ok(Ok(t))  => t,
+            Ok(Err(e)) => {
+                let msg = format!("internal error: {}", e);
+                logs.push(format!("[run]    ERROR  —  {}", msg));
+                return Json(RunResponse { output: String::new(), error: Some(msg),
+                    ops: total_ops, ops_run: 0, logs });
+            }
+            Err(_) => {
+                let msg = format!(
+                    "timeout: program did not finish within {} seconds — \
+                     interactive programs (like guess.spl) need all input \
+                     provided upfront in the 'Input' field, one response per line",
+                    TIMEOUT_SECS
+                );
+                logs.push(format!("[run]    TIMEOUT  —  {}", msg));
+                return Json(RunResponse { output: String::new(), error: Some(msg),
+                    ops: total_ops, ops_run: 0, logs });
+            }
+        };
+
+        // Collect trace lines
+        if !trace_buf.is_empty() {
+            let shown = trace_buf.len().min(MAX_TRACE);
+            for line in &trace_buf[..shown] {
                 logs.push(format!("[trace]  {}", line));
             }
-            if interp.trace_buf.len() > MAX_TRACE {
-                logs.push(format!(
-                    "[trace]  … {} more lines truncated",
-                    interp.trace_buf.len() - MAX_TRACE
-                ));
+            if trace_buf.len() > MAX_TRACE {
+                logs.push(format!("[trace]  … {} more lines truncated", trace_buf.len() - MAX_TRACE));
             }
         }
 
         let out_str = String::from_utf8_lossy(
-            &output[..output.len().min(MAX_OUTPUT)]
+            &raw_output[..raw_output.len().min(MAX_OUTPUT)]
         ).into_owned();
 
         match run_result {
             Ok(()) => {
                 logs.push(format!("[run]    OK  —  {} / {} ops executed", ops_run, total_ops));
-                Json(RunResponse {
-                    output: out_str,
-                    error: None,
-                    ops: total_ops,
-                    ops_run,
-                    logs,
-                })
+                Json(RunResponse { output: out_str, error: None, ops: total_ops, ops_run, logs })
             }
             Err(e) => {
                 logs.push(format!("[run]    ERROR at op {}  —  {}", ops_run, e));
                 Json(RunResponse {
                     output: out_str,
                     error: Some(format!("{}", e)),
-                    ops: total_ops,
-                    ops_run,
-                    logs,
+                    ops: total_ops, ops_run, logs,
                 })
             }
         }
@@ -471,7 +490,10 @@ function renderLogs(logs) {
 // ── Examples ──────────────────────────────────────────────────────────────────
 async function loadExample(name) {
   if (!name) return;
-  const stdinDefaults = { primes: '20', truth_machine: '0', reverse: 'hello' };
+  // guess.spl is interactive: program outputs a guess, you respond with <, >, or =
+  // Provide one response per line; = means correct. Example sequence for answer=500:
+  const stdinDefaults = { primes: '20', truth_machine: '0', reverse: 'hello',
+    guess: '>\n>\n>\n<\n>\n<\n>\n<\n>\n=' };
   document.getElementById('stdin').value = stdinDefaults[name] || '';
   const numericOutput = ['hello', 'primes', 'reverse', 'shakesbeer'];
   asciiOn = numericOutput.includes(name);

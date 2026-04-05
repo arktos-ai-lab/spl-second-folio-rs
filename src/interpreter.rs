@@ -161,16 +161,26 @@ pub struct Interpreter<R: BufRead, W: Write> {
     pub trace: bool,
     /// When set, trace lines are also appended here (for the web UI)
     pub trace_buf: Vec<String>,
+    /// Maximum number of operations to execute (0 = unlimited)
+    pub max_steps: u64,
 }
 
 impl<R: BufRead, W: Write> Interpreter<R, W> {
     pub fn new(play: Play, input: R, output: W) -> Self {
         let state = State::new(&play);
-        Interpreter { play, state, input, output, trace: false, trace_buf: Vec::new() }
+        Interpreter { play, state, input, output, trace: false, trace_buf: Vec::new(), max_steps: 0 }
     }
 
     pub fn run(&mut self) -> Result<()> {
+        let mut steps: u64 = 0;
         while self.state.pc < self.play.ops.len() {
+            if self.max_steps > 0 {
+                steps += 1;
+                if steps > self.max_steps {
+                    return Err(crate::error::SplError::StepLimitExceeded { steps });
+                }
+            }
+
             let idx = self.state.pc;
             self.state.pc += 1;
             let flat = self.play.ops[idx].clone();
