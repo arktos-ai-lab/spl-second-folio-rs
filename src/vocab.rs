@@ -203,7 +203,7 @@ pub const POSITIVE_ADJECTIVES: &[&str] = &[
     "bottomless", "brave", "charming", "cleaner", "clearest", "clever",
     "courageous", "cunning", "cute", "delicious", "embroidered", "fair",
     "fine", "flirtatious", "furry", "gentle", "golden", "good", "handsome",
-    "happy", "healthy", "honest", "innocent", "kind", "large", "lovely",
+    "happy", "healthy", "honest", "huge", "innocent", "kind", "large", "lovely",
     "loving", "meek", "merry", "mighty", "noble", "normal", "peaceful",
     "pretty", "prompt", "proud", "pure", "red", "reddest", "rich", "smooth",
     "sunny", "sweet", "sweetest", "trustworthy", "warm", "white", "wonderful",
@@ -277,8 +277,8 @@ fn eq_lower_possessive(word: &str, list: &[&str]) -> bool {
 
 pub fn is_positive_adjective(word: &str) -> bool { eq_lower(word, POSITIVE_ADJECTIVES) }
 pub fn is_negative_adjective(word: &str) -> bool { eq_lower(word, NEGATIVE_ADJECTIVES) }
-pub fn is_positive_noun(word: &str) -> bool      { eq_lower_possessive(word, POSITIVE_NOUNS) }
-pub fn is_negative_noun(word: &str) -> bool      { eq_lower_possessive(word, NEGATIVE_NOUNS) }
+pub fn is_positive_noun(word: &str) -> bool      { eq_lower(word, POSITIVE_NOUNS) }
+pub fn is_negative_noun(word: &str) -> bool      { eq_lower(word, NEGATIVE_NOUNS) }
 pub fn is_article(word: &str) -> bool            { eq_lower(word, ARTICLES)            }
 
 /// Returns Some(canonical_lowercase_name) if `s` is a recognised SPL character name.

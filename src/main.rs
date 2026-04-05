@@ -62,6 +62,7 @@ fn main() -> Result<()> {
                 stdout.lock(),
             );
             interp.trace = trace;
+            interp.eof_as_minus_one = true;  // CLI: match original spl2c EOF=-1 behaviour
             interp.run().with_context(|| format!("running {:?}", file))?;
         }
 
@@ -147,6 +148,10 @@ mod serve {
         /// The response's `output_new` field will contain only output[output_offset..].
         #[serde(default)]
         output_offset: usize,
+        /// When true, the interpreter returns -1 on EOF instead of WaitingForInput.
+        /// Used for programs that read to EOF (e.g. reverse.spl) rather than interactive ones.
+        #[serde(default)]
+        send_eof: bool,
     }
 
     #[derive(Serialize)]
@@ -221,6 +226,7 @@ mod serve {
 
         let total_ops   = play.ops.len();
         let do_trace    = req.trace;
+        let do_eof_minus_one = req.send_eof;
         let stdin_bytes = req.stdin.into_bytes();
 
         // ── Run phase ─────────────────────────────────────────────────────────
@@ -228,8 +234,9 @@ mod serve {
             let input  = io::Cursor::new(stdin_bytes);
             let mut output: Vec<u8> = Vec::new();
             let mut interp = Interpreter::new(play, io::BufReader::new(input), &mut output);
-            interp.trace     = do_trace;
-            interp.max_steps = MAX_STEPS;
+            interp.trace            = do_trace;
+            interp.max_steps        = MAX_STEPS;
+            interp.eof_as_minus_one = do_eof_minus_one;
             let result = interp.run();
             let mut memory: Vec<(String, i64)> = interp.state.characters
                 .iter().map(|(k, v)| (k.clone(), v.value)).collect();
@@ -394,7 +401,7 @@ mod serve {
 <body>
 <header>
   <h1>&#127914; SPL Playground</h1>
-  <span>Shakespeare Programming Language interpreter</span>
+  <span>Shakespeare Programming Language · spl-rs (Rust)</span>
 </header>
 <div class="main">
   <div class="pane" style="flex:3">
@@ -404,7 +411,7 @@ mod serve {
   <div class="divider"></div>
   <div class="right-col">
     <div class="pane">
-      <div class="pane-label">Output <span id="decoded-badge" class="decoded-badge" style="display:none">decoded</span></div>
+      <div class="pane-label">Output <span id="decoded-badge" class="decoded-badge" style="display:none">decoded</span><button onclick="copyOutput()" title="Copy output to clipboard" style="padding:1px 8px;font-size:0.7rem;margin-left:8px;background:#1a2a3a;border-color:#3a6a9a;color:#80b0d0;">&#128203; copy</button></div>
       <div class="output-box" id="output">Press <strong>Run</strong> to execute.</div>
     </div>
     <div id="interactive-area" style="display:none; align-items:center; gap:8px; background:#1a1a10; border-top:1px solid #5a4a1a; padding:6px 12px; flex-shrink:0;">
@@ -413,12 +420,14 @@ mod serve {
         style="font-family:monospace; font-size:1rem; background:#0e0c08; color:#f0e0a0; border:1px solid #8a6020; border-radius:3px; padding:4px 8px; width:48px; text-align:center;"
         placeholder="&lt; &gt; =" onkeydown="if(event.key==='Enter'){sendInteractive();}">
       <button onclick="sendInteractive()" style="padding:4px 14px; font-size:0.85rem;">Send</button>
-      <span style="color:#666; font-size:0.75rem; font-family:monospace;">type one char and press Enter or Send</span>
+      <button onclick="sendEof()" title="Signal end-of-input (EOF = -1) to the program" style="padding:4px 14px; font-size:0.85rem; background:#2a1a0a; border:1px solid #6a4010; color:#c09050;">EOF</button>
+      <span style="color:#666; font-size:0.75rem; font-family:monospace;">one char + Enter, or EOF to end input</span>
     </div>
     <div class="log-section">
       <div class="log-header" onclick="toggleLog()">
         <span class="log-title">Log</span>
         <span id="log-summary" style="color:#666;font-size:0.7rem"></span>
+        <button onclick="event.stopPropagation();copyLog()" title="Copy log to clipboard" style="padding:1px 8px;font-size:0.68rem;background:#1a1a10;border-color:#4a4020;color:#808060;">&#128203; copy</button>
         <span class="log-toggle" id="log-caret">▲ hide</span>
       </div>
       <div class="log-body" id="log-body"></div>
@@ -479,6 +488,26 @@ function decodeAsAscii(s) {
     if (!matched) { out += s[i]; i++; }
   }
   return out;
+}
+
+function copyOutput() {
+  const text = document.getElementById('output').innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = event.currentTarget;
+    const orig = btn.textContent;
+    btn.textContent = '✓ copied';
+    setTimeout(() => { btn.textContent = orig; }, 1200);
+  });
+}
+
+function copyLog() {
+  const text = document.getElementById('log').innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = event.currentTarget;
+    const orig = btn.textContent;
+    btn.textContent = '✓ copied';
+    setTimeout(() => { btn.textContent = orig; }, 1200);
+  });
 }
 
 function toggleAscii() {
@@ -585,6 +614,13 @@ function sendInteractive() {
   doRun(document.getElementById('source').value, sessionStdin, sessionOffset);
 }
 
+function sendEof() {
+  // Re-run with send_eof=true: next EOF read returns -1 instead of waiting.
+  // Used for programs like reverse.spl that read until EOF then process results.
+  setInteractiveMode(false);
+  doRun(document.getElementById('source').value, sessionStdin, sessionOffset, true);
+}
+
 // ── Run ───────────────────────────────────────────────────────────────────────
 async function runSPL() {
   // Fresh run — reset interactive session state
@@ -595,7 +631,7 @@ async function runSPL() {
   doRun(document.getElementById('source').value, sessionStdin, 0);
 }
 
-async function doRun(source, stdin, outputOffset) {
+async function doRun(source, stdin, outputOffset, sendEof = false) {
   const outEl  = document.getElementById('output');
   const status = document.getElementById('status');
   const badge  = document.getElementById('decoded-badge');
@@ -613,7 +649,7 @@ async function doRun(source, stdin, outputOffset) {
     const resp = await fetch('/run', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ source, stdin, trace: traceOn, output_offset: outputOffset }),
+      body: JSON.stringify({ source, stdin, trace: traceOn, output_offset: outputOffset, send_eof: sendEof }),
     });
     const data = await resp.json();
     const ms = (performance.now() - t0).toFixed(0);

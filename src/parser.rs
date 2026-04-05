@@ -291,6 +291,34 @@ impl<'a> ExprParser<'a> {
             }
         }
 
+        // Skip unrecognised filler words that appear between adjectives and the noun
+        // (e.g. possessives like "summer's" in "sunny summer's day", or any word not
+        // in the vocabulary).  Matches the permissive behaviour of the original spl2c
+        // C parser which simply scans forward for the next recognised noun.
+        // We stop at known operator keywords and separators so we don't consume tokens
+        // that belong to a surrounding binary/unary expression.
+        const STOP_WORDS: &[&str] = &[
+            "and", "the", "i", "me", "myself",
+            "you", "thee", "thou", "yourself", "thyself",
+            "nothing", "twice", "factorial", "square", "cube",
+        ];
+        loop {
+            match self.peek_norm().as_deref() {
+                // Found the noun — stop skipping.
+                Some(w) if is_positive_noun(w) || is_negative_noun(w) => break,
+                // Any adjective or article should have been consumed above; stop here
+                // so the error below fires rather than silently eating real tokens.
+                Some(w) if is_positive_adjective(w) || is_negative_adjective(w)
+                           || is_article(w) => break,
+                // Do not cross operator/separator boundaries.
+                Some(w) if STOP_WORDS.contains(&w) => break,
+                // End of tokens.
+                None => break,
+                // Skip this unrecognised word.
+                _ => { self.consume(); }
+            }
+        }
+
         // Consume the noun — noun always determines sign
         match self.peek_norm().as_deref() {
             Some(w) if is_positive_noun(w) => {
@@ -462,16 +490,14 @@ fn parse_sentence(tokens: &[&str], line: usize, char_names: &[String]) -> Result
         }
     }
 
-    // Output: "speak your/thy mind" (number) / "open your/thy heart" (char)
-    if contains_seq(&rs, &["speak", "your", "mind"])
-        || contains_seq(&rs, &["speak", "thy", "mind"])
-        || contains_seq(&rs, &["open", "your", "heart"])
+    // Output: "speak your/thy mind" → char (ASCII); "open your/thy heart" → numeric (integer)
+    if contains_seq(&rs, &["open", "your", "heart"])
         || contains_seq(&rs, &["open", "thy", "heart"])
     {
         return Ok(Op::Output { kind: IoKind::Numeric, cond });
     }
-    if contains_seq(&rs, &["speak", "your", "heart"])
-        || contains_seq(&rs, &["speak", "thy", "heart"])
+    if contains_seq(&rs, &["speak", "your", "mind"])
+        || contains_seq(&rs, &["speak", "thy", "mind"])
         || contains_seq(&rs, &["open", "your", "mouth"])
         || contains_seq(&rs, &["open", "thy", "mouth"])
     {

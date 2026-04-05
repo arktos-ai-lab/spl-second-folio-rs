@@ -92,25 +92,25 @@ fn eval_expr(expr: &Expr, state: &State, speaker: &str) -> Result<i64> {
         }
         Expr::CharRef(name) => Ok(state.character(name)?.value),
         Expr::Nothing => Ok(0),
-        Expr::Positive { adjective_count } => Ok(2_i64.pow(*adjective_count)),
-        Expr::Negative { adjective_count } => Ok(-(2_i64.pow(*adjective_count))),
+        Expr::Positive { adjective_count } => Ok(2_i64.wrapping_pow(*adjective_count)),
+        Expr::Negative { adjective_count } => Ok(2_i64.wrapping_pow(*adjective_count).wrapping_neg()),
         Expr::Unary { op, operand } => {
             let v = eval_expr(operand, state, speaker)?;
             Ok(match op {
-                UnaryOp::Square     => v * v,
-                UnaryOp::Cube       => v * v * v,
+                UnaryOp::Square     => v.wrapping_mul(v),
+                UnaryOp::Cube       => v.wrapping_mul(v).wrapping_mul(v),
                 UnaryOp::SquareRoot => (v as f64).sqrt() as i64,
                 UnaryOp::Factorial  => factorial(v)?,
-                UnaryOp::Twice      => v * 2,
+                UnaryOp::Twice      => v.wrapping_mul(2),
             })
         }
         Expr::Binary { op, left, right } => {
             let l = eval_expr(left, state, speaker)?;
             let r = eval_expr(right, state, speaker)?;
             Ok(match op {
-                BinaryOp::Sum        => l + r,
-                BinaryOp::Difference => l - r,
-                BinaryOp::Product    => l * r,
+                BinaryOp::Sum        => l.wrapping_add(r),
+                BinaryOp::Difference => l.wrapping_sub(r),
+                BinaryOp::Product    => l.wrapping_mul(r),
                 BinaryOp::Quotient   => {
                     if r == 0 { return Err(SplError::DivisionByZero); }
                     l / r  // truncated toward zero, matching Python's int()
@@ -163,12 +163,15 @@ pub struct Interpreter<R: BufRead, W: Write> {
     pub trace_buf: Vec<String>,
     /// Maximum number of operations to execute (0 = unlimited)
     pub max_steps: u64,
+    /// When true, reading past EOF returns -1 (matching original spl2c/C behaviour).
+    /// When false, reading past EOF returns WaitingForInput (interactive/web mode).
+    pub eof_as_minus_one: bool,
 }
 
 impl<R: BufRead, W: Write> Interpreter<R, W> {
     pub fn new(play: Play, input: R, output: W) -> Self {
         let state = State::new(&play);
-        Interpreter { play, state, input, output, trace: false, trace_buf: Vec::new(), max_steps: 0 }
+        Interpreter { play, state, input, output, trace: false, trace_buf: Vec::new(), max_steps: 0, eof_as_minus_one: false }
     }
 
     pub fn run(&mut self) -> Result<()> {
@@ -319,7 +322,13 @@ impl<R: BufRead, W: Write> Interpreter<R, W> {
         let mut buf = [0u8; 1];
         use std::io::Read;
         match self.input.read(&mut buf)? {
-            0 => Err(crate::error::SplError::WaitingForInput),
+            0 => {
+                if self.eof_as_minus_one {
+                    Ok(-1)
+                } else {
+                    Err(crate::error::SplError::WaitingForInput)
+                }
+            }
             _ => Ok(buf[0] as i64),
         }
     }
