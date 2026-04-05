@@ -143,12 +143,21 @@ mod serve {
         stdin: String,
         #[serde(default)]
         trace: bool,
+        /// Byte offset into the full output that the client has already displayed.
+        /// The response's `output_new` field will contain only output[output_offset..].
+        #[serde(default)]
+        output_offset: usize,
     }
 
     #[derive(Serialize)]
     struct RunResponse {
+        /// Full output produced so far (all runs accumulated)
         output: String,
+        /// Only the output produced since output_offset (the new part for this run)
+        output_new: String,
         error: Option<String>,
+        /// True when execution stopped because stdin was exhausted (not a real error)
+        waiting_for_input: bool,
         /// Total number of operations in the compiled play
         ops: usize,
         /// How many operations were executed before completion or error
@@ -181,7 +190,19 @@ mod serve {
         const MAX_STEPS: u64     = 2_000_000;
         const TIMEOUT_SECS: u64  = 30;
 
+        let output_offset = req.output_offset.min(MAX_OUTPUT);
         let mut logs: Vec<String> = Vec::new();
+
+        // Helper to build an error-early response
+        macro_rules! early_err {
+            ($msg:expr) => {
+                Json(RunResponse {
+                    output: String::new(), output_new: String::new(),
+                    error: Some($msg), waiting_for_input: false,
+                    ops: 0, ops_run: 0, logs, memory: vec![],
+                })
+            };
+        }
 
         // ── Parse phase ───────────────────────────────────────────────────────
         let play = match parse_play(&req.source) {
@@ -194,19 +215,15 @@ mod serve {
             }
             Err(e) => {
                 logs.push(format!("[parse]  ERROR  —  {}", e));
-                return Json(RunResponse {
-                    output: String::new(),
-                    error: Some(format!("Parse error: {}", e)),
-                    ops: 0, ops_run: 0, logs, memory: vec![],
-                });
+                return early_err!(format!("Parse error: {}", e));
             }
         };
 
-        let total_ops = play.ops.len();
-        let do_trace  = req.trace;
+        let total_ops   = play.ops.len();
+        let do_trace    = req.trace;
         let stdin_bytes = req.stdin.into_bytes();
 
-        // ── Run phase (in a blocking thread with a wall-clock timeout) ────────
+        // ── Run phase ─────────────────────────────────────────────────────────
         let run_task = tokio::task::spawn_blocking(move || {
             let input  = io::Cursor::new(stdin_bytes);
             let mut output: Vec<u8> = Vec::new();
@@ -214,39 +231,30 @@ mod serve {
             interp.trace     = do_trace;
             interp.max_steps = MAX_STEPS;
             let result = interp.run();
-            // Snapshot character memory (sorted by name for stable display)
             let mut memory: Vec<(String, i64)> = interp.state.characters
-                .iter()
-                .map(|(k, v)| (k.clone(), v.value))
-                .collect();
+                .iter().map(|(k, v)| (k.clone(), v.value)).collect();
             memory.sort_by(|a, b| a.0.cmp(&b.0));
             (result, interp.state.pc, interp.trace_buf, output, memory)
         });
 
-        let task_result = tokio::time::timeout(
-            std::time::Duration::from_secs(TIMEOUT_SECS),
-            run_task,
-        ).await;
-
-        let (run_result, ops_run, trace_buf, raw_output, memory) = match task_result {
-            Ok(Ok(t))  => t,
-            Ok(Err(e)) => {
-                let msg = format!("internal error: {}", e);
-                logs.push(format!("[run]    ERROR  —  {}", msg));
-                return Json(RunResponse { output: String::new(), error: Some(msg),
-                    ops: total_ops, ops_run: 0, logs, memory: vec![] });
-            }
-            Err(_) => {
-                let msg = format!(
-                    "timeout: program did not finish within {} seconds — \
-                     interactive programs need all input provided upfront, one response per line",
-                    TIMEOUT_SECS
-                );
-                logs.push(format!("[run]    TIMEOUT  —  {}", msg));
-                return Json(RunResponse { output: String::new(), error: Some(msg),
-                    ops: total_ops, ops_run: 0, logs, memory: vec![] });
-            }
-        };
+        let (run_result, ops_run, trace_buf, raw_output, memory) =
+            match tokio::time::timeout(
+                std::time::Duration::from_secs(TIMEOUT_SECS), run_task
+            ).await {
+                Ok(Ok(t))  => t,
+                Ok(Err(e)) => {
+                    logs.push(format!("[run]    ERROR  —  internal: {}", e));
+                    return early_err!(format!("internal error: {}", e));
+                }
+                Err(_) => {
+                    let msg = format!(
+                        "timeout: program did not finish within {} seconds",
+                        TIMEOUT_SECS
+                    );
+                    logs.push(format!("[run]    TIMEOUT  —  {}", msg));
+                    return early_err!(msg);
+                }
+            };
 
         // Collect trace lines
         if !trace_buf.is_empty() {
@@ -255,15 +263,17 @@ mod serve {
                 logs.push(format!("[trace]  {}", line));
             }
             if trace_buf.len() > MAX_TRACE {
-                logs.push(format!("[trace]  … {} more lines truncated", trace_buf.len() - MAX_TRACE));
+                logs.push(format!("[trace]  … {} more lines truncated",
+                    trace_buf.len() - MAX_TRACE));
             }
         }
 
-        let out_str = String::from_utf8_lossy(
-            &raw_output[..raw_output.len().min(MAX_OUTPUT)]
-        ).into_owned();
+        let out_bytes = &raw_output[..raw_output.len().min(MAX_OUTPUT)];
+        let out_str   = String::from_utf8_lossy(out_bytes).into_owned();
+        let safe_off  = output_offset.min(out_bytes.len());
+        let out_new   = String::from_utf8_lossy(&out_bytes[safe_off..]).into_owned();
 
-        // Always log memory snapshot
+        // Memory snapshot in log
         if !memory.is_empty() {
             logs.push(format!("[memory] {} characters:", memory.len()));
             for (name, val) in &memory {
@@ -271,18 +281,35 @@ mod serve {
             }
         }
 
-        match run_result {
-            Ok(()) => {
-                logs.push(format!("[run]    OK  —  {} / {} ops executed", ops_run, total_ops));
-                Json(RunResponse { output: out_str, error: None, ops: total_ops, ops_run, logs, memory })
-            }
-            Err(e) => {
-                logs.push(format!("[run]    STOPPED at op {}  —  {}", ops_run, e));
-                Json(RunResponse {
-                    output: out_str,
-                    error: Some(format!("{}", e)),
-                    ops: total_ops, ops_run, logs, memory,
-                })
+        let is_waiting = matches!(run_result,
+            Err(ref e) if matches!(e, spl::error::SplError::WaitingForInput));
+
+        if is_waiting {
+            logs.push(format!("[run]    waiting for input at op {}", ops_run));
+            Json(RunResponse {
+                output: out_str, output_new: out_new,
+                error: None, waiting_for_input: true,
+                ops: total_ops, ops_run, logs, memory,
+            })
+        } else {
+            match run_result {
+                Ok(()) => {
+                    logs.push(format!("[run]    OK  —  {} / {} ops executed",
+                        ops_run, total_ops));
+                    Json(RunResponse {
+                        output: out_str, output_new: out_new,
+                        error: None, waiting_for_input: false,
+                        ops: total_ops, ops_run, logs, memory,
+                    })
+                }
+                Err(e) => {
+                    logs.push(format!("[run]    STOPPED at op {}  —  {}", ops_run, e));
+                    Json(RunResponse {
+                        output: out_str, output_new: out_new,
+                        error: Some(format!("{}", e)), waiting_for_input: false,
+                        ops: total_ops, ops_run, logs, memory,
+                    })
+                }
             }
         }
     }
@@ -380,6 +407,14 @@ mod serve {
       <div class="pane-label">Output <span id="decoded-badge" class="decoded-badge" style="display:none">decoded</span></div>
       <div class="output-box" id="output">Press <strong>Run</strong> to execute.</div>
     </div>
+    <div id="interactive-area" style="display:none; align-items:center; gap:8px; background:#1a1a10; border-top:1px solid #5a4a1a; padding:6px 12px; flex-shrink:0;">
+      <span style="color:#d4a850; font-family:monospace; font-size:0.82rem;">&#9654; Program waiting — send response:</span>
+      <input id="interactive-input" type="text" maxlength="1"
+        style="font-family:monospace; font-size:1rem; background:#0e0c08; color:#f0e0a0; border:1px solid #8a6020; border-radius:3px; padding:4px 8px; width:48px; text-align:center;"
+        placeholder="&lt; &gt; =" onkeydown="if(event.key==='Enter'){sendInteractive();}">
+      <button onclick="sendInteractive()" style="padding:4px 14px; font-size:0.85rem;">Send</button>
+      <span style="color:#666; font-size:0.75rem; font-family:monospace;">type one char and press Enter or Send</span>
+    </div>
     <div class="log-section">
       <div class="log-header" onclick="toggleLog()">
         <span class="log-title">Log</span>
@@ -413,10 +448,15 @@ mod serve {
 
 <script>
 // ── State ─────────────────────────────────────────────────────────────────────
-let asciiOn  = false;
-let traceOn  = false;
-let logOpen  = true;
-let lastRaw  = '';
+let asciiOn        = false;
+let traceOn        = false;
+let logOpen        = true;
+let lastRaw        = '';
+// Interactive session state
+let sessionStdin   = '';   // accumulated stdin across all sends
+let sessionOutput  = '';   // full output accumulated across all sends
+let sessionOffset  = 0;    // byte offset into output that has been displayed
+let sessionActive  = false; // true while waiting for interactive input
 
 // ── ASCII decode ─────────────────────────────────────────────────────────────
 function decodeAsAscii(s) {
@@ -527,17 +567,44 @@ async function loadExample(name) {
   document.getElementById('status').textContent = '';
 }
 
+// ── Interactive send area ─────────────────────────────────────────────────────
+function setInteractiveMode(on) {
+  sessionActive = on;
+  const area = document.getElementById('interactive-area');
+  area.style.display = on ? 'flex' : 'none';
+  if (on) document.getElementById('interactive-input').focus();
+}
+
+function sendInteractive() {
+  const inp  = document.getElementById('interactive-input');
+  const char = inp.value;   // single char (< > =) — no newline appended
+  inp.value  = '';
+  if (!char) return;
+  // Append to accumulated stdin (no newline — read_char reads one byte at a time)
+  sessionStdin += char;
+  doRun(document.getElementById('source').value, sessionStdin, sessionOffset);
+}
+
 // ── Run ───────────────────────────────────────────────────────────────────────
 async function runSPL() {
-  const source = document.getElementById('source').value;
-  const stdin  = document.getElementById('stdin').value;
+  // Fresh run — reset interactive session state
+  sessionStdin  = document.getElementById('stdin').value;
+  sessionOutput = '';
+  sessionOffset = 0;
+  setInteractiveMode(false);
+  doRun(document.getElementById('source').value, sessionStdin, 0);
+}
+
+async function doRun(source, stdin, outputOffset) {
   const outEl  = document.getElementById('output');
   const status = document.getElementById('status');
   const badge  = document.getElementById('decoded-badge');
 
-  outEl.className = 'output-box';
-  outEl.textContent = 'Running…';
-  badge.style.display = 'none';
+  if (outputOffset === 0) {
+    outEl.className  = 'output-box';
+    outEl.textContent = 'Running…';
+    badge.style.display = 'none';
+  }
   status.textContent = '';
   renderLogs(['[…] running…']);
 
@@ -546,35 +613,46 @@ async function runSPL() {
     const resp = await fetch('/run', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ source, stdin, trace: traceOn }),
+      body: JSON.stringify({ source, stdin, trace: traceOn, output_offset: outputOffset }),
     });
     const data = await resp.json();
     const ms = (performance.now() - t0).toFixed(0);
 
     renderLogs(data.logs || []);
 
-    if (data.error) {
-      // Show partial output (if any) in the output pane; error goes to log only
-      outEl.className = data.output ? 'output-box' : 'output-box error';
-      if (data.output) {
-        showOutput(data.output);
+    // Append new output to our accumulated display
+    sessionOutput += (data.output_new || '');
+    sessionOffset  = (data.output || '').length;
+
+    if (data.waiting_for_input) {
+      // Show what the program produced, then wait for user
+      outEl.className = 'output-box';
+      showOutput(sessionOutput);
+      setInteractiveMode(true);
+      status.textContent = `waiting for input · op ${data.ops_run}/${data.ops} · ${ms}ms`;
+    } else if (data.error) {
+      outEl.className = sessionOutput ? 'output-box' : 'output-box error';
+      if (sessionOutput) {
+        showOutput(sessionOutput);
       } else {
         outEl.textContent = data.error;
         badge.style.display = 'none';
       }
+      setInteractiveMode(false);
       status.textContent = `stopped · op ${data.ops_run}/${data.ops} · ${ms}ms`;
-      // Auto-open log so the error and memory are visible
       if (!logOpen) toggleLog();
     } else {
       outEl.className = 'output-box';
-      showOutput(data.output);
-      status.textContent = `${data.ops_run} ops · ${ms}ms`;
+      showOutput(sessionOutput);
+      setInteractiveMode(false);
+      status.textContent = `done · ${data.ops_run} ops · ${ms}ms`;
     }
   } catch (e) {
     outEl.className = 'output-box error';
     outEl.textContent = 'Network error: ' + e.message;
     renderLogs([`[error]  Network error: ${e.message}`]);
     status.textContent = 'network error';
+    setInteractiveMode(false);
   }
 }
 

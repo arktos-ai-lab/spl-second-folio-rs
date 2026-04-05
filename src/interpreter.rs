@@ -316,10 +316,10 @@ impl<R: BufRead, W: Write> Interpreter<R, W> {
     }
 
     fn read_char(&mut self) -> Result<i64> {
-        let mut buf = [0u8; 4];
+        let mut buf = [0u8; 1];
         use std::io::Read;
-        match self.input.read(&mut buf[..1])? {
-            0 => Ok(-1), // EOF
+        match self.input.read(&mut buf)? {
+            0 => Err(crate::error::SplError::WaitingForInput),
             _ => Ok(buf[0] as i64),
         }
     }

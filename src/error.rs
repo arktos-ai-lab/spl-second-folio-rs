@@ -37,6 +37,9 @@ pub enum SplError {
 
     #[error("step limit exceeded after {steps} operations (program may be waiting for input or in an infinite loop)")]
     StepLimitExceeded { steps: u64 },
+
+    #[error("waiting for input")]
+    WaitingForInput,
 }
 
 impl SplError {
