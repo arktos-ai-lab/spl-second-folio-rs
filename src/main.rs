@@ -155,6 +155,8 @@ mod serve {
         ops_run: usize,
         /// Structured log lines (parse summary + optional trace)
         logs: Vec<String>,
+        /// Character memory at the time of completion/error: [(name, value)]
+        memory: Vec<(String, i64)>,
     }
 
     async fn example_handler(
@@ -195,7 +197,7 @@ mod serve {
                 return Json(RunResponse {
                     output: String::new(),
                     error: Some(format!("Parse error: {}", e)),
-                    ops: 0, ops_run: 0, logs,
+                    ops: 0, ops_run: 0, logs, memory: vec![],
                 });
             }
         };
@@ -212,7 +214,13 @@ mod serve {
             interp.trace     = do_trace;
             interp.max_steps = MAX_STEPS;
             let result = interp.run();
-            (result, interp.state.pc, interp.trace_buf, output)
+            // Snapshot character memory (sorted by name for stable display)
+            let mut memory: Vec<(String, i64)> = interp.state.characters
+                .iter()
+                .map(|(k, v)| (k.clone(), v.value))
+                .collect();
+            memory.sort_by(|a, b| a.0.cmp(&b.0));
+            (result, interp.state.pc, interp.trace_buf, output, memory)
         });
 
         let task_result = tokio::time::timeout(
@@ -220,24 +228,23 @@ mod serve {
             run_task,
         ).await;
 
-        let (run_result, ops_run, trace_buf, raw_output) = match task_result {
+        let (run_result, ops_run, trace_buf, raw_output, memory) = match task_result {
             Ok(Ok(t))  => t,
             Ok(Err(e)) => {
                 let msg = format!("internal error: {}", e);
                 logs.push(format!("[run]    ERROR  —  {}", msg));
                 return Json(RunResponse { output: String::new(), error: Some(msg),
-                    ops: total_ops, ops_run: 0, logs });
+                    ops: total_ops, ops_run: 0, logs, memory: vec![] });
             }
             Err(_) => {
                 let msg = format!(
                     "timeout: program did not finish within {} seconds — \
-                     interactive programs (like guess.spl) need all input \
-                     provided upfront in the 'Input' field, one response per line",
+                     interactive programs need all input provided upfront, one response per line",
                     TIMEOUT_SECS
                 );
                 logs.push(format!("[run]    TIMEOUT  —  {}", msg));
                 return Json(RunResponse { output: String::new(), error: Some(msg),
-                    ops: total_ops, ops_run: 0, logs });
+                    ops: total_ops, ops_run: 0, logs, memory: vec![] });
             }
         };
 
@@ -256,17 +263,25 @@ mod serve {
             &raw_output[..raw_output.len().min(MAX_OUTPUT)]
         ).into_owned();
 
+        // Always log memory snapshot
+        if !memory.is_empty() {
+            logs.push(format!("[memory] {} characters:", memory.len()));
+            for (name, val) in &memory {
+                logs.push(format!("[memory]   {:20} = {}", name, val));
+            }
+        }
+
         match run_result {
             Ok(()) => {
                 logs.push(format!("[run]    OK  —  {} / {} ops executed", ops_run, total_ops));
-                Json(RunResponse { output: out_str, error: None, ops: total_ops, ops_run, logs })
+                Json(RunResponse { output: out_str, error: None, ops: total_ops, ops_run, logs, memory })
             }
             Err(e) => {
-                logs.push(format!("[run]    ERROR at op {}  —  {}", ops_run, e));
+                logs.push(format!("[run]    STOPPED at op {}  —  {}", ops_run, e));
                 Json(RunResponse {
                     output: out_str,
                     error: Some(format!("{}", e)),
-                    ops: total_ops, ops_run, logs,
+                    ops: total_ops, ops_run, logs, memory,
                 })
             }
         }
@@ -334,6 +349,7 @@ mod serve {
   .log-line-error  { color: #e06060; }
   .log-line-trace  { color: #606888; }
   .log-line-trunc  { color: #806040; font-style: italic; }
+  .log-line-memory { color: #8878a8; }
   /* Controls bar */
   .controls { background: #252018; border-top: 1px solid #3a3020; padding: 8px 12px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; flex-shrink: 0; }
   .lbl { color: #888; font-size: 0.78rem; font-family: monospace; white-space: nowrap; }
@@ -474,6 +490,7 @@ function renderLogs(logs) {
     else if (line.startsWith('[parse]'))  span.className = 'log-line-parse';
     else if (line.startsWith('[run]'))    span.className = 'log-line-run';
     else if (line.startsWith('[trace]'))  span.className = 'log-line-trace';
+    else if (line.startsWith('[memory]')) span.className = 'log-line-memory';
     else if (line.includes('truncated')) span.className = 'log-line-trunc';
     span.textContent = line;
     body.appendChild(span);
@@ -537,11 +554,16 @@ async function runSPL() {
     renderLogs(data.logs || []);
 
     if (data.error) {
-      outEl.className = 'output-box error';
-      outEl.textContent = data.error;
-      badge.style.display = 'none';
-      status.textContent = `error · op ${data.ops_run}/${data.ops} · ${ms}ms`;
-      // Make sure log is open when there's an error
+      // Show partial output (if any) in the output pane; error goes to log only
+      outEl.className = data.output ? 'output-box' : 'output-box error';
+      if (data.output) {
+        showOutput(data.output);
+      } else {
+        outEl.textContent = data.error;
+        badge.style.display = 'none';
+      }
+      status.textContent = `stopped · op ${data.ops_run}/${data.ops} · ${ms}ms`;
+      // Auto-open log so the error and memory are visible
       if (!logOpen) toggleLog();
     } else {
       outEl.className = 'output-box';
