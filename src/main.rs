@@ -6,7 +6,7 @@ use anyhow::{Context, Result};
 use clap::{Parser, Subcommand};
 
 use spl::interpreter::Interpreter;
-use spl::parser::parse_play;
+use spl::parser::{parse_play, parse_play_f2};
 
 #[derive(Parser)]
 #[command(
@@ -29,14 +29,23 @@ enum Command {
         /// Trace each operation to stderr
         #[arg(long)]
         trace: bool,
+        /// Parse in SPL-F2 mode: ornamental (non-operational) sentences are no-ops
+        #[arg(long)]
+        f2: bool,
     },
     /// Parse a file and print the AST (for debugging)
     Parse {
         file: PathBuf,
+        /// Parse in SPL-F2 mode
+        #[arg(long)]
+        f2: bool,
     },
     /// Check that a file parses without errors
     Check {
         file: PathBuf,
+        /// Parse in SPL-F2 mode
+        #[arg(long)]
+        f2: bool,
     },
     /// Start the web playground on localhost:PORT (default 3000)
     Serve {
@@ -49,10 +58,10 @@ fn main() -> Result<()> {
     let cli = Cli::parse();
 
     match cli.command {
-        Command::Run { file, trace } => {
+        Command::Run { file, trace, f2 } => {
             let source = fs::read_to_string(&file)
                 .with_context(|| format!("reading {:?}", file))?;
-            let play = parse_play(&source)
+            let play = if f2 { parse_play_f2(&source) } else { parse_play(&source) }
                 .with_context(|| format!("parsing {:?}", file))?;
             let stdin  = io::stdin();
             let stdout = io::stdout();
@@ -66,10 +75,10 @@ fn main() -> Result<()> {
             interp.run().with_context(|| format!("running {:?}", file))?;
         }
 
-        Command::Parse { file } => {
+        Command::Parse { file, f2 } => {
             let source = fs::read_to_string(&file)
                 .with_context(|| format!("reading {:?}", file))?;
-            let play = parse_play(&source)
+            let play = if f2 { parse_play_f2(&source) } else { parse_play(&source) }
                 .with_context(|| format!("parsing {:?}", file))?;
             println!("Title:      {}", play.title);
             println!("Characters: {}", play.characters.len());
@@ -89,10 +98,11 @@ fn main() -> Result<()> {
             }
         }
 
-        Command::Check { file } => {
+        Command::Check { file, f2 } => {
             let source = fs::read_to_string(&file)
                 .with_context(|| format!("reading {:?}", file))?;
-            match parse_play(&source) {
+            let parse_result = if f2 { parse_play_f2(&source) } else { parse_play(&source) };
+            match parse_result {
                 Ok(play) => println!(
                     "OK — {} characters, {} operations, {} scenes",
                     play.characters.len(), play.ops.len(), play.scene_index.len(),

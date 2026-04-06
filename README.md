@@ -1,6 +1,8 @@
-# SPL Folio
+# SPL Second Folio
 
 A verified Rust interpreter for the [Shakespeare Programming Language](http://shakespeare.sourceforge.net/) (SPL) — an esoteric language in which programs are written as Shakespearean plays, characters are integer variables, and dialogue is executable code.
+
+This implementation accompanies **SPL-F2** (SPL Second Folio), a conservative backward-compatible extension of SPL 1.0 responding to Winckler's (2025) literary critique.
 
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -9,8 +11,8 @@ A verified Rust interpreter for the [Shakespeare Programming Language](http://sh
 ## Quick start
 
 ```bash
-git clone https://github.com/arktos-ai-lab/shakespeare-spl-folio-rs
-cd shakespeare-spl-folio-rs
+git clone https://github.com/arktos-ai-lab/spl-second-folio-rs
+cd spl-second-folio-rs
 cargo build --release
 
 # Run a program

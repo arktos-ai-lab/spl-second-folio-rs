@@ -288,6 +288,8 @@ impl<R: BufRead, W: Write> Interpreter<R, W> {
                     None => return Err(SplError::SceneNotFound { act: act_num, scene: *scene }),
                 }
             }
+            // SPL-F2 ornamental sentence — explicit no-op, no effect on machine state.
+            Op::Ornament => {}
         }
         Ok(())
     }

@@ -119,6 +119,11 @@ pub enum Op {
         scene: u32,
         cond: Option<Cond>,
     },
+    /// SPL-F2 ornamental sentence — a non-operational literary no-op.
+    /// Has no effect on machine state; accepted only when the sentence
+    /// does not begin with a reserved operational head and contains no
+    /// incomplete executable skeleton (Rules O2–O5 from the F2 spec).
+    Ornament,
 }
 
 // ---------------------------------------------------------------------------

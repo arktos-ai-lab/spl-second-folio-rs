@@ -1,4 +1,4 @@
-# Contributing to shakespeare-spl-folio-rs
+# Contributing to spl-second-folio-rs
 
 Thank you for your interest in contributing. This project is a verified reference interpreter for the Shakespeare Programming Language (SPL), built to support research and to serve as the most complete, documented, and tested SPL implementation available. Every contribution — from new example programs to parser fixes to documentation improvements — directly advances that goal.
 
@@ -41,7 +41,7 @@ You do not need to solve all corner cases to contribute. A partially working exa
 
 ### 2. Parser and interpreter correctness
 
-If you find a program that the original `spl2c` or `zmbc/shakespearelang` runs correctly but `shakespeare-spl-folio-rs` does not, please open an issue with:
+If you find a program that the original `spl2c` or `zmbc/shakespearelang` runs correctly but `spl-second-folio-rs` does not, please open an issue with:
 
 - The minimal program that demonstrates the discrepancy
 - The expected output (from any other SPL interpreter or from first principles)
@@ -74,8 +74,8 @@ SPL noun and adjective lists live in `src/vocab.rs`. If you find a word that:
 ## How to set up and run
 
 ```bash
-git clone https://github.com/arktos-ai-lab/shakespeare-spl-folio-rs
-cd shakespeare-spl-folio-rs
+git clone https://github.com/arktos-ai-lab/spl-second-folio-rs
+cd spl-second-folio-rs
 cargo build
 cargo test
 
@@ -169,7 +169,7 @@ twice X                      →  2X
 
 ### Tips
 
-- Only **two characters may be on stage** at once for second-person operations to be unambiguous (SPL 1.0 rule; SPL 1.1 adds explicit addressees).
+- Only **two characters may be on stage** at once for second-person operations to be unambiguous (SPL 1.0 rule; SPL-F2 adds explicit addressees).
 - Characters must be **declared** in the play's header before they can appear on stage.
 - Character names must come from the **canonical 152-name list** in `src/vocab.rs` (Hamlet, Juliet, Othello, …).
 - Sentences that do not match any operation are treated as **ornamental no-ops** as long as they do not start with a reserved operational head (`You`, `Thou`, `Speak`, `Open`, `Listen`, `Remember`, `Recall`, `Am`, `Is`, `Are`, `Let us`, `We shall`).

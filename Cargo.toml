@@ -1,10 +1,10 @@
 [package]
-name = "shakespeare-spl-folio-rs"
+name = "spl-second-folio-rs"
 version = "0.1.0"
 edition = "2021"
 description = "A Rust interpreter for the Shakespeare Programming Language (SPL)"
 license = "MIT"
-repository = "https://github.com/arktos-ai-lab/shakespeare-spl-folio-rs"
+repository = "https://github.com/arktos-ai-lab/spl-second-folio-rs"
 
 [[bin]]
 name = "shakespeare"

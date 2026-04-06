@@ -11,8 +11,8 @@ use std::collections::HashMap;
 use crate::ast::*;
 use crate::error::{Result, SplError};
 use crate::vocab::{
-    as_character_name, is_article, is_negative_adjective, is_negative_noun,
-    is_positive_adjective, is_positive_noun, parse_roman,
+    as_character_name, is_adjective, is_article, is_negative_noun,
+    is_positive_noun, is_neutral_noun, parse_roman,
 };
 
 // ---------------------------------------------------------------------------
@@ -279,7 +279,7 @@ impl<'a> ExprParser<'a> {
         // Consume adjectives (all adjectives just double magnitude)
         loop {
             match self.peek_norm().as_deref() {
-                Some(w) if is_positive_adjective(w) || is_negative_adjective(w) => {
+                Some(w) if is_adjective(w) => {
                     adj_count += 1;
                     self.consume();
                 }
@@ -305,11 +305,10 @@ impl<'a> ExprParser<'a> {
         loop {
             match self.peek_norm().as_deref() {
                 // Found the noun — stop skipping.
-                Some(w) if is_positive_noun(w) || is_negative_noun(w) => break,
+                Some(w) if is_positive_noun(w) || is_neutral_noun(w) || is_negative_noun(w) => break,
                 // Any adjective or article should have been consumed above; stop here
                 // so the error below fires rather than silently eating real tokens.
-                Some(w) if is_positive_adjective(w) || is_negative_adjective(w)
-                           || is_article(w) => break,
+                Some(w) if is_adjective(w) || is_article(w) => break,
                 // Do not cross operator/separator boundaries.
                 Some(w) if STOP_WORDS.contains(&w) => break,
                 // End of tokens.
@@ -321,7 +320,7 @@ impl<'a> ExprParser<'a> {
 
         // Consume the noun — noun always determines sign
         match self.peek_norm().as_deref() {
-            Some(w) if is_positive_noun(w) => {
+            Some(w) if is_positive_noun(w) || is_neutral_noun(w) => {
                 self.consume();
                 Ok(Expr::positive(adj_count))
             }
@@ -452,7 +451,68 @@ fn strip_question_trail<'a>(tokens: &'a [&'a str]) -> &'a [&'a str] {
 // Sentence parser
 // ---------------------------------------------------------------------------
 
+/// SPL parse mode.
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum ParseMode {
+    /// Strict SPL 1.0 semantics: any unrecognised sentence is a parse error.
+    Classic,
+    /// SPL-F2: ornamental (non-operational) sentences are accepted as no-ops,
+    /// provided they do not begin with a reserved operational head and do not
+    /// contain an incomplete executable skeleton (Rules O2–O5).
+    F2,
+}
+
+/// Returns true if the normalised first token(s) of `rs` constitute a
+/// **reserved operational head** — a prefix that SPL-F2 Rule O2 forbids
+/// from appearing in ornamental sentences.
+///
+/// If the sentence starts with a reserved head and does not fully parse as
+/// a valid statement, it must remain a parse error even in F2 mode.
+fn has_reserved_head(rs: &[&str]) -> bool {
+    match rs.first().copied() {
+        // Second-person pronouns
+        Some("you") | Some("thou") | Some("thee") => true,
+        // I/O
+        Some("speak") | Some("open") | Some("listen") => true,
+        // Stack
+        Some("remember") | Some("recall") => true,
+        // Comparisons / questions
+        Some("am") | Some("is") | Some("are") | Some("art") => true,
+        // Goto
+        Some("let") | Some("we") => true,
+        _ => false,
+    }
+}
+
+/// Returns true if `rs` contains an **incomplete executable skeleton** at the
+/// token level, per F2 Rule O4. A sentence with such a skeleton must be a
+/// parse error even in F2 mode if it fails to parse as a valid statement.
+fn has_executable_skeleton(rs: &[&str]) -> bool {
+    // second_person + be_verb (assignment skeleton)
+    let is_sp = |w: &str| matches!(w, "you" | "thou" | "thee");
+    let is_be = |w: &str| matches!(w, "are" | "art" | "is" | "am" | "were" | "was"
+                                      | "hast" | "has" | "have" | "be");
+    for i in 0..rs.len().saturating_sub(1) {
+        if is_sp(rs[i]) && is_be(rs[i + 1]) { return true; }
+    }
+    // "Am I" / "Are we" — question skeletons
+    if rs.len() >= 2 && rs[0] == "am" && rs[1] == "i"   { return true; }
+    if rs.len() >= 2 && rs[0] == "are" && rs[1] == "we" { return true; }
+    // "Let us" / "We shall" / "We must" — goto skeletons
+    if rs.len() >= 2 && rs[0] == "let" && rs[1] == "us"    { return true; }
+    if rs.len() >= 2 && rs[0] == "we"  && (rs[1] == "shall" || rs[1] == "must") { return true; }
+    // I/O skeletons
+    if rs.len() >= 2 && rs[0] == "speak" && rs[1] == "your"  { return true; }
+    if rs.len() >= 2 && rs[0] == "open"  && rs[1] == "your"  { return true; }
+    if rs.len() >= 3 && rs[0] == "listen" && rs[1] == "to" && rs[2] == "your" { return true; }
+    false
+}
+
 fn parse_sentence(tokens: &[&str], line: usize, char_names: &[String]) -> Result<Op> {
+    parse_sentence_mode(tokens, line, char_names, ParseMode::Classic)
+}
+
+fn parse_sentence_mode(tokens: &[&str], line: usize, char_names: &[String], mode: ParseMode) -> Result<Op> {
     if tokens.is_empty() {
         return Err(SplError::parse(line, "empty sentence"));
     }
@@ -559,6 +619,27 @@ fn parse_sentence(tokens: &[&str], line: usize, char_names: &[String]) -> Result
         }
     }
 
+    // SPL-F2 ornament rule (Rules O2–O5):
+    //   O2: reserved operational head → always an error
+    //   O4: incomplete executable skeleton → always an error
+    //   O5: anything else → accept as ornament in F2 mode
+    if mode == ParseMode::F2 {
+        if has_reserved_head(&rs) {
+            return Err(SplError::parse(
+                line,
+                format!("reserved operational head but sentence is not a valid statement: {:?}",
+                        &ts[..ts.len().min(6)]),
+            ));
+        }
+        if has_executable_skeleton(&rs) {
+            return Err(SplError::parse(
+                line,
+                format!("incomplete executable skeleton in sentence: {:?}",
+                        &ts[..ts.len().min(6)]),
+            ));
+        }
+        return Ok(Op::Ornament);
+    }
     Err(SplError::parse(line, format!("unrecognised sentence: {:?}", &ts[..ts.len().min(6)])))
 }
 
@@ -686,7 +767,18 @@ fn parse_character_list(tokens: &[&str], line: usize) -> Result<Vec<String>> {
 // Top-level play parser
 // ---------------------------------------------------------------------------
 
+/// Parse a play using strict SPL 1.0 semantics (default).
 pub fn parse_play(source: &str) -> Result<Play> {
+    parse_play_mode(source, ParseMode::Classic)
+}
+
+/// Parse a play in SPL-F2 mode: ornamental (non-operational) sentences are
+/// accepted as no-ops per Rules O2–O5 of the F2 specification.
+pub fn parse_play_f2(source: &str) -> Result<Play> {
+    parse_play_mode(source, ParseMode::F2)
+}
+
+pub fn parse_play_mode(source: &str, mode: ParseMode) -> Result<Play> {
     let mut lines: Vec<&str> = source.lines().collect();
     let mut line_no = 0usize;
 
@@ -760,7 +852,7 @@ pub fn parse_play(source: &str) -> Result<Play> {
                     *pending = pending[end..].trim_start().to_string();
                     if sentence_str.is_empty() { continue; }
                     let tokens: Vec<&str> = sentence_str.split_whitespace().collect();
-                    match parse_sentence(&tokens, pline, cnames) {
+                    match parse_sentence_mode(&tokens, pline, cnames, mode) {
                         Ok(op) => ops.push(FlatOp {
                             speaker: speaker.to_string(),
                             op,
@@ -934,5 +1026,77 @@ mod tests {
             Op::Goto { scene: 2, .. } => {}
             other => panic!("unexpected: {:?}", other),
         }
+    }
+
+    // --- SPL-F2 ornament tests ---
+
+    #[test]
+    fn f2_ornament_non_operational() {
+        // A sentence with no reserved head and no executable skeleton → Ornament
+        let tokens = vec!["Alas", "poor", "Yorick", "I", "knew", "him", "well"];
+        let op = parse_sentence_mode(&tokens, 1, &[], ParseMode::F2).unwrap();
+        assert!(matches!(op, Op::Ornament), "expected Ornament, got {:?}", op);
+    }
+
+    #[test]
+    fn f2_ornament_o_cruel_day() {
+        let tokens = vec!["O", "cruel", "day"];
+        let op = parse_sentence_mode(&tokens, 1, &[], ParseMode::F2).unwrap();
+        assert!(matches!(op, Op::Ornament));
+    }
+
+    #[test]
+    fn f2_reserved_head_still_errors() {
+        // "You are a horse, alas." — reserved head "You", not a valid statement (no noun in horse... wait horse is neutral)
+        // Use a clearly invalid reserved-head sentence
+        let tokens = vec!["Speak", "of", "the", "devil"];
+        let result = parse_sentence_mode(&tokens, 1, &[], ParseMode::F2);
+        // "Speak" is a reserved head; "speak of the devil" is not a valid statement → error
+        assert!(result.is_err(), "expected error for reserved head without valid statement");
+    }
+
+    #[test]
+    fn f2_executable_skeleton_still_errors() {
+        // "thou art a monster" — contains "thou art" skeleton but not a valid statement
+        // (no noun-phrase follows correctly... actually "monster" is not a known noun)
+        let tokens = vec!["thou", "art", "a", "xyzzy"];
+        let result = parse_sentence_mode(&tokens, 1, &[], ParseMode::F2);
+        assert!(result.is_err(), "expected error for executable skeleton with unparseable expr");
+    }
+
+    #[test]
+    fn classic_mode_rejects_ornament() {
+        // Same ornamental sentence is an error in classic mode
+        let tokens = vec!["Alas", "poor", "Yorick", "I", "knew", "him", "well"];
+        let result = parse_sentence_mode(&tokens, 1, &[], ParseMode::Classic);
+        assert!(result.is_err(), "classic mode must reject non-operational sentences");
+    }
+
+    #[test]
+    fn f2_full_play_with_ornaments() {
+        // A minimal play that uses ornamental sentences; all examples must still execute correctly.
+        let src = r#"A Test of Ornamental Sentences.
+
+Hamlet, the prince of Denmark.
+Ophelia, a young noblewoman.
+
+Act I: The Beginning.
+
+  Scene I: A Room.
+
+    [Enter Hamlet and Ophelia]
+
+    Hamlet:
+      You are a beautiful rose!
+      Alas, poor Yorick, I knew him well.
+      O cruel fate, how heavy is my heart!
+      Speak your mind!
+
+    [Exeunt]
+"#;
+        let play = parse_play_f2(src).expect("F2 parse failed");
+        // Find the Ornament ops
+        let ornament_count = play.ops.iter().filter(|o| matches!(o.op, Op::Ornament)).count();
+        assert_eq!(ornament_count, 2, "expected 2 ornament ops, got {}", ornament_count);
     }
 }
