@@ -1,0 +1,48 @@
+SPL Vocabulary Attestation Report
+Pack: guten-complete-2026
+Source: Project Gutenberg Complete Works of Shakespeare (EBook #100)
+Criterion: lemma present anywhere in Shakespeare's complete works
+
+Total words checked : 248
+Attested            : 220  (88.7%)
+Legacy-only         : 28  (11.3%)
+
+── positive-adjective (47 words, 5 legacy-only) ──
+  LEGACY-ONLY  cute
+  LEGACY-ONLY  trustworthy
+  LEGACY-ONLY  cleaner
+  LEGACY-ONLY  clever
+  LEGACY-ONLY  flirtatious
+
+── neutral-adjective (20 words, 2 legacy-only) ──
+  LEGACY-ONLY  furry
+  LEGACY-ONLY  normal
+
+── negative-adjective (50 words, 9 legacy-only) ──
+  LEGACY-ONLY  disgusting
+  LEGACY-ONLY  half-witted
+  LEGACY-ONLY  oozing
+  LEGACY-ONLY  smelly
+  LEGACY-ONLY  snotty
+  LEGACY-ONLY  disagreeable
+  LEGACY-ONLY  gruesome
+  LEGACY-ONLY  miserly
+  LEGACY-ONLY  squalid
+
+── positive-noun (37 words, 3 legacy-only) ──
+  LEGACY-ONLY  pony
+  LEGACY-ONLY  fluffy
+  LEGACY-ONLY  songbird
+
+── neutral-noun (41 words, 4 legacy-only) ──
+  LEGACY-ONLY  chihuahua
+  LEGACY-ONLY  granddaughter
+  LEGACY-ONLY  grandson
+  LEGACY-ONLY  hamster
+
+── negative-noun (53 words, 5 legacy-only) ──
+  LEGACY-ONLY  flirt-gill
+  LEGACY-ONLY  microsoft
+  LEGACY-ONLY  starvation
+  LEGACY-ONLY  insect
+  LEGACY-ONLY  scoundrel

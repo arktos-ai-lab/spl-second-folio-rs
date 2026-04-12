@@ -1,0 +1,1738 @@
+[
+  {
+    "word": "amazing",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "beautiful",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "blossoming",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "bold",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "brave",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "charming",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "clearest",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "cunning",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "cute",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "delicious",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "embroidered",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "fair",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "fine",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "gentle",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "golden",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "good",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "handsome",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "happy",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "healthy",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "honest",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "lovely",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "loving",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "mighty",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "noble",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "peaceful",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "pretty",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "prompt",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "proud",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "reddest",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "rich",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "smooth",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "sunny",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "sweet",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "sweetest",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "trustworthy",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "warm",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "cleaner",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "clever",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "courageous",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "flirtatious",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "innocent",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "kind",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "meek",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "merry",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "pure",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "wonderful",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "young",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "big",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "black",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "blue",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "bluest",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "bottomless",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "furry",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "green",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "hard",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "huge",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "large",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "little",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "normal",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "old",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "purple",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "red",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "rural",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "small",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "tiny",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "white",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "yellow",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "bad",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "cowardly",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "cursed",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "damned",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "dirty",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "disgusting",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "distasteful",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "dusty",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "evil",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "fat",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "fat-kidneyed",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "fatherless",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "foul",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "hairy",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "half-witted",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "horrible",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "horrid",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "infected",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "lying",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "miserable",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "misused",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "oozing",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "rotten",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "smelly",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "snotty",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "sorry",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "stinking",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "stuffed",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "stupid",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "vile",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "villainous",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "worried",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "dark",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "disagreeable",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "filthy",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "foolish",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "gruesome",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "imminent",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "lazy",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "lewd",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "miserly",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "odious",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "rude",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "squalid",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "terrible",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "ugly",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "unhappy",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "unkind",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "wicked",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "worthless",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "angel",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "flower",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "happiness",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "hero",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "joy",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "kingdom",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "lord",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "plum",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "pony",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "rose",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "Heaven",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "heaven",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "King",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "king",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "heaven",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "king",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "summer's day",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "summer",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "summer",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "best",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "childhood",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "day",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "fluffy",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "friend",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "lover",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "man",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "master",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "miracle",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "owner",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "songbird",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "stone",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "sun",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "sunshine",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "treasure",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "wall",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "wizard",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "woman",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "animal",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "aunt",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "brother",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "cat",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "chihuahua",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "cousin",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "cow",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "daughter",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "door",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "face",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "father",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "fellow",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "granddaughter",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "grandfather",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "grandmother",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "grandson",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "hair",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "hamster",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "horse",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "lamp",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "lantern",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "mistletoe",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "moon",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "morning",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "mother",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "nephew",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "niece",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "nose",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "purse",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "road",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "roman",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "sister",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "sky",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "son",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "squirrel",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "stone wall",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "thing",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "town",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "tree",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "uncle",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "wind",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "bastard",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "beggar",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "blister",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "codpiece",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "coward",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "curse",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "death",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "devil",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "draught",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "famine",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "flirt-gill",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "goat",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "hate",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "hell",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "hog",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "hound",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "leech",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "lie",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "microsoft",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "pig",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "plague",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "starvation",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "toad",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "war",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "wolf",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "answer",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "criminal",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "dog",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "drunkard",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "dunghill",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "evil",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "fat",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "festering",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "flirt",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "fool",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "gorgon",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "hag",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "hatred",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "insect",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "louse",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "lying",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "mistrust",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "misuse",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "noise",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "pox",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "rascal",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "scoundrel",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only"
+  },
+  {
+    "word": "sieve",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "spite",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "traitor",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "villain",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "witch",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  },
+  {
+    "word": "worm",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "pack": "guten-complete-2026",
+    "status": "attested"
+  }
+]
