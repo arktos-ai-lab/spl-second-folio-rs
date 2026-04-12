@@ -454,7 +454,7 @@ fn strip_question_trail<'a>(tokens: &'a [&'a str]) -> &'a [&'a str] {
 /// SPL parse mode.
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum ParseMode {
-    /// Strict SPL 1.0 semantics: any unrecognised sentence is a parse error.
+    /// Strict SPL 1.2.1 semantics: any unrecognised sentence is a parse error.
     Classic,
     /// SPL-F2: ornamental (non-operational) sentences are accepted as no-ops,
     /// provided they do not begin with a reserved operational head and do not
@@ -767,7 +767,7 @@ fn parse_character_list(tokens: &[&str], line: usize) -> Result<Vec<String>> {
 // Top-level play parser
 // ---------------------------------------------------------------------------
 
-/// Parse a play using strict SPL 1.0 semantics (default).
+/// Parse a play using strict SPL 1.2.1 semantics (default).
 pub fn parse_play(source: &str) -> Result<Play> {
     parse_play_mode(source, ParseMode::Classic)
 }

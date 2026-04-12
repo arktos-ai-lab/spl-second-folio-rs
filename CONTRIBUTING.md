@@ -169,9 +169,9 @@ twice X                      →  2X
 
 ### Tips
 
-- Only **two characters may be on stage** at once for second-person operations to be unambiguous (SPL 1.0 rule; SPL-F2 adds explicit addressees).
+- Only **two characters may be on stage** at once for second-person operations to be unambiguous (SPL 1.2.1 rule; SPL-F2 adds explicit addressees).
 - Characters must be **declared** in the play's header before they can appear on stage.
-- Character names must come from the **canonical 152-name list** in `src/vocab.rs` (Hamlet, Juliet, Othello, …).
+- Character names must come from the **745-name list** in `src/vocab.rs` (all named Shakespeare characters; Hamlet, Juliet, Othello, …).
 - Sentences that do not match any operation are treated as **ornamental no-ops** as long as they do not start with a reserved operational head (`You`, `Thou`, `Speak`, `Open`, `Listen`, `Remember`, `Recall`, `Am`, `Is`, `Are`, `Let us`, `We shall`).
 
 ---
