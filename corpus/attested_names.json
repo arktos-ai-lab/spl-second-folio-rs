@@ -1,5 +1,52 @@
 [
   {
+    "word": "aaron",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "aaron"
+  },
+  {
+    "word": "abbot",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "abbot"
+  },
+  {
+    "word": "abhorson",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "abhorson"
+  },
+  {
+    "word": "abraham",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "abraham"
+  },
+  {
     "word": "achilles",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -12,6 +59,18 @@
     "attested_as": "achilles"
   },
   {
+    "word": "adam",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "adam"
+  },
+  {
     "word": "adonis",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -22,6 +81,18 @@
       "eebo-period-2026"
     ],
     "attested_as": "adonis"
+  },
+  {
+    "word": "adrian",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "adrian"
   },
   {
     "word": "adriana",
@@ -53,6 +124,30 @@
       "eebo-period-2026"
     ],
     "attested_as": "aemilia"
+  },
+  {
+    "word": "aemilius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "aemilius"
+  },
+  {
+    "word": "aeneas",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "aeneas"
   },
   {
     "word": "agamemnon",
@@ -91,6 +186,65 @@
     "attested_as": "ajax"
   },
   {
+    "word": "alcibiades",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "alcibiades"
+  },
+  {
+    "word": "alexander",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "alexander"
+  },
+  {
+    "word": "alexander iden",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "alexander iden"
+  },
+  {
+    "word": "alexas",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "alexas"
+  },
+  {
+    "word": "alice",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "alice"
+  },
+  {
     "word": "alonso",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -101,6 +255,18 @@
       "eebo-period-2026"
     ],
     "attested_as": "alonso"
+  },
+  {
+    "word": "amiens",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "amiens"
   },
   {
     "word": "andromache",
@@ -127,6 +293,53 @@
     "attested_as": "angelo"
   },
   {
+    "word": "angus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "angus"
+  },
+  {
+    "word": "anne bullen",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "anne bullen"
+  },
+  {
+    "word": "anne page",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "anne page"
+  },
+  {
+    "word": "antigonus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "antigonus"
+  },
+  {
     "word": "antiochus",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -137,6 +350,28 @@
       "eebo-period-2026"
     ],
     "attested_as": "antiochus"
+  },
+  {
+    "word": "antipholus of ephesus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "antipholus of ephesus"
+  },
+  {
+    "word": "antipholus of syracuse",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "antipholus of syracuse"
   },
   {
     "word": "antonio",
@@ -151,6 +386,95 @@
     "attested_as": "antonio"
   },
   {
+    "word": "antony",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "antony"
+  },
+  {
+    "word": "apemantus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "apemantus"
+  },
+  {
+    "word": "apothecary",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "apothecary"
+  },
+  {
+    "word": "archbishop cranmer",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": "archbishop cranmer"
+  },
+  {
+    "word": "archbishop of canterbury",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "archbishop of canterbury"
+  },
+  {
+    "word": "archbishop scroop",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "archidamus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "archidamus"
+  },
+  {
+    "word": "artemidorus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "artemidorus"
+  },
+  {
     "word": "arthur",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -163,6 +487,30 @@
     "attested_as": "arthur"
   },
   {
+    "word": "arviragus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "arviragus"
+  },
+  {
+    "word": "audrey",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "audrey"
+  },
+  {
     "word": "autolycus",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -173,6 +521,30 @@
       "eebo-period-2026"
     ],
     "attested_as": "autolycus"
+  },
+  {
+    "word": "bagot",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "bagot"
+  },
+  {
+    "word": "balthasar",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "balthasar"
   },
   {
     "word": "balthazar",
@@ -198,6 +570,98 @@
     "attested_as": "banquo"
   },
   {
+    "word": "baptista minola",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "baptista minola"
+  },
+  {
+    "word": "bardolph",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "bardolph"
+  },
+  {
+    "word": "barnardine",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "barnardine"
+  },
+  {
+    "word": "bassanio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "bassanio"
+  },
+  {
+    "word": "basset",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "basset"
+  },
+  {
+    "word": "bassianus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "bassianus"
+  },
+  {
+    "word": "bastard of orleans",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "bastard of orleans"
+  },
+  {
+    "word": "bates",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "bates"
+  },
+  {
     "word": "beatrice",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -208,6 +672,17 @@
       "eebo-period-2026"
     ],
     "attested_as": "beatrice"
+  },
+  {
+    "word": "belarius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "belarius"
   },
   {
     "word": "benedick",
@@ -232,6 +707,28 @@
     "attested_as": "benvolio"
   },
   {
+    "word": "bernardo",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": "bernardo"
+  },
+  {
+    "word": "bertram",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "bertram"
+  },
+  {
     "word": "bianca",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -244,6 +741,162 @@
     "attested_as": "bianca"
   },
   {
+    "word": "biondello",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "biondello"
+  },
+  {
+    "word": "biron",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": "biron"
+  },
+  {
+    "word": "bishop lincoln",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "bishop of carlisle",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "bishop of carlisle"
+  },
+  {
+    "word": "bishop of ely",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "bishop of ely"
+  },
+  {
+    "word": "blanch",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "blanch"
+  },
+  {
+    "word": "blunt",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "blunt"
+  },
+  {
+    "word": "boatswain",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "boatswain"
+  },
+  {
+    "word": "bolingbroke",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "bolingbroke"
+  },
+  {
+    "word": "bona",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "bona"
+  },
+  {
+    "word": "borachio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "borachio"
+  },
+  {
+    "word": "bottom",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "bottom"
+  },
+  {
+    "word": "boult",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "boult"
+  },
+  {
+    "word": "boyet",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "boyet"
+  },
+  {
     "word": "brabantio",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -253,6 +906,18 @@
       "folger-complete-2026"
     ],
     "attested_as": "brabantio"
+  },
+  {
+    "word": "brandon",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "brandon"
   },
   {
     "word": "brutus",
@@ -267,6 +932,140 @@
     "attested_as": "brutus"
   },
   {
+    "word": "bushy",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "bushy"
+  },
+  {
+    "word": "caesar",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "caesar"
+  },
+  {
+    "word": "caithness",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "caithness"
+  },
+  {
+    "word": "caius lucius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "caius lucius"
+  },
+  {
+    "word": "calchas",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "calchas"
+  },
+  {
+    "word": "caliban",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "caliban"
+  },
+  {
+    "word": "calpurnia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": "calpurnia"
+  },
+  {
+    "word": "camillo",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "camillo"
+  },
+  {
+    "word": "canidius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "canidius"
+  },
+  {
+    "word": "caphis",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "caphis"
+  },
+  {
+    "word": "captain",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "captain"
+  },
+  {
+    "word": "capucius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
     "word": "capulet",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -276,6 +1075,72 @@
       "folger-complete-2026"
     ],
     "attested_as": "capulet"
+  },
+  {
+    "word": "cardinal bourchier",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "cardinal bourchier"
+  },
+  {
+    "word": "cardinal campeius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "cardinal campeius"
+  },
+  {
+    "word": "cardinal pandulph",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "cardinal pandulph"
+  },
+  {
+    "word": "cardinal wolsey",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "cardinal wolsey"
+  },
+  {
+    "word": "carrier",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "carrier"
+  },
+  {
+    "word": "casca",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "casca"
   },
   {
     "word": "cassandra",
@@ -290,6 +1155,17 @@
     "attested_as": "cassandra"
   },
   {
+    "word": "cassio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "cassio"
+  },
+  {
     "word": "cassius",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -300,6 +1176,107 @@
       "eebo-period-2026"
     ],
     "attested_as": "cassius"
+  },
+  {
+    "word": "celia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "celia"
+  },
+  {
+    "word": "ceres",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "ceres"
+  },
+  {
+    "word": "cerimon",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "cerimon"
+  },
+  {
+    "word": "chamberlain",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "chamberlain"
+  },
+  {
+    "word": "charles",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "charles"
+  },
+  {
+    "word": "charles, king of france",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "charmian",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "charmian"
+  },
+  {
+    "word": "chatillon",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "chatillon"
+  },
+  {
+    "word": "chiron",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "chiron"
   },
   {
     "word": "christopher sly",
@@ -313,6 +1290,17 @@
     "attested_as": "christopher sly"
   },
   {
+    "word": "christopher urswick",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "christopher urswick"
+  },
+  {
     "word": "cicero",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -323,6 +1311,52 @@
       "eebo-period-2026"
     ],
     "attested_as": "cicero"
+  },
+  {
+    "word": "cinna",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "cinna"
+  },
+  {
+    "word": "cinna the poet",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "cinna the poet"
+  },
+  {
+    "word": "citizen",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "citizen"
+  },
+  {
+    "word": "citizens",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "citizens"
   },
   {
     "word": "claudio",
@@ -349,6 +1383,30 @@
     "attested_as": "claudius"
   },
   {
+    "word": "cleomenes",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "cleomenes"
+  },
+  {
+    "word": "cleon",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "cleon"
+  },
+  {
     "word": "cleopatra",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -361,6 +1419,121 @@
     "attested_as": "cleopatra"
   },
   {
+    "word": "clerk",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "clerk"
+  },
+  {
+    "word": "clerk of chatham",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "clitus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "clitus"
+  },
+  {
+    "word": "cloten",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "cloten"
+  },
+  {
+    "word": "cobweb",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "cobweb"
+  },
+  {
+    "word": "cominius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "cominius"
+  },
+  {
+    "word": "commons",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "commons"
+  },
+  {
+    "word": "conrade",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "conrade"
+  },
+  {
+    "word": "constable of france",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "constable of france"
+  },
+  {
+    "word": "constance",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "constance"
+  },
+  {
     "word": "cordelia",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -370,6 +1543,30 @@
       "folger-complete-2026"
     ],
     "attested_as": "cordelia"
+  },
+  {
+    "word": "corin",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "corin"
+  },
+  {
+    "word": "coriolanus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "coriolanus"
   },
   {
     "word": "cornelius",
@@ -384,6 +1581,63 @@
     "attested_as": "cornelius"
   },
   {
+    "word": "costard",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "costard"
+  },
+  {
+    "word": "countess",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "countess"
+  },
+  {
+    "word": "countess of auvergne",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "countess of auvergne"
+  },
+  {
+    "word": "court",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "court"
+  },
+  {
+    "word": "courtezan",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "courtezan"
+  },
+  {
     "word": "cressida",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -396,6 +1650,89 @@
     "attested_as": "cressida"
   },
   {
+    "word": "crier",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "crier"
+  },
+  {
+    "word": "cromwell",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "cromwell"
+  },
+  {
+    "word": "cupid",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "cupid"
+  },
+  {
+    "word": "curan",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "curan"
+  },
+  {
+    "word": "curio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "curio"
+  },
+  {
+    "word": "curtis",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "curtis"
+  },
+  {
+    "word": "cymbeline",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "cymbeline"
+  },
+  {
     "word": "cymberline",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -405,6 +1742,73 @@
       "folger-complete-2026"
     ],
     "attested_as": "cymbeline"
+  },
+  {
+    "word": "dancer",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "dancer"
+  },
+  {
+    "word": "dardanius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "dardanius"
+  },
+  {
+    "word": "daughter of antiochus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "daughter of antiochus"
+  },
+  {
+    "word": "davy",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "davy"
+  },
+  {
+    "word": "decius brutus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "decius brutus"
+  },
+  {
+    "word": "deiphobus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "deiphobus"
   },
   {
     "word": "demetrius",
@@ -419,6 +1823,26 @@
     "attested_as": "demetrius"
   },
   {
+    "word": "dennis",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "dennis"
+  },
+  {
+    "word": "dercetas",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
     "word": "desdemona",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -430,6 +1854,52 @@
     "attested_as": "desdemona"
   },
   {
+    "word": "diana",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "diana"
+  },
+  {
+    "word": "dick the butcher",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "dick the butcher"
+  },
+  {
+    "word": "diomedes",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "diomedes"
+  },
+  {
+    "word": "dion",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "dion"
+  },
+  {
     "word": "dionyza",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -439,6 +1909,28 @@
       "folger-complete-2026"
     ],
     "attested_as": "dionyza"
+  },
+  {
+    "word": "doctor",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "doctor"
+  },
+  {
+    "word": "doctor butts",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "doctor butts"
   },
   {
     "word": "doctor caius",
@@ -461,6 +1953,48 @@
       "folger-complete-2026"
     ],
     "attested_as": "dogberry"
+  },
+  {
+    "word": "dolabella",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "dolabella"
+  },
+  {
+    "word": "doll tearsheet",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "doll tearsheet"
+  },
+  {
+    "word": "domitius enobarus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "don adriano de armado",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "don adriano de armado"
   },
   {
     "word": "don john",
@@ -510,6 +2044,302 @@
     "attested_as": "dorcas"
   },
   {
+    "word": "dromio of ephesus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "dromio of ephesus"
+  },
+  {
+    "word": "dromio of syracuse",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "dromio of syracuse"
+  },
+  {
+    "word": "duchess of gloucester",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "duchess of gloucester"
+  },
+  {
+    "word": "duchess of york",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "duchess of york"
+  },
+  {
+    "word": "duke",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke"
+  },
+  {
+    "word": "duke of albany",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of albany"
+  },
+  {
+    "word": "duke of alencon",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of alencon"
+  },
+  {
+    "word": "duke of aumerle",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of aumerle"
+  },
+  {
+    "word": "duke of bedford",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of bedford"
+  },
+  {
+    "word": "duke of bourbon",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of bourbon"
+  },
+  {
+    "word": "duke of buckingham",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of buckingham"
+  },
+  {
+    "word": "duke of burgundy",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of burgundy"
+  },
+  {
+    "word": "duke of cornwall",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of cornwall"
+  },
+  {
+    "word": "duke of exeter",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of exeter"
+  },
+  {
+    "word": "duke of florence",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of florence"
+  },
+  {
+    "word": "duke of gloucester",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of gloucester"
+  },
+  {
+    "word": "duke of milan",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of milan"
+  },
+  {
+    "word": "duke of norfolk",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of norfolk"
+  },
+  {
+    "word": "duke of orleans",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of orleans"
+  },
+  {
+    "word": "duke of suffolk",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of suffolk"
+  },
+  {
+    "word": "duke of surrey",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of surrey"
+  },
+  {
+    "word": "duke of venice",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of venice"
+  },
+  {
+    "word": "duke of york",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duke of york"
+  },
+  {
+    "word": "duke/earl of somerset",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "dull",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "dull"
+  },
+  {
+    "word": "dumain",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
     "word": "duncan",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -522,6 +2352,198 @@
     "attested_as": "duncan"
   },
   {
+    "word": "earl of cambridge",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "earl of cambridge"
+  },
+  {
+    "word": "earl of douglas",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "earl of douglas"
+  },
+  {
+    "word": "earl of gloucester",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "earl of gloucester"
+  },
+  {
+    "word": "earl of kent",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "earl of kent"
+  },
+  {
+    "word": "earl of northumberland",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "earl of northumberland"
+  },
+  {
+    "word": "earl of salisbury",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "earl of salisbury"
+  },
+  {
+    "word": "earl of suffolk",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "earl of suffolk"
+  },
+  {
+    "word": "earl of surrey",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "earl of surrey"
+  },
+  {
+    "word": "earl of warwick",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "earl of warwick"
+  },
+  {
+    "word": "earl of westmoreland",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "earl of westmoreland"
+  },
+  {
+    "word": "earl of worcester",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "earl of worcester"
+  },
+  {
+    "word": "earl oxford",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "edgar",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "edgar"
+  },
+  {
+    "word": "edmond, earl of rutland",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "edmund",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "edmund"
+  },
+  {
+    "word": "edmund mortimer",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "edmund mortimer"
+  },
+  {
+    "word": "edmund of langley",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "edward poins",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
     "word": "egeus",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -531,6 +2553,53 @@
       "folger-complete-2026"
     ],
     "attested_as": "egeus"
+  },
+  {
+    "word": "eglamour",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "eglamour"
+  },
+  {
+    "word": "egyptian",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "egyptian"
+  },
+  {
+    "word": "elbow",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "elbow"
+  },
+  {
+    "word": "eleanor",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "eleanor"
   },
   {
     "word": "emilia",
@@ -545,6 +2614,29 @@
     "attested_as": "emilia"
   },
   {
+    "word": "english herald",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "english herald"
+  },
+  {
+    "word": "eros",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "eros"
+  },
+  {
     "word": "escalus",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -556,6 +2648,52 @@
     "attested_as": "escalus"
   },
   {
+    "word": "escanes",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "escanes"
+  },
+  {
+    "word": "essex",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "essex"
+  },
+  {
+    "word": "euphronius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "euphronius"
+  },
+  {
+    "word": "fabian",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "fabian"
+  },
+  {
     "word": "falstaff",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -565,6 +2703,58 @@
       "folger-complete-2026"
     ],
     "attested_as": "falstaff"
+  },
+  {
+    "word": "fang",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "fang"
+  },
+  {
+    "word": "father",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "father"
+  },
+  {
+    "word": "father john hume",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "father's ghost",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "faulconbridge",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "faulconbridge"
   },
   {
     "word": "fenton",
@@ -591,6 +2781,98 @@
     "attested_as": "ferdinand"
   },
   {
+    "word": "feste",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "feste"
+  },
+  {
+    "word": "flaminius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "flaminius"
+  },
+  {
+    "word": "flavius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "flavius"
+  },
+  {
+    "word": "fleance",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "fleance"
+  },
+  {
+    "word": "florizel",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "florizel"
+  },
+  {
+    "word": "fluellen",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "fluellen"
+  },
+  {
+    "word": "flute",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "flute"
+  },
+  {
+    "word": "fool",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "fool"
+  },
+  {
     "word": "ford",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -601,6 +2883,17 @@
       "eebo-period-2026"
     ],
     "attested_as": "ford"
+  },
+  {
+    "word": "forester",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "forester"
   },
   {
     "word": "fortinbras",
@@ -614,6 +2907,28 @@
     "attested_as": "fortinbras"
   },
   {
+    "word": "francis",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "francis"
+  },
+  {
+    "word": "francis feeble",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "francis feeble"
+  },
+  {
     "word": "francisca",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -624,6 +2939,76 @@
       "eebo-period-2026"
     ],
     "attested_as": "francisca"
+  },
+  {
+    "word": "francisco",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "francisco"
+  },
+  {
+    "word": "frederick",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "frederick"
+  },
+  {
+    "word": "french herald",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "french herald"
+  },
+  {
+    "word": "french soldier",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "french soldier"
+  },
+  {
+    "word": "frenchman",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "frenchman"
+  },
+  {
+    "word": "friar francis",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "friar francis"
   },
   {
     "word": "friar john",
@@ -645,6 +3030,165 @@
     "attested_as": null
   },
   {
+    "word": "friar peter",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "friar peter"
+  },
+  {
+    "word": "friar thomas",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "friar thomas"
+  },
+  {
+    "word": "froth",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "froth"
+  },
+  {
+    "word": "gadshill",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "gadshill"
+  },
+  {
+    "word": "gallus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "gallus"
+  },
+  {
+    "word": "gardener",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "gardener"
+  },
+  {
+    "word": "gardiner",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "gardiner"
+  },
+  {
+    "word": "garter",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "garter"
+  },
+  {
+    "word": "general",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "general"
+  },
+  {
+    "word": "gentleman",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "gentleman"
+  },
+  {
+    "word": "gentlemen",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "gentlemen"
+  },
+  {
+    "word": "gentlewoman",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "gentlewoman"
+  },
+  {
+    "word": "george bevis",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "george bevis"
+  },
+  {
+    "word": "george plantagenet (duke of clarence)",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
     "word": "gertrude",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -655,6 +3199,18 @@
       "eebo-period-2026"
     ],
     "attested_as": "gertrude"
+  },
+  {
+    "word": "glendower",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "glendower"
   },
   {
     "word": "goneril",
@@ -668,6 +3224,167 @@
     "attested_as": "goneril"
   },
   {
+    "word": "gonzalo",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "gonzalo"
+  },
+  {
+    "word": "governor of harfleur",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "governor of harfleur"
+  },
+  {
+    "word": "gower",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "gower"
+  },
+  {
+    "word": "grandpre",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "gratiano",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "gratiano"
+  },
+  {
+    "word": "green",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "green"
+  },
+  {
+    "word": "gregory",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "gregory"
+  },
+  {
+    "word": "gremio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "gremio"
+  },
+  {
+    "word": "griffith",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "griffith"
+  },
+  {
+    "word": "grumio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "grumio"
+  },
+  {
+    "word": "guard",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "guard"
+  },
+  {
+    "word": "guiderius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "guiderius"
+  },
+  {
+    "word": "guildenstern",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "guildenstern"
+  },
+  {
+    "word": "haberdasher",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "haberdasher"
+  },
+  {
     "word": "hamlet",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -678,6 +3395,18 @@
       "eebo-period-2026"
     ],
     "attested_as": "hamlet"
+  },
+  {
+    "word": "harcourt",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "harcourt"
   },
   {
     "word": "hecate",
@@ -728,6 +3457,75 @@
     "attested_as": "helena"
   },
   {
+    "word": "helenus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "helenus"
+  },
+  {
+    "word": "helicanus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "helicanus"
+  },
+  {
+    "word": "henry iv",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "henry iv"
+  },
+  {
+    "word": "henry v",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "henry v"
+  },
+  {
+    "word": "henry vi",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "henry vi"
+  },
+  {
+    "word": "henry viii",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "henry viii"
+  },
+  {
     "word": "hermia",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -737,6 +3535,18 @@
       "folger-complete-2026"
     ],
     "attested_as": "hermia"
+  },
+  {
+    "word": "hermione",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "hermione"
   },
   {
     "word": "hermonie",
@@ -751,6 +3561,18 @@
     "attested_as": "hermione"
   },
   {
+    "word": "hero",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "hero"
+  },
+  {
     "word": "hippolyta",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -760,6 +3582,18 @@
       "folger-complete-2026"
     ],
     "attested_as": "hippolyta"
+  },
+  {
+    "word": "holofernes",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "holofernes"
   },
   {
     "word": "horatio",
@@ -774,6 +3608,107 @@
     "attested_as": "horatio"
   },
   {
+    "word": "hortensio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "hortensio"
+  },
+  {
+    "word": "hortensius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "hortensius"
+  },
+  {
+    "word": "host",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "host"
+  },
+  {
+    "word": "hostess quickly",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "hostess quickly"
+  },
+  {
+    "word": "hotspur (henry percy)",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "hubert de burgh",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "hubert de burgh"
+  },
+  {
+    "word": "hymen",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "hymen"
+  },
+  {
+    "word": "iachimo",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "iachimo"
+  },
+  {
+    "word": "iago",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "iago"
+  },
+  {
     "word": "imogen",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -783,6 +3718,30 @@
       "folger-complete-2026"
     ],
     "attested_as": "imogen"
+  },
+  {
+    "word": "iras",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "iras"
+  },
+  {
+    "word": "iris",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "iris"
   },
   {
     "word": "isabella",
@@ -795,6 +3754,122 @@
       "eebo-period-2026"
     ],
     "attested_as": "isabella"
+  },
+  {
+    "word": "jack cade",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "jack cade"
+  },
+  {
+    "word": "james gurney",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "james gurney"
+  },
+  {
+    "word": "jamy",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "jamy"
+  },
+  {
+    "word": "jaquenetta",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "jaquenetta"
+  },
+  {
+    "word": "jaques (lord)",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "jaques (son)",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "jessica",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "jessica"
+  },
+  {
+    "word": "jeweller",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "jeweller"
+  },
+  {
+    "word": "joan la pucelle",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "joan la pucelle"
+  },
+  {
+    "word": "john holland",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "john holland"
+  },
+  {
+    "word": "john morton",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "john morton"
   },
   {
     "word": "john of gaunt",
@@ -818,6 +3893,29 @@
       "folger-complete-2026"
     ],
     "attested_as": "john of lancaster"
+  },
+  {
+    "word": "john talbot",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "john talbot"
+  },
+  {
+    "word": "joseph",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "joseph"
   },
   {
     "word": "julia",
@@ -855,6 +3953,84 @@
     "attested_as": "julius caesar"
   },
   {
+    "word": "junius brutus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "junius brutus"
+  },
+  {
+    "word": "juno",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "juno"
+  },
+  {
+    "word": "jupiter",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "jupiter"
+  },
+  {
+    "word": "justice",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "justice"
+  },
+  {
+    "word": "katharine",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "katharine"
+  },
+  {
+    "word": "katherina",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "katherina"
+  },
+  {
+    "word": "king edward iv (plantagenet)",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
     "word": "king henry",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -890,6 +4066,36 @@
     "attested_as": "king lear"
   },
   {
+    "word": "king lewis xi",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "king of france",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "king of france"
+  },
+  {
+    "word": "king phillip",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": "king phillip"
+  },
+  {
     "word": "king richard",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -902,6 +4108,64 @@
     "attested_as": "king richard"
   },
   {
+    "word": "king richard ii",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "folger-complete-2026"
+    ],
+    "attested_as": "king richard ii"
+  },
+  {
+    "word": "knight",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "knight"
+  },
+  {
+    "word": "knights",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "knights"
+  },
+  {
+    "word": "lady",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lady"
+  },
+  {
+    "word": "lady anne",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lady anne"
+  },
+  {
     "word": "lady capulet",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -911,6 +4175,17 @@
       "folger-complete-2026"
     ],
     "attested_as": "lady capulet"
+  },
+  {
+    "word": "lady faulconbridge",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lady faulconbridge"
   },
   {
     "word": "lady macbeth",
@@ -946,6 +4221,113 @@
     "attested_as": "lady montague"
   },
   {
+    "word": "lady northumberland",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "lady northumberland"
+  },
+  {
+    "word": "lady percy",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lady percy"
+  },
+  {
+    "word": "laertes",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "laertes"
+  },
+  {
+    "word": "lafeu",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "launce",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": "launce"
+  },
+  {
+    "word": "launcelot gobbo",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "lavinia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lavinia"
+  },
+  {
+    "word": "lawyer",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lawyer"
+  },
+  {
+    "word": "le beau",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "le beau"
+  },
+  {
+    "word": "lear",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lear"
+  },
+  {
     "word": "lennox",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -956,6 +4338,18 @@
       "eebo-period-2026"
     ],
     "attested_as": "lennox"
+  },
+  {
+    "word": "leonardo",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "leonardo"
   },
   {
     "word": "leonato",
@@ -970,6 +4364,412 @@
     "attested_as": "leonato"
   },
   {
+    "word": "leonine",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "leonine"
+  },
+  {
+    "word": "leontes",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "leontes"
+  },
+  {
+    "word": "lepidus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lepidus"
+  },
+  {
+    "word": "lewis",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lewis"
+  },
+  {
+    "word": "lewis the dauphin",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "ligarius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "ligarius"
+  },
+  {
+    "word": "lodovico",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lodovico"
+  },
+  {
+    "word": "longaville",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "longaville"
+  },
+  {
+    "word": "lord",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lord"
+  },
+  {
+    "word": "lord (earl) rivers",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "lord abergavenny",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "lord abergavenny"
+  },
+  {
+    "word": "lord bardolph",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lord bardolph"
+  },
+  {
+    "word": "lord berkeley",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lord berkeley"
+  },
+  {
+    "word": "lord bigot",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lord bigot"
+  },
+  {
+    "word": "lord chamberlain",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lord chamberlain"
+  },
+  {
+    "word": "lord chancellor",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lord chancellor"
+  },
+  {
+    "word": "lord chief justice",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lord chief justice"
+  },
+  {
+    "word": "lord clifford",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lord clifford"
+  },
+  {
+    "word": "lord fitzwater",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lord fitzwater"
+  },
+  {
+    "word": "lord grey",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lord grey"
+  },
+  {
+    "word": "lord hastings",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lord hastings"
+  },
+  {
+    "word": "lord lovel",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "lord marshal",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lord marshal"
+  },
+  {
+    "word": "lord mayor of london",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lord mayor of london"
+  },
+  {
+    "word": "lord mowbray",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lord mowbray"
+  },
+  {
+    "word": "lord ross",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lord ross"
+  },
+  {
+    "word": "lord sands",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "lord say",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lord say"
+  },
+  {
+    "word": "lord scales",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lord scales"
+  },
+  {
+    "word": "lord scroop",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lord scroop"
+  },
+  {
+    "word": "lord talbot/earl of shrewsbury",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "lord willoughby",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lord willoughby"
+  },
+  {
+    "word": "lords",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lords"
+  },
+  {
+    "word": "lorenzo",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lorenzo"
+  },
+  {
+    "word": "luce",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "luce"
+  },
+  {
+    "word": "lucentio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lucentio"
+  },
+  {
+    "word": "lucetta",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lucetta"
+  },
+  {
     "word": "luciana",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -979,6 +4779,18 @@
       "folger-complete-2026"
     ],
     "attested_as": "luciana"
+  },
+  {
+    "word": "lucilius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lucilius"
   },
   {
     "word": "lucio",
@@ -993,6 +4805,30 @@
     "attested_as": "lucio"
   },
   {
+    "word": "lucius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lucius"
+  },
+  {
+    "word": "lucullus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lucullus"
+  },
+  {
     "word": "lychorida",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1002,6 +4838,14 @@
       "folger-complete-2026"
     ],
     "attested_as": "lychorida"
+  },
+  {
+    "word": "lymoges",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
   },
   {
     "word": "lysander",
@@ -1014,6 +4858,18 @@
       "eebo-period-2026"
     ],
     "attested_as": "lysander"
+  },
+  {
+    "word": "lysimachus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lysimachus"
   },
   {
     "word": "macbeth",
@@ -1038,6 +4894,17 @@
     "attested_as": "macduff"
   },
   {
+    "word": "macmorris",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "macmorris"
+  },
+  {
     "word": "malcolm",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1048,6 +4915,116 @@
       "eebo-period-2026"
     ],
     "attested_as": "malcolm"
+  },
+  {
+    "word": "malvolio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "malvolio"
+  },
+  {
+    "word": "mamillius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "mamillius"
+  },
+  {
+    "word": "man",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "man"
+  },
+  {
+    "word": "marcellus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "marcellus"
+  },
+  {
+    "word": "marcus andronicus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "marcus andronicus"
+  },
+  {
+    "word": "mardian",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "mardian"
+  },
+  {
+    "word": "margarelon",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "margarelon"
+  },
+  {
+    "word": "margaret",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "margaret"
+  },
+  {
+    "word": "margaret jourdain",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "maria",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "maria"
   },
   {
     "word": "mariana",
@@ -1062,6 +5039,42 @@
     "attested_as": "mariana"
   },
   {
+    "word": "marina",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "marina"
+  },
+  {
+    "word": "mariner",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "mariner"
+  },
+  {
+    "word": "mariners",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "mariners"
+  },
+  {
     "word": "mark antony",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1074,6 +5087,190 @@
     "attested_as": "mark antony"
   },
   {
+    "word": "marquess of montague",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "marquess of montague"
+  },
+  {
+    "word": "marquis of dorset",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "martius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "martius"
+  },
+  {
+    "word": "marullus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "marullus"
+  },
+  {
+    "word": "master",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "master"
+  },
+  {
+    "word": "master-gunner",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "master-gunner"
+  },
+  {
+    "word": "mayor of saint alban's",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "mayor of york",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "mayor of york"
+  },
+  {
+    "word": "mecaenas",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": "mecaenas"
+  },
+  {
+    "word": "melun",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "melun"
+  },
+  {
+    "word": "menas",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "menas"
+  },
+  {
+    "word": "menecrates",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "menecrates"
+  },
+  {
+    "word": "menelaus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "menelaus"
+  },
+  {
+    "word": "menenius agrippa",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "menenius agrippa"
+  },
+  {
+    "word": "menteith",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "menteith"
+  },
+  {
+    "word": "mercade",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "merchant",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "merchant"
+  },
+  {
     "word": "mercutio",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1084,6 +5281,41 @@
       "eebo-period-2026"
     ],
     "attested_as": "mercutio"
+  },
+  {
+    "word": "messala",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "messala"
+  },
+  {
+    "word": "metellus cimber",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "metellus cimber"
+  },
+  {
+    "word": "michael",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "michael"
   },
   {
     "word": "miranda",
@@ -1143,6 +5375,30 @@
     "attested_as": "montague"
   },
   {
+    "word": "montano",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "montano"
+  },
+  {
+    "word": "montjoy",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "montjoy"
+  },
+  {
     "word": "mopsa",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1153,6 +5409,181 @@
       "eebo-period-2026"
     ],
     "attested_as": "mopsa"
+  },
+  {
+    "word": "mortimer",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "mortimer"
+  },
+  {
+    "word": "morton",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "morton"
+  },
+  {
+    "word": "moth",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "moth"
+  },
+  {
+    "word": "mother",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "mother"
+  },
+  {
+    "word": "mustardseed",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "mustardseed"
+  },
+  {
+    "word": "mutius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "mutius"
+  },
+  {
+    "word": "myrmidons",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "myrmidons"
+  },
+  {
+    "word": "nathaniel",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "nathaniel"
+  },
+  {
+    "word": "nerissa",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "nerissa"
+  },
+  {
+    "word": "nestor",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "nestor"
+  },
+  {
+    "word": "nicholas",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "nicholas"
+  },
+  {
+    "word": "nobleman",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "nobleman"
+  },
+  {
+    "word": "norwegian captain",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "nurse",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "nurse"
+  },
+  {
+    "word": "nym",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "nym"
   },
   {
     "word": "oberon",
@@ -1179,6 +5610,18 @@
     "attested_as": "octavia"
   },
   {
+    "word": "octavius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "octavius"
+  },
+  {
     "word": "octavius caesar",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1189,6 +5632,74 @@
       "eebo-period-2026"
     ],
     "attested_as": "octavius caesar"
+  },
+  {
+    "word": "old athenian",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "old athenian"
+  },
+  {
+    "word": "old gobbo",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "old gobbo"
+  },
+  {
+    "word": "old lady",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "old lady"
+  },
+  {
+    "word": "old man",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "old man"
+  },
+  {
+    "word": "old shepherd",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "old shepherd"
+  },
+  {
+    "word": "oliver",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "oliver"
   },
   {
     "word": "olivia",
@@ -1238,6 +5749,41 @@
     "attested_as": "orsino"
   },
   {
+    "word": "osric",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "osric"
+  },
+  {
+    "word": "ostler",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "ostler"
+  },
+  {
+    "word": "oswald",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "oswald"
+  },
+  {
     "word": "othello",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1247,6 +5793,18 @@
       "folger-complete-2026"
     ],
     "attested_as": "othello"
+  },
+  {
+    "word": "outlaws",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "outlaws"
   },
   {
     "word": "page",
@@ -1261,6 +5819,30 @@
     "attested_as": "page"
   },
   {
+    "word": "painter",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "painter"
+  },
+  {
+    "word": "pandar",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "pandar"
+  },
+  {
     "word": "pandarus",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1271,6 +5853,14 @@
       "eebo-period-2026"
     ],
     "attested_as": "pandarus"
+  },
+  {
+    "word": "panthino",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
   },
   {
     "word": "pantino",
@@ -1296,6 +5886,100 @@
     "attested_as": "paris"
   },
   {
+    "word": "parolles",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "parolles"
+  },
+  {
+    "word": "patience",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "patience"
+  },
+  {
+    "word": "patrician",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "patrician"
+  },
+  {
+    "word": "patroclus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "patroclus"
+  },
+  {
+    "word": "paulina",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "paulina"
+  },
+  {
+    "word": "peaseblossom",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "peaseblossom"
+  },
+  {
+    "word": "pembroke",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "pembroke"
+  },
+  {
+    "word": "perdita",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "perdita"
+  },
+  {
     "word": "pericles",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1308,6 +5992,161 @@
     "attested_as": "pericles"
   },
   {
+    "word": "peter",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "peter"
+  },
+  {
+    "word": "peter bullcalf",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "peter bullcalf"
+  },
+  {
+    "word": "peter of pomfret",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "peter of pomfret"
+  },
+  {
+    "word": "peto",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "peto"
+  },
+  {
+    "word": "petruchio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "petruchio"
+  },
+  {
+    "word": "phebe",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": "phebe"
+  },
+  {
+    "word": "philario",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "philario"
+  },
+  {
+    "word": "philemon",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "philemon"
+  },
+  {
+    "word": "philip",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "philip"
+  },
+  {
+    "word": "philip the bastard",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "philo",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "philo"
+  },
+  {
+    "word": "philostrate",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "philostrate"
+  },
+  {
+    "word": "philotus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "philotus"
+  },
+  {
+    "word": "phrynia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "phrynia"
+  },
+  {
     "word": "pinch",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1318,6 +6157,86 @@
       "eebo-period-2026"
     ],
     "attested_as": "pinch"
+  },
+  {
+    "word": "pindarus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "pindarus"
+  },
+  {
+    "word": "pisanio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "pisanio"
+  },
+  {
+    "word": "pistol",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "pistol"
+  },
+  {
+    "word": "player king",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "player king"
+  },
+  {
+    "word": "player queen",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "player queen"
+  },
+  {
+    "word": "poet",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "poet"
+  },
+  {
+    "word": "polixenes",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "polixenes"
   },
   {
     "word": "polonius",
@@ -1344,6 +6263,30 @@
     "attested_as": "pompeius"
   },
   {
+    "word": "pompey",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "pompey"
+  },
+  {
+    "word": "popilius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "popilius"
+  },
+  {
     "word": "portia",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1354,6 +6297,17 @@
       "eebo-period-2026"
     ],
     "attested_as": "portia"
+  },
+  {
+    "word": "posthumus leonatus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "posthumus leonatus"
   },
   {
     "word": "priam",
@@ -1368,6 +6322,28 @@
     "attested_as": "priam"
   },
   {
+    "word": "prince edward",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "prince edward"
+  },
+  {
+    "word": "prince escalus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "prince escalus"
+  },
+  {
     "word": "prince henry",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1378,6 +6354,90 @@
       "eebo-period-2026"
     ],
     "attested_as": "prince henry"
+  },
+  {
+    "word": "prince humphrey",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "prince humphrey"
+  },
+  {
+    "word": "prince john",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "prince john"
+  },
+  {
+    "word": "prince of arragon",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "prince of arragon"
+  },
+  {
+    "word": "prince of morocco",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "prince of morocco"
+  },
+  {
+    "word": "prince thomas",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "princes",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "princes"
+  },
+  {
+    "word": "princess of france",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "princess of france"
+  },
+  {
+    "word": "proculeius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "proculeius"
   },
   {
     "word": "prospero",
@@ -1427,12 +6487,125 @@
     "attested_as": "puck"
   },
   {
+    "word": "pursuivant",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "pursuivant"
+  },
+  {
+    "word": "queen",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "queen"
+  },
+  {
     "word": "queen elinor",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
     "status": "legacy-only",
     "attested_in": [],
     "attested_as": null
+  },
+  {
+    "word": "queen elizabeth",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "queen elizabeth"
+  },
+  {
+    "word": "queen isabel",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "queen isabel"
+  },
+  {
+    "word": "queen katharine",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": "queen katharine"
+  },
+  {
+    "word": "queen margaret",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "queen margaret"
+  },
+  {
+    "word": "quince",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "quince"
+  },
+  {
+    "word": "quintus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "quintus"
+  },
+  {
+    "word": "ralph mouldy",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "rambures",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "rambures"
   },
   {
     "word": "regan",
@@ -1446,6 +6619,73 @@
     "attested_as": "regan"
   },
   {
+    "word": "reignier",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "reignier"
+  },
+  {
+    "word": "reynaldo",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "reynaldo"
+  },
+  {
+    "word": "richard iii (duke of gloucester)",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "richard plantagenet (duke of gloucester)",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "richard plantagenet the younger",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "richmond (henry vii)",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "robert shallow",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "robert shallow"
+  },
+  {
     "word": "robin",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1456,6 +6696,40 @@
       "eebo-period-2026"
     ],
     "attested_as": "robin"
+  },
+  {
+    "word": "roderigo",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "roderigo"
+  },
+  {
+    "word": "roman",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "roman"
+  },
+  {
+    "word": "roman captain",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "roman captain"
   },
   {
     "word": "romeo",
@@ -1481,6 +6755,176 @@
     "attested_as": "rosalind"
   },
   {
+    "word": "rosaline",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "rosaline"
+  },
+  {
+    "word": "rosencrantz",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "rosencrantz"
+  },
+  {
+    "word": "ross",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "ross"
+  },
+  {
+    "word": "rugby",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "rugby"
+  },
+  {
+    "word": "rumour",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "rumour"
+  },
+  {
+    "word": "salanio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "salarino",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "salarino"
+  },
+  {
+    "word": "salerio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "salerio"
+  },
+  {
+    "word": "salisbury",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "salisbury"
+  },
+  {
+    "word": "sampson",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "sampson"
+  },
+  {
+    "word": "saturninus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "saturninus"
+  },
+  {
+    "word": "scarus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "scarus"
+  },
+  {
+    "word": "scout",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "scout"
+  },
+  {
+    "word": "scribe",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "scribe"
+  },
+  {
+    "word": "scrivener",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "scrivener"
+  },
+  {
     "word": "sebastian",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1491,6 +6935,155 @@
       "eebo-period-2026"
     ],
     "attested_as": "sebastian"
+  },
+  {
+    "word": "seleucus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "seleucus"
+  },
+  {
+    "word": "sempronius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "sempronius"
+  },
+  {
+    "word": "senator",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "senator"
+  },
+  {
+    "word": "sentinels",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "sentinels"
+  },
+  {
+    "word": "sergeant",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "sergeant"
+  },
+  {
+    "word": "servant 1",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "servant 2",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "servant 3",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "servilius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "servilius"
+  },
+  {
+    "word": "serving-men",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": "serving-men"
+  },
+  {
+    "word": "seventh citizen",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "seventh citizen"
+  },
+  {
+    "word": "several citizens",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "several citizens"
+  },
+  {
+    "word": "sexton",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "sexton"
+  },
+  {
+    "word": "seyton",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "seyton"
   },
   {
     "word": "shallow",
@@ -1505,6 +7098,28 @@
     "attested_as": "shallow"
   },
   {
+    "word": "shepherd",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "shepherd"
+  },
+  {
+    "word": "sheriff of wiltshire",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "sheriff of wiltshire"
+  },
+  {
     "word": "shylock",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1514,6 +7129,447 @@
       "folger-complete-2026"
     ],
     "attested_as": "shylock"
+  },
+  {
+    "word": "sicilius leonatus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "sicilius leonatus"
+  },
+  {
+    "word": "sicinius velutus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "sicinius velutus"
+  },
+  {
+    "word": "silence",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "silence"
+  },
+  {
+    "word": "silius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "silius"
+  },
+  {
+    "word": "silvia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "silvia"
+  },
+  {
+    "word": "silvius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "silvius"
+  },
+  {
+    "word": "simon shadow",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "simon shadow"
+  },
+  {
+    "word": "simonides",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "simonides"
+  },
+  {
+    "word": "simpcox",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "simpcox"
+  },
+  {
+    "word": "simpcox's wife",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "simpcox's wife"
+  },
+  {
+    "word": "simple",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "simple"
+  },
+  {
+    "word": "sir  william glansdale",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "sir andrew aguecheek",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "sir andrew aguecheek"
+  },
+  {
+    "word": "sir anthony denny",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "sir anthony denny"
+  },
+  {
+    "word": "sir henry guildford",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "sir henry guildford"
+  },
+  {
+    "word": "sir hugh evans",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "sir hugh evans"
+  },
+  {
+    "word": "sir humphrey stafford",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "sir humphrey stafford"
+  },
+  {
+    "word": "sir james tyrrel",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "sir james tyrrel"
+  },
+  {
+    "word": "sir john colville",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "sir john fastolfe",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "sir john mortimer",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "sir john mortimer"
+  },
+  {
+    "word": "sir john stanley",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "sir john stanley"
+  },
+  {
+    "word": "sir michael",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "sir michael"
+  },
+  {
+    "word": "sir nathaniel",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "sir nathaniel"
+  },
+  {
+    "word": "sir nicholas vaux",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "sir nicholas vaux"
+  },
+  {
+    "word": "sir oliver martext",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "sir oliver martext"
+  },
+  {
+    "word": "sir pierce of exton",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "sir pierce of exton"
+  },
+  {
+    "word": "sir richard ratcliff",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "sir robert brakenbury",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "sir robert brakenbury"
+  },
+  {
+    "word": "sir stephen scroop",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "sir stephen scroop"
+  },
+  {
+    "word": "sir thomas erpingham",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "sir thomas erpingham"
+  },
+  {
+    "word": "sir thomas gargrave",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "sir thomas gargrave"
+  },
+  {
+    "word": "sir thomas grey",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "sir thomas grey"
+  },
+  {
+    "word": "sir thomas lovell",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "sir thomas lovell"
+  },
+  {
+    "word": "sir thomas vaughan",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "sir thomas vaughan"
+  },
+  {
+    "word": "sir toby belch",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "sir toby belch"
+  },
+  {
+    "word": "sir walter herbert",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "sir walter herbert"
+  },
+  {
+    "word": "sir william catesby",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "sir william catesby"
+  },
+  {
+    "word": "sir william lucy",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "sir william lucy"
+  },
+  {
+    "word": "sir william stanley",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "sir william stanley"
+  },
+  {
+    "word": "siward",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "siward"
+  },
+  {
+    "word": "sixth citizen",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "sixth citizen"
   },
   {
     "word": "slender",
@@ -1528,6 +7584,52 @@
     "attested_as": "slender"
   },
   {
+    "word": "smith the weaver",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "smith the weaver"
+  },
+  {
+    "word": "snare",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "snare"
+  },
+  {
+    "word": "snout",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "snout"
+  },
+  {
+    "word": "snug",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "snug"
+  },
+  {
     "word": "solinus",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1538,6 +7640,64 @@
       "eebo-period-2026"
     ],
     "attested_as": "solinus"
+  },
+  {
+    "word": "some others",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "some others"
+  },
+  {
+    "word": "some speak",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "some speak"
+  },
+  {
+    "word": "son",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "son"
+  },
+  {
+    "word": "speed",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "speed"
+  },
+  {
+    "word": "starveling",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "starveling"
   },
   {
     "word": "stephano",
@@ -1552,6 +7712,53 @@
     "attested_as": "stephano"
   },
   {
+    "word": "strato",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "strato"
+  },
+  {
+    "word": "surveyor",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "surveyor"
+  },
+  {
+    "word": "tamora",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "tamora"
+  },
+  {
+    "word": "taurus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "taurus"
+  },
+  {
     "word": "thaisa",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1561,6 +7768,17 @@
       "folger-complete-2026"
     ],
     "attested_as": "thaisa"
+  },
+  {
+    "word": "thaliard",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "thaliard"
   },
   {
     "word": "the abbot of westminster",
@@ -1629,6 +7847,18 @@
     "attested_as": "the ghost"
   },
   {
+    "word": "thersites",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "thersites"
+  },
+  {
     "word": "theseus",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1639,6 +7869,59 @@
       "eebo-period-2026"
     ],
     "attested_as": "theseus"
+  },
+  {
+    "word": "thieves",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "thieves"
+  },
+  {
+    "word": "thomas horner",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "thomas horner"
+  },
+  {
+    "word": "thomas mowbray",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "thomas mowbray"
+  },
+  {
+    "word": "thomas rotherham",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "thomas rotherham"
+  },
+  {
+    "word": "thomas wart",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "thomas wart"
   },
   {
     "word": "thurio",
@@ -1652,6 +7935,40 @@
     "attested_as": "thurio"
   },
   {
+    "word": "thyreus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": "thyreus"
+  },
+  {
+    "word": "timandra",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "timandra"
+  },
+  {
+    "word": "time",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "time"
+  },
+  {
     "word": "timon",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1662,6 +7979,14 @@
       "eebo-period-2026"
     ],
     "attested_as": "timon"
+  },
+  {
+    "word": "tintinius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
   },
   {
     "word": "titania",
@@ -1687,6 +8012,120 @@
     "attested_as": "titus"
   },
   {
+    "word": "titus andronicus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "titus andronicus"
+  },
+  {
+    "word": "titus lartius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "titus lartius"
+  },
+  {
+    "word": "touchstone",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "touchstone"
+  },
+  {
+    "word": "townsman",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "townsman"
+  },
+  {
+    "word": "tranio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "tranio"
+  },
+  {
+    "word": "travellers",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "travellers"
+  },
+  {
+    "word": "travers",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "travers"
+  },
+  {
+    "word": "trebonius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "trebonius"
+  },
+  {
+    "word": "tribunes",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "tribunes"
+  },
+  {
+    "word": "trinculo",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "trinculo"
+  },
+  {
     "word": "troilus",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1699,6 +8138,36 @@
     "attested_as": "troilus"
   },
   {
+    "word": "tubal",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "tubal"
+  },
+  {
+    "word": "tullus aufidius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "tullus aufidius"
+  },
+  {
+    "word": "tutor of rutland",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
     "word": "tybalt",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1708,6 +8177,16 @@
       "folger-complete-2026"
     ],
     "attested_as": "tybalt"
+  },
+  {
+    "word": "tyrian sailor",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "tyrian sailor"
   },
   {
     "word": "ulysses",
@@ -1722,6 +8201,17 @@
     "attested_as": "ulysses"
   },
   {
+    "word": "ursula",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "ursula"
+  },
+  {
     "word": "valentine",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1734,6 +8224,65 @@
     "attested_as": "valentine"
   },
   {
+    "word": "valeria",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "valeria"
+  },
+  {
+    "word": "varrius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "varrius"
+  },
+  {
+    "word": "varro",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "varro"
+  },
+  {
+    "word": "vaux",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "vaux"
+  },
+  {
+    "word": "ventidius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "ventidius"
+  },
+  {
     "word": "venus",
     "spl_class": "character-name",
     "const": "CHARACTER_NAMES",
@@ -1744,6 +8293,30 @@
       "eebo-period-2026"
     ],
     "attested_as": "venus"
+  },
+  {
+    "word": "verges",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "verges"
+  },
+  {
+    "word": "vernon",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "vernon"
   },
   {
     "word": "vincentio",
@@ -1768,5 +8341,227 @@
       "eebo-period-2026"
     ],
     "attested_as": "viola"
+  },
+  {
+    "word": "virgilia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "virgilia"
+  },
+  {
+    "word": "volsce",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "volsce"
+  },
+  {
+    "word": "voltemand",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "voltemand"
+  },
+  {
+    "word": "volumnia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "volumnia"
+  },
+  {
+    "word": "volumnius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "volumnius"
+  },
+  {
+    "word": "walter whitmore",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "walter whitmore"
+  },
+  {
+    "word": "watch",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "watch"
+  },
+  {
+    "word": "watchman",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "watchman"
+  },
+  {
+    "word": "widow",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "widow"
+  },
+  {
+    "word": "william",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "william"
+  },
+  {
+    "word": "william page",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "william page"
+  },
+  {
+    "word": "william stafford",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "william stafford"
+  },
+  {
+    "word": "williams",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "williams"
+  },
+  {
+    "word": "winchester",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "winchester"
+  },
+  {
+    "word": "woodvile",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": "woodvile"
+  },
+  {
+    "word": "young cato",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "young cato"
+  },
+  {
+    "word": "young clifford",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "young clifford"
+  },
+  {
+    "word": "young coriolanus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "young lucius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "young lucius"
+  },
+  {
+    "word": "young siward",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "young siward"
   }
 ]
