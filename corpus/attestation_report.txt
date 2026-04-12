@@ -1,48 +1,194 @@
-SPL Vocabulary Attestation Report
-Pack: guten-complete-2026
-Source: Project Gutenberg Complete Works of Shakespeare (EBook #100)
-Criterion: lemma present anywhere in Shakespeare's complete works
+SPL Vocabulary & Personae Attestation Report
+Active packs : guten-complete-2026, folger-complete-2026, eebo-period-2026
+Scope        : plays + sonnets + narrative poems; stage directions included
 
-Total words checked : 248
-Attested            : 220  (88.7%)
-Legacy-only         : 28  (11.3%)
+VOCABULARY   248 words   attested 228 (91.9%)   legacy-only 20 (8.1%)
+PERSONAE     153 names   attested 149 (97.4%)   alias 2   legacy-only 2 (1.3%)
+TOTAL        401
 
-── positive-adjective (47 words, 5 legacy-only) ──
-  LEGACY-ONLY  cute
-  LEGACY-ONLY  trustworthy
-  LEGACY-ONLY  cleaner
-  LEGACY-ONLY  clever
-  LEGACY-ONLY  flirtatious
+-- positive-adjective (47 words, 3 legacy-only) --
+  LEGACY-ONLY  trustworthy                attested_in: []
+  LEGACY-ONLY  clever                     attested_in: []
+  LEGACY-ONLY  flirtatious                attested_in: []
 
-── neutral-adjective (20 words, 2 legacy-only) ──
-  LEGACY-ONLY  furry
-  LEGACY-ONLY  normal
+-- neutral-adjective (20 words, 2 legacy-only) --
+  LEGACY-ONLY  furry                      attested_in: []
+  LEGACY-ONLY  normal                     attested_in: []
 
-── negative-adjective (50 words, 9 legacy-only) ──
-  LEGACY-ONLY  disgusting
-  LEGACY-ONLY  half-witted
-  LEGACY-ONLY  oozing
-  LEGACY-ONLY  smelly
-  LEGACY-ONLY  snotty
-  LEGACY-ONLY  disagreeable
-  LEGACY-ONLY  gruesome
-  LEGACY-ONLY  miserly
-  LEGACY-ONLY  squalid
+-- negative-adjective (50 words, 5 legacy-only) --
+  LEGACY-ONLY  disgusting                 attested_in: []
+  LEGACY-ONLY  oozing                     attested_in: []
+  LEGACY-ONLY  smelly                     attested_in: []
+  LEGACY-ONLY  snotty                     attested_in: []
+  LEGACY-ONLY  gruesome                   attested_in: []
 
-── positive-noun (37 words, 3 legacy-only) ──
-  LEGACY-ONLY  pony
-  LEGACY-ONLY  fluffy
-  LEGACY-ONLY  songbird
+-- positive-noun (37 words, 3 legacy-only) --
+  LEGACY-ONLY  pony                       attested_in: []
+  LEGACY-ONLY  fluffy                     attested_in: []
+  LEGACY-ONLY  songbird                   attested_in: []
 
-── neutral-noun (41 words, 4 legacy-only) ──
-  LEGACY-ONLY  chihuahua
-  LEGACY-ONLY  granddaughter
-  LEGACY-ONLY  grandson
-  LEGACY-ONLY  hamster
+-- neutral-noun (41 words, 3 legacy-only) --
+  LEGACY-ONLY  chihuahua                  attested_in: []
+  LEGACY-ONLY  granddaughter              attested_in: []
+  LEGACY-ONLY  hamster                    attested_in: []
 
-── negative-noun (53 words, 5 legacy-only) ──
-  LEGACY-ONLY  flirt-gill
-  LEGACY-ONLY  microsoft
-  LEGACY-ONLY  starvation
-  LEGACY-ONLY  insect
-  LEGACY-ONLY  scoundrel
+-- negative-noun (53 words, 4 legacy-only) --
+  LEGACY-ONLY  flirt-gill                 attested_in: []
+  LEGACY-ONLY  microsoft                  attested_in: []
+  LEGACY-ONLY  starvation                 attested_in: []
+  LEGACY-ONLY  scoundrel                  attested_in: []
+
+-- character-name (153 names) --
+  attested        achilles                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        adonis                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        adriana                              packs: guten-complete-2026, folger-complete-2026
+  attested        aegeon                               packs: eebo-period-2026
+  attested        aemilia                              packs: eebo-period-2026
+  attested        agamemnon                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        agrippa                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        ajax                                 packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        alonso                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        andromache                           packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        angelo                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        antiochus                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        antonio                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        arthur                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        autolycus                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        balthazar                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        banquo                               packs: guten-complete-2026, folger-complete-2026
+  attested        beatrice                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        benedick                             packs: guten-complete-2026, folger-complete-2026
+  attested        benvolio                             packs: guten-complete-2026, folger-complete-2026
+  attested        bianca                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        brabantio                            packs: guten-complete-2026, folger-complete-2026
+  attested        brutus                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        capulet                              packs: guten-complete-2026, folger-complete-2026
+  attested        cassandra                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        cassius                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        christopher sly                      packs: guten-complete-2026, folger-complete-2026
+  attested        cicero                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        claudio                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        claudius                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        cleopatra                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        cordelia                             packs: guten-complete-2026, folger-complete-2026
+  attested        cornelius                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        cressida                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested-alias  cymberline                           -> cymbeline  packs: guten-complete-2026, folger-complete-2026
+  attested        demetrius                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        desdemona                            packs: guten-complete-2026, folger-complete-2026
+  attested        dionyza                              packs: guten-complete-2026, folger-complete-2026
+  attested        doctor caius                         packs: guten-complete-2026, folger-complete-2026
+  attested        dogberry                             packs: guten-complete-2026, folger-complete-2026
+  attested        don john                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        don pedro                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        donalbain                            packs: guten-complete-2026, folger-complete-2026
+  attested        dorcas                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        duncan                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        egeus                                packs: guten-complete-2026, folger-complete-2026
+  attested        emilia                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        escalus                              packs: guten-complete-2026, folger-complete-2026
+  attested        falstaff                             packs: guten-complete-2026, folger-complete-2026
+  attested        fenton                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        ferdinand                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        ford                                 packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        fortinbras                           packs: guten-complete-2026, folger-complete-2026
+  attested        francisca                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        friar john                           packs: guten-complete-2026, folger-complete-2026
+  LEGACY-ONLY     friar laurence
+  attested        gertrude                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        goneril                              packs: guten-complete-2026, folger-complete-2026
+  attested        hamlet                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        hecate                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        hector                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        helen                                packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        helena                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        hermia                               packs: guten-complete-2026, folger-complete-2026
+  attested-alias  hermonie                             -> hermione  packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        hippolyta                            packs: guten-complete-2026, folger-complete-2026
+  attested        horatio                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        imogen                               packs: guten-complete-2026, folger-complete-2026
+  attested        isabella                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        john of gaunt                        packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        john of lancaster                    packs: guten-complete-2026, folger-complete-2026
+  attested        julia                                packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        juliet                               packs: guten-complete-2026, folger-complete-2026
+  attested        julius caesar                        packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        king henry                           packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        king john                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        king lear                            packs: guten-complete-2026, folger-complete-2026
+  attested        king richard                         packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        lady capulet                         packs: guten-complete-2026, folger-complete-2026
+  attested        lady macbeth                         packs: guten-complete-2026, folger-complete-2026
+  attested        lady macduff                         packs: guten-complete-2026, folger-complete-2026
+  attested        lady montague                        packs: guten-complete-2026, folger-complete-2026
+  attested        lennox                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        leonato                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        luciana                              packs: guten-complete-2026, folger-complete-2026
+  attested        lucio                                packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        lychorida                            packs: guten-complete-2026, folger-complete-2026
+  attested        lysander                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        macbeth                              packs: guten-complete-2026, folger-complete-2026
+  attested        macduff                              packs: guten-complete-2026, folger-complete-2026
+  attested        malcolm                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        mariana                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        mark antony                          packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        mercutio                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        miranda                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        mistress ford                        packs: guten-complete-2026, folger-complete-2026
+  attested        mistress overdone                    packs: guten-complete-2026, folger-complete-2026
+  attested        mistress page                        packs: guten-complete-2026, folger-complete-2026
+  attested        montague                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        mopsa                                packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        oberon                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        octavia                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        octavius caesar                      packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        olivia                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        ophelia                              packs: guten-complete-2026, folger-complete-2026
+  attested        orlando                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        orsino                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        othello                              packs: guten-complete-2026, folger-complete-2026
+  attested        page                                 packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        pandarus                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        pantino                              packs: guten-complete-2026, folger-complete-2026
+  attested        paris                                packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        pericles                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        pinch                                packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        polonius                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        pompeius                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        portia                               packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        priam                                packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        prince henry                         packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        prospero                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        proteus                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        publius                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        puck                                 packs: guten-complete-2026, folger-complete-2026
+  LEGACY-ONLY     queen elinor
+  attested        regan                                packs: guten-complete-2026, folger-complete-2026
+  attested        robin                                packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        romeo                                packs: guten-complete-2026, folger-complete-2026
+  attested        rosalind                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        sebastian                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        shallow                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        shylock                              packs: guten-complete-2026, folger-complete-2026
+  attested        slender                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        solinus                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        stephano                             packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        thaisa                               packs: guten-complete-2026, folger-complete-2026
+  attested        the abbot of westminster             packs: guten-complete-2026, eebo-period-2026
+  attested        the apothecary                       packs: guten-complete-2026, eebo-period-2026
+  attested        the archbishop of canterbury         packs: guten-complete-2026, eebo-period-2026
+  attested        the duke of milan                    packs: guten-complete-2026
+  attested        the duke of venice                   packs: guten-complete-2026, eebo-period-2026
+  attested        the ghost                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        theseus                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        thurio                               packs: guten-complete-2026, folger-complete-2026
+  attested        timon                                packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        titania                              packs: guten-complete-2026, folger-complete-2026
+  attested        titus                                packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        troilus                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        tybalt                               packs: guten-complete-2026, folger-complete-2026
+  attested        ulysses                              packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        valentine                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        venus                                packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        vincentio                            packs: guten-complete-2026, folger-complete-2026, eebo-period-2026
+  attested        viola                                packs: guten-complete-2026, folger-complete-2026, eebo-period-2026

@@ -1,0 +1,1772 @@
+[
+  {
+    "word": "achilles",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "achilles"
+  },
+  {
+    "word": "adonis",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "adonis"
+  },
+  {
+    "word": "adriana",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "adriana"
+  },
+  {
+    "word": "aegeon",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": "aegeon"
+  },
+  {
+    "word": "aemilia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": "aemilia"
+  },
+  {
+    "word": "agamemnon",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "agamemnon"
+  },
+  {
+    "word": "agrippa",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "agrippa"
+  },
+  {
+    "word": "ajax",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "ajax"
+  },
+  {
+    "word": "alonso",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "alonso"
+  },
+  {
+    "word": "andromache",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "andromache"
+  },
+  {
+    "word": "angelo",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "angelo"
+  },
+  {
+    "word": "antiochus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "antiochus"
+  },
+  {
+    "word": "antonio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "antonio"
+  },
+  {
+    "word": "arthur",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "arthur"
+  },
+  {
+    "word": "autolycus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "autolycus"
+  },
+  {
+    "word": "balthazar",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "balthazar"
+  },
+  {
+    "word": "banquo",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "banquo"
+  },
+  {
+    "word": "beatrice",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "beatrice"
+  },
+  {
+    "word": "benedick",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "benedick"
+  },
+  {
+    "word": "benvolio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "benvolio"
+  },
+  {
+    "word": "bianca",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "bianca"
+  },
+  {
+    "word": "brabantio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "brabantio"
+  },
+  {
+    "word": "brutus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "brutus"
+  },
+  {
+    "word": "capulet",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "capulet"
+  },
+  {
+    "word": "cassandra",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "cassandra"
+  },
+  {
+    "word": "cassius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "cassius"
+  },
+  {
+    "word": "christopher sly",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "christopher sly"
+  },
+  {
+    "word": "cicero",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "cicero"
+  },
+  {
+    "word": "claudio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "claudio"
+  },
+  {
+    "word": "claudius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "claudius"
+  },
+  {
+    "word": "cleopatra",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "cleopatra"
+  },
+  {
+    "word": "cordelia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "cordelia"
+  },
+  {
+    "word": "cornelius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "cornelius"
+  },
+  {
+    "word": "cressida",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "cressida"
+  },
+  {
+    "word": "cymberline",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested-alias",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "cymbeline"
+  },
+  {
+    "word": "demetrius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "demetrius"
+  },
+  {
+    "word": "desdemona",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "desdemona"
+  },
+  {
+    "word": "dionyza",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "dionyza"
+  },
+  {
+    "word": "doctor caius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "doctor caius"
+  },
+  {
+    "word": "dogberry",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "dogberry"
+  },
+  {
+    "word": "don john",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "don john"
+  },
+  {
+    "word": "don pedro",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "don pedro"
+  },
+  {
+    "word": "donalbain",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "donalbain"
+  },
+  {
+    "word": "dorcas",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "dorcas"
+  },
+  {
+    "word": "duncan",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "duncan"
+  },
+  {
+    "word": "egeus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "egeus"
+  },
+  {
+    "word": "emilia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "emilia"
+  },
+  {
+    "word": "escalus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "escalus"
+  },
+  {
+    "word": "falstaff",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "falstaff"
+  },
+  {
+    "word": "fenton",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "fenton"
+  },
+  {
+    "word": "ferdinand",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "ferdinand"
+  },
+  {
+    "word": "ford",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "ford"
+  },
+  {
+    "word": "fortinbras",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "fortinbras"
+  },
+  {
+    "word": "francisca",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "francisca"
+  },
+  {
+    "word": "friar john",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "friar john"
+  },
+  {
+    "word": "friar laurence",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "gertrude",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "gertrude"
+  },
+  {
+    "word": "goneril",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "goneril"
+  },
+  {
+    "word": "hamlet",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "hamlet"
+  },
+  {
+    "word": "hecate",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "hecate"
+  },
+  {
+    "word": "hector",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "hector"
+  },
+  {
+    "word": "helen",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "helen"
+  },
+  {
+    "word": "helena",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "helena"
+  },
+  {
+    "word": "hermia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "hermia"
+  },
+  {
+    "word": "hermonie",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested-alias",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "hermione"
+  },
+  {
+    "word": "hippolyta",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "hippolyta"
+  },
+  {
+    "word": "horatio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "horatio"
+  },
+  {
+    "word": "imogen",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "imogen"
+  },
+  {
+    "word": "isabella",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "isabella"
+  },
+  {
+    "word": "john of gaunt",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "john of gaunt"
+  },
+  {
+    "word": "john of lancaster",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "john of lancaster"
+  },
+  {
+    "word": "julia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "julia"
+  },
+  {
+    "word": "juliet",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "juliet"
+  },
+  {
+    "word": "julius caesar",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "julius caesar"
+  },
+  {
+    "word": "king henry",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "king henry"
+  },
+  {
+    "word": "king john",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "king john"
+  },
+  {
+    "word": "king lear",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "king lear"
+  },
+  {
+    "word": "king richard",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "king richard"
+  },
+  {
+    "word": "lady capulet",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lady capulet"
+  },
+  {
+    "word": "lady macbeth",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lady macbeth"
+  },
+  {
+    "word": "lady macduff",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lady macduff"
+  },
+  {
+    "word": "lady montague",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lady montague"
+  },
+  {
+    "word": "lennox",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lennox"
+  },
+  {
+    "word": "leonato",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "leonato"
+  },
+  {
+    "word": "luciana",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "luciana"
+  },
+  {
+    "word": "lucio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lucio"
+  },
+  {
+    "word": "lychorida",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "lychorida"
+  },
+  {
+    "word": "lysander",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "lysander"
+  },
+  {
+    "word": "macbeth",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "macbeth"
+  },
+  {
+    "word": "macduff",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "macduff"
+  },
+  {
+    "word": "malcolm",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "malcolm"
+  },
+  {
+    "word": "mariana",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "mariana"
+  },
+  {
+    "word": "mark antony",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "mark antony"
+  },
+  {
+    "word": "mercutio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "mercutio"
+  },
+  {
+    "word": "miranda",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "miranda"
+  },
+  {
+    "word": "mistress ford",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "mistress ford"
+  },
+  {
+    "word": "mistress overdone",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "mistress overdone"
+  },
+  {
+    "word": "mistress page",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "mistress page"
+  },
+  {
+    "word": "montague",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "montague"
+  },
+  {
+    "word": "mopsa",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "mopsa"
+  },
+  {
+    "word": "oberon",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "oberon"
+  },
+  {
+    "word": "octavia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "octavia"
+  },
+  {
+    "word": "octavius caesar",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "octavius caesar"
+  },
+  {
+    "word": "olivia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "olivia"
+  },
+  {
+    "word": "ophelia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "ophelia"
+  },
+  {
+    "word": "orlando",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "orlando"
+  },
+  {
+    "word": "orsino",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "orsino"
+  },
+  {
+    "word": "othello",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "othello"
+  },
+  {
+    "word": "page",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "page"
+  },
+  {
+    "word": "pandarus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "pandarus"
+  },
+  {
+    "word": "pantino",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "pantino"
+  },
+  {
+    "word": "paris",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "paris"
+  },
+  {
+    "word": "pericles",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "pericles"
+  },
+  {
+    "word": "pinch",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "pinch"
+  },
+  {
+    "word": "polonius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "polonius"
+  },
+  {
+    "word": "pompeius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "pompeius"
+  },
+  {
+    "word": "portia",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "portia"
+  },
+  {
+    "word": "priam",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "priam"
+  },
+  {
+    "word": "prince henry",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "prince henry"
+  },
+  {
+    "word": "prospero",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "prospero"
+  },
+  {
+    "word": "proteus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "proteus"
+  },
+  {
+    "word": "publius",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "publius"
+  },
+  {
+    "word": "puck",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "puck"
+  },
+  {
+    "word": "queen elinor",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "regan",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "regan"
+  },
+  {
+    "word": "robin",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "robin"
+  },
+  {
+    "word": "romeo",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "romeo"
+  },
+  {
+    "word": "rosalind",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "rosalind"
+  },
+  {
+    "word": "sebastian",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "sebastian"
+  },
+  {
+    "word": "shallow",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "shallow"
+  },
+  {
+    "word": "shylock",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "shylock"
+  },
+  {
+    "word": "slender",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "slender"
+  },
+  {
+    "word": "solinus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "solinus"
+  },
+  {
+    "word": "stephano",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "stephano"
+  },
+  {
+    "word": "thaisa",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "thaisa"
+  },
+  {
+    "word": "the abbot of westminster",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "the abbot of westminster"
+  },
+  {
+    "word": "the apothecary",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "the apothecary"
+  },
+  {
+    "word": "the archbishop of canterbury",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "the archbishop of canterbury"
+  },
+  {
+    "word": "the duke of milan",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026"
+    ],
+    "attested_as": "the duke of milan"
+  },
+  {
+    "word": "the duke of venice",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "the duke of venice"
+  },
+  {
+    "word": "the ghost",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "the ghost"
+  },
+  {
+    "word": "theseus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "theseus"
+  },
+  {
+    "word": "thurio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "thurio"
+  },
+  {
+    "word": "timon",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "timon"
+  },
+  {
+    "word": "titania",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "titania"
+  },
+  {
+    "word": "titus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "titus"
+  },
+  {
+    "word": "troilus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "troilus"
+  },
+  {
+    "word": "tybalt",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": "tybalt"
+  },
+  {
+    "word": "ulysses",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "ulysses"
+  },
+  {
+    "word": "valentine",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "valentine"
+  },
+  {
+    "word": "venus",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "venus"
+  },
+  {
+    "word": "vincentio",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "vincentio"
+  },
+  {
+    "word": "viola",
+    "spl_class": "character-name",
+    "const": "CHARACTER_NAMES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "viola"
+  }
+]

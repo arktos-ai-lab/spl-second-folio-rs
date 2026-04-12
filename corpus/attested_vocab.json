@@ -1,0 +1,2878 @@
+[
+  {
+    "word": "amazing",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "beautiful",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "blossoming",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "bold",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "brave",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "charming",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "clearest",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "cunning",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "cute",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "delicious",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "embroidered",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "fair",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "fine",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "gentle",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "golden",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "good",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "handsome",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "happy",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "healthy",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "honest",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "lovely",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "loving",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "mighty",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "noble",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "peaceful",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "pretty",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "prompt",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "proud",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "reddest",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "rich",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "smooth",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "sunny",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "sweet",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "sweetest",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "trustworthy",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "warm",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "cleaner",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "clever",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "courageous",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "flirtatious",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "innocent",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "kind",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "meek",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "merry",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "pure",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "wonderful",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "young",
+    "spl_class": "positive-adjective",
+    "const": "POSITIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "big",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "black",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "blue",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "bluest",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "bottomless",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "furry",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "green",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "hard",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "huge",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "large",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "little",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "normal",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "old",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "purple",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "red",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "rural",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "small",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "tiny",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "white",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "yellow",
+    "spl_class": "neutral-adjective",
+    "const": "NEUTRAL_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "bad",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "cowardly",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "cursed",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "damned",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "dirty",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "disgusting",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "distasteful",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "dusty",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "evil",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "fat",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "fat-kidneyed",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "fatherless",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "foul",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "hairy",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "half-witted",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "horrible",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "horrid",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "infected",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "lying",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "miserable",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "misused",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "oozing",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "rotten",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "smelly",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "snotty",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "sorry",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "stinking",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "stuffed",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "stupid",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "vile",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "villainous",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "worried",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "dark",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "disagreeable",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "filthy",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "foolish",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "gruesome",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "imminent",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "lazy",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "lewd",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "miserly",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "odious",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "rude",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "squalid",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "terrible",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "ugly",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "unhappy",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "unkind",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "wicked",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "worthless",
+    "spl_class": "negative-adjective",
+    "const": "NEGATIVE_ADJECTIVES",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "angel",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "flower",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "happiness",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "hero",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "joy",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "kingdom",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "lord",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "plum",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "pony",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "rose",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "Heaven",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "heaven",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "King",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "king",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "heaven",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "king",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "summer's day",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "summer",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "summer",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "best",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "childhood",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "day",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "fluffy",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "friend",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "lover",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "man",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "master",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "miracle",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "owner",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "songbird",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "stone",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "sun",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "sunshine",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "treasure",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "wall",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "wizard",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "woman",
+    "spl_class": "positive-noun",
+    "const": "POSITIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "animal",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "aunt",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "brother",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "cat",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "chihuahua",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "cousin",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "cow",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "daughter",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "door",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "face",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "father",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "fellow",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "granddaughter",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "grandfather",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "grandmother",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "grandson",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "folger-complete-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "hair",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "hamster",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "horse",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "lamp",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "lantern",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "mistletoe",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "moon",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "morning",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "mother",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "nephew",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "niece",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "nose",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "purse",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "road",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "roman",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "sister",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "sky",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "son",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "squirrel",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "stone wall",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "thing",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "town",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "tree",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "uncle",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "wind",
+    "spl_class": "neutral-noun",
+    "const": "NEUTRAL_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "bastard",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "beggar",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "blister",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "codpiece",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "coward",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "curse",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "death",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "devil",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "draught",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "famine",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "flirt-gill",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "goat",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "hate",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "hell",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "hog",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "hound",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "leech",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "lie",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "microsoft",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "pig",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "plague",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "starvation",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "toad",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "war",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "wolf",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "answer",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "criminal",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "dog",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "drunkard",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "dunghill",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "evil",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "fat",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "festering",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "flirt",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "fool",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "gorgon",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "hag",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "hatred",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "insect",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "louse",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "lying",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "mistrust",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "misuse",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "noise",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "pox",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "rascal",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "scoundrel",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "legacy-only",
+    "attested_in": [],
+    "attested_as": null
+  },
+  {
+    "word": "sieve",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "spite",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "traitor",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "villain",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "witch",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  },
+  {
+    "word": "worm",
+    "spl_class": "negative-noun",
+    "const": "NEGATIVE_NOUNS",
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": null
+  }
+]

@@ -2,1737 +2,3610 @@
   {
     "word": "amazing",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "beautiful",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "blossoming",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "bold",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "brave",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "charming",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "clearest",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "cunning",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "cute",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "delicious",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "embroidered",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "fair",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "fine",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "gentle",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "golden",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "good",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "handsome",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "happy",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "healthy",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "honest",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "lovely",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "loving",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "mighty",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "noble",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "peaceful",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "pretty",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "prompt",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "proud",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "reddest",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "rich",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "smooth",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "sunny",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "sweet",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "sweetest",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "trustworthy",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "warm",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "cleaner",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "clever",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "courageous",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "flirtatious",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "innocent",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "kind",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "meek",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "merry",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "pure",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "wonderful",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "young",
     "spl_class": "positive-adjective",
+    "category": "vocabulary",
     "const": "POSITIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "big",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "black",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "blue",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "bluest",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "bottomless",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "furry",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "green",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "hard",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "huge",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "large",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "little",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "normal",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "old",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "purple",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "red",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "rural",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "small",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "tiny",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "white",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "yellow",
     "spl_class": "neutral-adjective",
+    "category": "vocabulary",
     "const": "NEUTRAL_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "bad",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "cowardly",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "cursed",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "damned",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "dirty",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "disgusting",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "distasteful",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "dusty",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "evil",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "fat",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "fat-kidneyed",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "fatherless",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "foul",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "hairy",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "half-witted",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "horrible",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "horrid",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "infected",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "lying",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "miserable",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "misused",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "oozing",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "rotten",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "smelly",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "snotty",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "sorry",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "stinking",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "stuffed",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "stupid",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "vile",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "villainous",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "worried",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "dark",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "disagreeable",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "filthy",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "foolish",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "gruesome",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "imminent",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "lazy",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "lewd",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "miserly",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "odious",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "rude",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "squalid",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "terrible",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "ugly",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "unhappy",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "unkind",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "wicked",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "worthless",
     "spl_class": "negative-adjective",
+    "category": "vocabulary",
     "const": "NEGATIVE_ADJECTIVES",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "angel",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "flower",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "happiness",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "hero",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "joy",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "kingdom",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "lord",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "plum",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "pony",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "rose",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "Heaven",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "heaven",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "King",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "king",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "heaven",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "king",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "summer's day",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "summer",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "summer",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "best",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "childhood",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "day",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "fluffy",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "friend",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "lover",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "man",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "master",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "miracle",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "owner",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "songbird",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "stone",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "sun",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "sunshine",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "treasure",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "wall",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "wizard",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "woman",
     "spl_class": "positive-noun",
+    "category": "vocabulary",
     "const": "POSITIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "animal",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "aunt",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "brother",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "cat",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "chihuahua",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "cousin",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "cow",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "daughter",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "door",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "face",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "father",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "fellow",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "granddaughter",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "grandfather",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "grandmother",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "grandson",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "hair",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "hamster",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "horse",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "lamp",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "lantern",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "mistletoe",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "moon",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "morning",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "mother",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "nephew",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "niece",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "nose",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "purse",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "road",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "roman",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "sister",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "sky",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "son",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "squirrel",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "stone wall",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "thing",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "town",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "tree",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "uncle",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "wind",
     "spl_class": "neutral-noun",
+    "category": "vocabulary",
     "const": "NEUTRAL_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "bastard",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "beggar",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "blister",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "codpiece",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "coward",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "curse",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "death",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "devil",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "draught",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "famine",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "flirt-gill",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "goat",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "hate",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "hell",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "hog",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "hound",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "leech",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "lie",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "microsoft",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "pig",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "plague",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "starvation",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "toad",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "war",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "wolf",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "answer",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "criminal",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "dog",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "drunkard",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "dunghill",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "evil",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "fat",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "festering",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "flirt",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "fool",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "gorgon",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "hag",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "hatred",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "insect",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "louse",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "lying",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "mistrust",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "misuse",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "noise",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "pox",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "rascal",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "scoundrel",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "legacy-only"
+    "status": "legacy-only",
+    "attested_as": null
   },
   {
     "word": "sieve",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "spite",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "traitor",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "villain",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "witch",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
   },
   {
     "word": "worm",
     "spl_class": "negative-noun",
+    "category": "vocabulary",
     "const": "NEGATIVE_NOUNS",
     "pack": "guten-complete-2026",
-    "status": "attested"
+    "status": "attested",
+    "attested_as": null
+  },
+  {
+    "word": "achilles",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "achilles"
+  },
+  {
+    "word": "adonis",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "adonis"
+  },
+  {
+    "word": "adriana",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "adriana"
+  },
+  {
+    "word": "aegeon",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only",
+    "attested_as": null
+  },
+  {
+    "word": "aemilia",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only",
+    "attested_as": null
+  },
+  {
+    "word": "agamemnon",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "agamemnon"
+  },
+  {
+    "word": "agrippa",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "agrippa"
+  },
+  {
+    "word": "ajax",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "ajax"
+  },
+  {
+    "word": "alonso",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "alonso"
+  },
+  {
+    "word": "andromache",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "andromache"
+  },
+  {
+    "word": "angelo",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "angelo"
+  },
+  {
+    "word": "antiochus",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "antiochus"
+  },
+  {
+    "word": "antonio",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "antonio"
+  },
+  {
+    "word": "arthur",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "arthur"
+  },
+  {
+    "word": "autolycus",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "autolycus"
+  },
+  {
+    "word": "balthazar",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "balthazar"
+  },
+  {
+    "word": "banquo",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "banquo"
+  },
+  {
+    "word": "beatrice",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "beatrice"
+  },
+  {
+    "word": "benedick",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "benedick"
+  },
+  {
+    "word": "benvolio",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "benvolio"
+  },
+  {
+    "word": "bianca",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "bianca"
+  },
+  {
+    "word": "brabantio",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "brabantio"
+  },
+  {
+    "word": "brutus",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "brutus"
+  },
+  {
+    "word": "capulet",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "capulet"
+  },
+  {
+    "word": "cassandra",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "cassandra"
+  },
+  {
+    "word": "cassius",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "cassius"
+  },
+  {
+    "word": "christopher sly",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "christopher sly"
+  },
+  {
+    "word": "cicero",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "cicero"
+  },
+  {
+    "word": "claudio",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "claudio"
+  },
+  {
+    "word": "claudius",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "claudius"
+  },
+  {
+    "word": "cleopatra",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "cleopatra"
+  },
+  {
+    "word": "cordelia",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "cordelia"
+  },
+  {
+    "word": "cornelius",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "cornelius"
+  },
+  {
+    "word": "cressida",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "cressida"
+  },
+  {
+    "word": "cymberline",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested-alias",
+    "attested_as": "cymbeline"
+  },
+  {
+    "word": "demetrius",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "demetrius"
+  },
+  {
+    "word": "desdemona",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "desdemona"
+  },
+  {
+    "word": "dionyza",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "dionyza"
+  },
+  {
+    "word": "doctor caius",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "doctor caius"
+  },
+  {
+    "word": "dogberry",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "dogberry"
+  },
+  {
+    "word": "don john",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "don john"
+  },
+  {
+    "word": "don pedro",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "don pedro"
+  },
+  {
+    "word": "donalbain",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "donalbain"
+  },
+  {
+    "word": "dorcas",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "dorcas"
+  },
+  {
+    "word": "duncan",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "duncan"
+  },
+  {
+    "word": "egeus",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "egeus"
+  },
+  {
+    "word": "emilia",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "emilia"
+  },
+  {
+    "word": "escalus",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "escalus"
+  },
+  {
+    "word": "falstaff",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "falstaff"
+  },
+  {
+    "word": "fenton",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "fenton"
+  },
+  {
+    "word": "ferdinand",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "ferdinand"
+  },
+  {
+    "word": "ford",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "ford"
+  },
+  {
+    "word": "fortinbras",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "fortinbras"
+  },
+  {
+    "word": "francisca",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "francisca"
+  },
+  {
+    "word": "friar john",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "friar john"
+  },
+  {
+    "word": "friar laurence",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only",
+    "attested_as": null
+  },
+  {
+    "word": "gertrude",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "gertrude"
+  },
+  {
+    "word": "goneril",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "goneril"
+  },
+  {
+    "word": "hamlet",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "hamlet"
+  },
+  {
+    "word": "hecate",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "hecate"
+  },
+  {
+    "word": "hector",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "hector"
+  },
+  {
+    "word": "helen",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "helen"
+  },
+  {
+    "word": "helena",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "helena"
+  },
+  {
+    "word": "hermia",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "hermia"
+  },
+  {
+    "word": "hermonie",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested-alias",
+    "attested_as": "hermione"
+  },
+  {
+    "word": "hippolyta",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "hippolyta"
+  },
+  {
+    "word": "horatio",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "horatio"
+  },
+  {
+    "word": "imogen",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "imogen"
+  },
+  {
+    "word": "isabella",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "isabella"
+  },
+  {
+    "word": "john of gaunt",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "john of gaunt"
+  },
+  {
+    "word": "john of lancaster",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "john of lancaster"
+  },
+  {
+    "word": "julia",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "julia"
+  },
+  {
+    "word": "juliet",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "juliet"
+  },
+  {
+    "word": "julius caesar",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "julius caesar"
+  },
+  {
+    "word": "king henry",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "king henry"
+  },
+  {
+    "word": "king john",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "king john"
+  },
+  {
+    "word": "king lear",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "king lear"
+  },
+  {
+    "word": "king richard",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "king richard"
+  },
+  {
+    "word": "lady capulet",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "lady capulet"
+  },
+  {
+    "word": "lady macbeth",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "lady macbeth"
+  },
+  {
+    "word": "lady macduff",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "lady macduff"
+  },
+  {
+    "word": "lady montague",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "lady montague"
+  },
+  {
+    "word": "lennox",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "lennox"
+  },
+  {
+    "word": "leonato",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "leonato"
+  },
+  {
+    "word": "luciana",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "luciana"
+  },
+  {
+    "word": "lucio",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "lucio"
+  },
+  {
+    "word": "lychorida",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "lychorida"
+  },
+  {
+    "word": "lysander",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "lysander"
+  },
+  {
+    "word": "macbeth",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "macbeth"
+  },
+  {
+    "word": "macduff",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "macduff"
+  },
+  {
+    "word": "malcolm",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "malcolm"
+  },
+  {
+    "word": "mariana",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "mariana"
+  },
+  {
+    "word": "mark antony",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "mark antony"
+  },
+  {
+    "word": "mercutio",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "mercutio"
+  },
+  {
+    "word": "miranda",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "miranda"
+  },
+  {
+    "word": "mistress ford",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "mistress ford"
+  },
+  {
+    "word": "mistress overdone",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "mistress overdone"
+  },
+  {
+    "word": "mistress page",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "mistress page"
+  },
+  {
+    "word": "montague",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "montague"
+  },
+  {
+    "word": "mopsa",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "mopsa"
+  },
+  {
+    "word": "oberon",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "oberon"
+  },
+  {
+    "word": "octavia",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "octavia"
+  },
+  {
+    "word": "octavius caesar",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "octavius caesar"
+  },
+  {
+    "word": "olivia",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "olivia"
+  },
+  {
+    "word": "ophelia",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "ophelia"
+  },
+  {
+    "word": "orlando",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "orlando"
+  },
+  {
+    "word": "orsino",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "orsino"
+  },
+  {
+    "word": "othello",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "othello"
+  },
+  {
+    "word": "page",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "page"
+  },
+  {
+    "word": "pandarus",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "pandarus"
+  },
+  {
+    "word": "pantino",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "pantino"
+  },
+  {
+    "word": "paris",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "paris"
+  },
+  {
+    "word": "pericles",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "pericles"
+  },
+  {
+    "word": "pinch",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "pinch"
+  },
+  {
+    "word": "polonius",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "polonius"
+  },
+  {
+    "word": "pompeius",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "pompeius"
+  },
+  {
+    "word": "portia",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "portia"
+  },
+  {
+    "word": "priam",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "priam"
+  },
+  {
+    "word": "prince henry",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "prince henry"
+  },
+  {
+    "word": "prospero",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "prospero"
+  },
+  {
+    "word": "proteus",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "proteus"
+  },
+  {
+    "word": "publius",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "publius"
+  },
+  {
+    "word": "puck",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "puck"
+  },
+  {
+    "word": "queen elinor",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "legacy-only",
+    "attested_as": null
+  },
+  {
+    "word": "regan",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "regan"
+  },
+  {
+    "word": "robin",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "robin"
+  },
+  {
+    "word": "romeo",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "romeo"
+  },
+  {
+    "word": "rosalind",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "rosalind"
+  },
+  {
+    "word": "sebastian",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "sebastian"
+  },
+  {
+    "word": "shallow",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "shallow"
+  },
+  {
+    "word": "shylock",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "shylock"
+  },
+  {
+    "word": "slender",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "slender"
+  },
+  {
+    "word": "solinus",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "solinus"
+  },
+  {
+    "word": "stephano",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "stephano"
+  },
+  {
+    "word": "thaisa",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "thaisa"
+  },
+  {
+    "word": "the abbot of westminster",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "the abbot of westminster"
+  },
+  {
+    "word": "the apothecary",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "the apothecary"
+  },
+  {
+    "word": "the archbishop of canterbury",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "the archbishop of canterbury"
+  },
+  {
+    "word": "the duke of milan",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "the duke of milan"
+  },
+  {
+    "word": "the duke of venice",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "the duke of venice"
+  },
+  {
+    "word": "the ghost",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "the ghost"
+  },
+  {
+    "word": "theseus",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "theseus"
+  },
+  {
+    "word": "thurio",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "thurio"
+  },
+  {
+    "word": "timon",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "timon"
+  },
+  {
+    "word": "titania",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "titania"
+  },
+  {
+    "word": "titus",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "titus"
+  },
+  {
+    "word": "troilus",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "troilus"
+  },
+  {
+    "word": "tybalt",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "tybalt"
+  },
+  {
+    "word": "ulysses",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "ulysses"
+  },
+  {
+    "word": "valentine",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "valentine"
+  },
+  {
+    "word": "venus",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "venus"
+  },
+  {
+    "word": "vincentio",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "vincentio"
+  },
+  {
+    "word": "viola",
+    "spl_class": "character-name",
+    "category": "personae",
+    "const": "CHARACTER_NAMES",
+    "pack": "guten-complete-2026",
+    "status": "attested",
+    "attested_as": "viola"
   }
 ]
