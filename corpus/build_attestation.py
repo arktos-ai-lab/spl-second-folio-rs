@@ -35,6 +35,7 @@ import zipfile
 import io
 import pathlib
 import random
+import unicodedata
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -53,9 +54,23 @@ OUT_REPORT = HERE / "attestation_report.txt"
 # Known typos in SPL 1.2.1 spec, preserved for backward compat
 # ---------------------------------------------------------------------------
 
+# Maps SPL name (as stored in vocab.rs) → correct spelling to look up in corpus.
+# Used for: original spec typos preserved for backward compat, and OSS spelling
+# variants that differ from the forms used in the canonical play texts.
 NAME_TYPOS = {
-    "cymberline": "cymbeline",
-    "hermonie":   "hermione",
+    # Original SPL 1.2.1 spec typos — preserved verbatim for backward compat
+    "cymberline":       "cymbeline",
+    "hermonie":         "hermione",
+    # OSS spelling differs from corpus text
+    "friar laurence":   "friar lawrence",      # corpus: Lawrence
+    "domitius enobarus":"enobarbus",            # corpus: Enobarbus
+    "tintinius":        "titinius",             # corpus: Titinius
+    "queen elinor":     "eleanor",             # corpus: Eleanor
+    "launcelot gobbo":  "lancelet gobbo",       # corpus: Lancelet (Early Modern spelling)
+    "salanio":          "solanio",              # Merchant of Venice variant
+    "lymoges":          "limoges",              # King John: Duke of Austria/Limoges
+    "king lewis xi":    "lewis",               # corpus: Lewis (without regnal number)
+    "grandpre":         "grandpre",             # accent stripped by normalize(); same token
 }
 
 # ---------------------------------------------------------------------------
@@ -90,7 +105,11 @@ def strip_xml_tags(text: str) -> str:
 
 def normalize(text: str) -> str:
     text = text.lower()
+    # Normalize apostrophes/quotes to ASCII
     text = text.replace("\u2019", "'").replace("\u2018", "'").replace("\u02bc", "'")
+    # Strip diacritics (e.g. grandpré → grandpre, so accent variants match)
+    text = unicodedata.normalize("NFD", text)
+    text = "".join(c for c in text if unicodedata.category(c) != "Mn")
     return text
 
 # ---------------------------------------------------------------------------
