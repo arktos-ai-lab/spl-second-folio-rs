@@ -460,6 +460,10 @@ pub enum ParseMode {
     /// provided they do not begin with a reserved operational head and do not
     /// contain an incomplete executable skeleton (Rules O2–O5).
     F2,
+    /// SPL-F1 (Faithful): all SPL-F2 extensions plus attestation checking.
+    /// Legacy-only vocabulary words and character names generate warnings stored
+    /// in `Play::warnings`. Parsing semantics are identical to F2.
+    F1,
 }
 
 /// Returns true if the normalised first token(s) of `rs` constitute a
@@ -623,7 +627,7 @@ fn parse_sentence_mode(tokens: &[&str], line: usize, char_names: &[String], mode
     //   O2: reserved operational head → always an error
     //   O4: incomplete executable skeleton → always an error
     //   O5: anything else → accept as ornament in F2 mode
-    if mode == ParseMode::F2 {
+    if matches!(mode, ParseMode::F2 | ParseMode::F1) {
         if has_reserved_head(&rs) {
             return Err(SplError::parse(
                 line,
@@ -778,6 +782,46 @@ pub fn parse_play_f2(source: &str) -> Result<Play> {
     parse_play_mode(source, ParseMode::F2)
 }
 
+/// Parse a play in SPL-F1 (Faithful) mode: all SPL-F2 extensions apply, plus
+/// attestation checking. Legacy-only vocabulary words and character names are
+/// flagged in `Play::warnings`; they do not cause parse errors.
+pub fn parse_play_f1(source: &str) -> Result<Play> {
+    parse_play_mode(source, ParseMode::F1)
+}
+
+/// Scan `source` and `declared_chars` for legacy-only (unattested) items.
+/// Returns one warning string per unique offending word/name, deduplicated.
+fn attestation_warnings(source: &str, declared_chars: &[crate::ast::CharacterDecl]) -> Vec<String> {
+    use crate::vocab::{is_legacy_only_vocab, is_legacy_only_character};
+    use std::collections::HashSet;
+    let mut seen: HashSet<String> = HashSet::new();
+    let mut warnings: Vec<String> = Vec::new();
+
+    for c in declared_chars {
+        if is_legacy_only_character(&c.name) && seen.insert(c.name.clone()) {
+            warnings.push(format!(
+                "character '{}' is legacy-only (not attested in folger-complete-2026)",
+                c.name
+            ));
+        }
+    }
+
+    for raw in source.split_whitespace() {
+        // Preserve internal hyphens (e.g. "half-witted", "flirt-gill").
+        let word: String = raw
+            .trim_matches(|c: char| !c.is_alphanumeric() && c != '-')
+            .to_lowercase();
+        if !word.is_empty() && is_legacy_only_vocab(&word) && seen.insert(word.clone()) {
+            warnings.push(format!(
+                "word '{}' is legacy-only (not attested in folger-complete-2026)",
+                word
+            ));
+        }
+    }
+
+    warnings
+}
+
 pub fn parse_play_mode(source: &str, mode: ParseMode) -> Result<Play> {
     let mut lines: Vec<&str> = source.lines().collect();
     let mut line_no = 0usize;
@@ -923,14 +967,28 @@ pub fn parse_play_mode(source: &str, mode: ParseMode) -> Result<Play> {
             continue;
         }
 
-        // Dialogue header: "CharacterName:" (possibly followed by text on same line)
-        // Check if line ends with ":"
+        // Dialogue header: "CharacterName [annotation]:" sets the current speaker.
+        // In F2/F1 mode, also parses staging annotations (to / aside / aside to / solus).
         if l.ends_with(':') {
-            let name_part = l.trim_end_matches(':').trim();
-            if let Some(canonical) = as_character_name(name_part) {
+            let header = if matches!(mode, ParseMode::F2 | ParseMode::F1) {
+                parse_speech_header_f2(l)
+            } else {
+                let name_part = l.trim_end_matches(':').trim();
+                as_character_name(name_part)
+                    .map(|n| (n.to_string(), SpeechMode::Normal))
+            };
+
+            if let Some((canonical, speech_mode)) = header {
                 flush_pending(&mut pending_dialogue, &current_speaker, pending_line, &mut ops, &char_names);
                 pending_dialogue.clear();
-                current_speaker = canonical.to_string();
+                if matches!(mode, ParseMode::F2 | ParseMode::F1) {
+                    ops.push(FlatOp {
+                        speaker: canonical.clone(),
+                        op: Op::BeginSpeech(speech_mode),
+                        line: line_no,
+                    });
+                }
+                current_speaker = canonical;
                 continue;
             }
         }
@@ -953,12 +1011,19 @@ pub fn parse_play_mode(source: &str, mode: ParseMode) -> Result<Play> {
     // Flush any remaining dialogue at end of file.
     flush_pending(&mut pending_dialogue, &current_speaker, pending_line, &mut ops, &char_names);
 
-    Ok(Play {
+    let mut play = Play {
         title,
         characters,
         ops,
         scene_index,
-    })
+        warnings: Vec::new(),
+    };
+
+    if mode == ParseMode::F1 {
+        play.warnings = attestation_warnings(source, &play.characters);
+    }
+
+    Ok(play)
 }
 
 /// Split a line into sentences at ., !, ? boundaries.
@@ -982,6 +1047,66 @@ fn split_sentences(s: &str) -> Vec<&str> {
         result.push(tail);
     }
     result
+}
+
+// ---------------------------------------------------------------------------
+// SPL-F2 speech header parser
+// ---------------------------------------------------------------------------
+
+/// Parse a dialogue header line in F2 mode, recognising staging annotations.
+///
+/// Returns `Some((canonical_speaker, SpeechMode))` on success, `None` if the
+/// line does not contain a recognised character name.
+///
+/// Recognised forms (case-insensitive, line must end with `:`):
+/// ```text
+/// Hamlet:                      →  Normal
+/// Hamlet to Ophelia:           →  To("ophelia")
+/// Hamlet aside:                →  Aside
+/// Hamlet aside to Ophelia:     →  AsideTo("ophelia")
+/// Hamlet solus:                →  Solus
+/// ```
+fn parse_speech_header_f2(line: &str) -> Option<(String, SpeechMode)> {
+    let s = line.trim_end_matches(':').trim().to_lowercase();
+
+    // "NAME aside to NAME2" — must check before plain " to " to avoid ambiguity
+    if let Some(pos) = s.find(" aside to ") {
+        let sp_part   = &s[..pos];
+        let addr_part = &s[pos + " aside to ".len()..];
+        if let (Some(sp), Some(addr)) =
+            (as_character_name(sp_part), as_character_name(addr_part))
+        {
+            return Some((sp.to_string(), SpeechMode::AsideTo(addr.to_string())));
+        }
+    }
+
+    // "NAME to NAME2"
+    if let Some(pos) = s.find(" to ") {
+        let sp_part   = &s[..pos];
+        let addr_part = &s[pos + " to ".len()..];
+        if let (Some(sp), Some(addr)) =
+            (as_character_name(sp_part), as_character_name(addr_part))
+        {
+            return Some((sp.to_string(), SpeechMode::To(addr.to_string())));
+        }
+    }
+
+    // "NAME aside"
+    if let Some(sp_part) = s.strip_suffix(" aside") {
+        if let Some(sp) = as_character_name(sp_part) {
+            return Some((sp.to_string(), SpeechMode::Aside));
+        }
+    }
+
+    // "NAME solus"
+    if let Some(sp_part) = s.strip_suffix(" solus") {
+        if let Some(sp) = as_character_name(sp_part) {
+            return Some((sp.to_string(), SpeechMode::Solus));
+        }
+    }
+
+    // Plain "NAME" (SPL 1.0 form, Normal mode)
+    as_character_name(&s).map(|sp| (sp.to_string(), SpeechMode::Normal))
 }
 
 #[cfg(test)]

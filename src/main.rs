@@ -6,7 +6,7 @@ use anyhow::{Context, Result};
 use clap::{Parser, Subcommand};
 
 use spl::interpreter::Interpreter;
-use spl::parser::{parse_play, parse_play_f2};
+use spl::parser::{parse_play, parse_play_f1, parse_play_f2};
 
 #[derive(Parser)]
 #[command(
@@ -32,6 +32,9 @@ enum Command {
         /// Parse in SPL-F2 mode: ornamental (non-operational) sentences are no-ops
         #[arg(long)]
         f2: bool,
+        /// Parse in SPL-F1 (Faithful) mode: F2 extensions plus attestation warnings
+        #[arg(long)]
+        f1: bool,
     },
     /// Parse a file and print the AST (for debugging)
     Parse {
@@ -39,6 +42,9 @@ enum Command {
         /// Parse in SPL-F2 mode
         #[arg(long)]
         f2: bool,
+        /// Parse in SPL-F1 (Faithful) mode: F2 extensions plus attestation warnings
+        #[arg(long)]
+        f1: bool,
     },
     /// Check that a file parses without errors
     Check {
@@ -46,6 +52,9 @@ enum Command {
         /// Parse in SPL-F2 mode
         #[arg(long)]
         f2: bool,
+        /// Parse in SPL-F1 (Faithful) mode: F2 extensions plus attestation warnings
+        #[arg(long)]
+        f1: bool,
     },
     /// Start the web playground on localhost:PORT (default 3000)
     Serve {
@@ -58,11 +67,18 @@ fn main() -> Result<()> {
     let cli = Cli::parse();
 
     match cli.command {
-        Command::Run { file, trace, f2 } => {
+        Command::Run { file, trace, f2, f1 } => {
             let source = fs::read_to_string(&file)
                 .with_context(|| format!("reading {:?}", file))?;
-            let play = if f2 { parse_play_f2(&source) } else { parse_play(&source) }
+            let play = if f1 { parse_play_f1(&source) }
+                       else if f2 { parse_play_f2(&source) }
+                       else { parse_play(&source) }
                 .with_context(|| format!("parsing {:?}", file))?;
+            if !play.warnings.is_empty() {
+                for w in &play.warnings {
+                    eprintln!("[F1 warn] {}", w);
+                }
+            }
             let stdin  = io::stdin();
             let stdout = io::stdout();
             let mut interp = Interpreter::new(
@@ -75,11 +91,17 @@ fn main() -> Result<()> {
             interp.run().with_context(|| format!("running {:?}", file))?;
         }
 
-        Command::Parse { file, f2 } => {
+        Command::Parse { file, f2, f1 } => {
             let source = fs::read_to_string(&file)
                 .with_context(|| format!("reading {:?}", file))?;
-            let play = if f2 { parse_play_f2(&source) } else { parse_play(&source) }
+            let play = if f1 { parse_play_f1(&source) }
+                       else if f2 { parse_play_f2(&source) }
+                       else { parse_play(&source) }
                 .with_context(|| format!("parsing {:?}", file))?;
+            if !play.warnings.is_empty() {
+                eprintln!("[F1] {} attestation warning(s):", play.warnings.len());
+                for w in &play.warnings { eprintln!("  {}", w); }
+            }
             println!("Title:      {}", play.title);
             println!("Characters: {}", play.characters.len());
             for c in &play.characters {
@@ -98,15 +120,23 @@ fn main() -> Result<()> {
             }
         }
 
-        Command::Check { file, f2 } => {
+        Command::Check { file, f2, f1 } => {
             let source = fs::read_to_string(&file)
                 .with_context(|| format!("reading {:?}", file))?;
-            let parse_result = if f2 { parse_play_f2(&source) } else { parse_play(&source) };
+            let parse_result = if f1 { parse_play_f1(&source) }
+                               else if f2 { parse_play_f2(&source) }
+                               else { parse_play(&source) };
             match parse_result {
-                Ok(play) => println!(
-                    "OK — {} characters, {} operations, {} scenes",
-                    play.characters.len(), play.ops.len(), play.scene_index.len(),
-                ),
+                Ok(play) => {
+                    println!(
+                        "OK — {} characters, {} operations, {} scenes",
+                        play.characters.len(), play.ops.len(), play.scene_index.len(),
+                    );
+                    if !play.warnings.is_empty() {
+                        eprintln!("[F1] {} attestation warning(s):", play.warnings.len());
+                        for w in &play.warnings { eprintln!("  {}", w); }
+                    }
+                }
                 Err(e) => {
                     eprintln!("Parse error: {}", e);
                     std::process::exit(1);
@@ -146,7 +176,7 @@ mod serve {
     use serde::{Deserialize, Serialize};
     use std::io;
 
-    use spl::{interpreter::Interpreter, parser::parse_play};
+    use spl::{interpreter::Interpreter, parser::{parse_play, parse_play_f1, parse_play_f2}};
 
     #[derive(Deserialize)]
     struct RunRequest {
@@ -162,6 +192,12 @@ mod serve {
         /// Used for programs that read to EOF (e.g. reverse.spl) rather than interactive ones.
         #[serde(default)]
         send_eof: bool,
+        /// Parse in SPL-F2 mode: ornamental sentences are accepted as no-ops.
+        #[serde(default)]
+        f2: bool,
+        /// Parse in SPL-F1 (Faithful) mode: F2 extensions plus attestation warnings.
+        #[serde(default)]
+        f1: bool,
     }
 
     #[derive(Serialize)]
@@ -220,12 +256,22 @@ mod serve {
         }
 
         // ── Parse phase ───────────────────────────────────────────────────────
-        let play = match parse_play(&req.source) {
+        let parse_result = if req.f1 { parse_play_f1(&req.source) }
+                           else if req.f2 { parse_play_f2(&req.source) }
+                           else { parse_play(&req.source) };
+        let play = match parse_result {
             Ok(p) => {
+                let mode_tag = if req.f1 { "F1" } else if req.f2 { "F2" } else { "Classic" };
                 logs.push(format!(
-                    "[parse]  OK  —  {} characters,  {} operations,  {} scenes",
+                    "[parse]  OK  ({mode_tag})  —  {} characters,  {} operations,  {} scenes",
                     p.characters.len(), p.ops.len(), p.scene_index.len()
                 ));
+                if !p.warnings.is_empty() {
+                    logs.push(format!("[f1]     {} attestation warning(s):", p.warnings.len()));
+                    for w in &p.warnings {
+                        logs.push(format!("[f1]       {}", w));
+                    }
+                }
                 p
             }
             Err(e) => {
@@ -394,6 +440,7 @@ mod serve {
   .log-line-trace  { color: #606888; }
   .log-line-trunc  { color: #806040; font-style: italic; }
   .log-line-memory { color: #8878a8; }
+  .log-line-f1     { color: #c8a040; }
   /* Controls bar */
   .controls { background: #252018; border-top: 1px solid #3a3020; padding: 8px 12px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; flex-shrink: 0; }
   .lbl { color: #888; font-size: 0.78rem; font-family: monospace; white-space: nowrap; }
@@ -461,6 +508,8 @@ mod serve {
   <input id="stdin" type="text" placeholder="leave blank if program needs no input">
   <button class="tog" id="ascii-btn" onclick="toggleAscii()" title="SPL programs that use 'Speak your mind!' output raw numbers. This decodes them as ASCII characters.">ASCII decode: off</button>
   <button class="tog" id="trace-btn" onclick="toggleTrace()" title="Log every operation as it executes. Slow for large programs.">Trace: off</button>
+  <button class="tog" id="f2-btn" onclick="toggleF2()" title="SPL-F2 mode: ornamental (non-operational) sentences are accepted as no-ops.">F2: off</button>
+  <button class="tog" id="f1-btn" onclick="toggleF1()" title="SPL-F1 (Faithful) mode: F2 extensions plus warnings for legacy-only (unattested) vocabulary.">F1: off</button>
   <button onclick="runSPL()">&#9654; Run</button>
   <span class="status" id="status"></span>
 </div>
@@ -469,6 +518,8 @@ mod serve {
 // ── State ─────────────────────────────────────────────────────────────────────
 let asciiOn        = false;
 let traceOn        = false;
+let f2On           = false;
+let f1On           = false;
 let logOpen        = true;
 let lastRaw        = '';
 // Interactive session state
@@ -535,6 +586,34 @@ function toggleTrace() {
   btn.className = traceOn ? 'tog on' : 'tog';
 }
 
+function toggleF2() {
+  f2On = !f2On;
+  if (f2On && f1On) { f1On = false; syncF1Btn(); }
+  const btn = document.getElementById('f2-btn');
+  btn.textContent = f2On ? 'F2: on' : 'F2: off';
+  btn.className = f2On ? 'tog on' : 'tog';
+}
+
+function toggleF1() {
+  f1On = !f1On;
+  if (f1On && f2On) { f2On = false; syncF2Btn(); }
+  const btn = document.getElementById('f1-btn');
+  btn.textContent = f1On ? 'F1: on' : 'F1: off';
+  btn.className = f1On ? 'tog on' : 'tog';
+}
+
+function syncF2Btn() {
+  const btn = document.getElementById('f2-btn');
+  btn.textContent = f2On ? 'F2: on' : 'F2: off';
+  btn.className = f2On ? 'tog on' : 'tog';
+}
+
+function syncF1Btn() {
+  const btn = document.getElementById('f1-btn');
+  btn.textContent = f1On ? 'F1: on' : 'F1: off';
+  btn.className = f1On ? 'tog on' : 'tog';
+}
+
 function showOutput(raw) {
   lastRaw = raw;
   const outEl = document.getElementById('output');
@@ -570,6 +649,7 @@ function renderLogs(logs) {
     else if (line.startsWith('[run]'))    span.className = 'log-line-run';
     else if (line.startsWith('[trace]'))  span.className = 'log-line-trace';
     else if (line.startsWith('[memory]')) span.className = 'log-line-memory';
+    else if (line.startsWith('[f1]'))     span.className = 'log-line-f1';
     else if (line.includes('truncated')) span.className = 'log-line-trunc';
     span.textContent = line;
     body.appendChild(span);
@@ -659,7 +739,7 @@ async function doRun(source, stdin, outputOffset, sendEof = false) {
     const resp = await fetch('/run', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ source, stdin, trace: traceOn, output_offset: outputOffset, send_eof: sendEof }),
+      body: JSON.stringify({ source, stdin, trace: traceOn, output_offset: outputOffset, send_eof: sendEof, f2: f2On, f1: f1On }),
     });
     const data = await resp.json();
     const ms = (performance.now() - t0).toFixed(0);

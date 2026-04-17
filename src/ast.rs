@@ -86,6 +86,26 @@ pub enum Cond {
 }
 
 // ---------------------------------------------------------------------------
+// Speech mode (SPL-F2 staging extension)
+// ---------------------------------------------------------------------------
+
+/// Describes how a dialogue block is staged in SPL-F2.
+/// Emitted as `Op::BeginSpeech` at each dialogue header when parsing in F2 mode.
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub enum SpeechMode {
+    /// SPL 1.0 default: implicit second person — requires exactly 2 on stage.
+    Normal,
+    /// `CHAR to ADDRESSEE:` — explicit addressee binding; any stage count allowed.
+    To(String),
+    /// `CHAR aside:` — aside block; second-person operations forbidden.
+    Aside,
+    /// `CHAR aside to ADDRESSEE:` — directed aside; computationally binds addressee.
+    AsideTo(String),
+    /// `CHAR solus:` — speaker must be alone on stage; second-person ops forbidden.
+    Solus,
+}
+
+// ---------------------------------------------------------------------------
 // Operations (flattened — speaker is tracked separately)
 // ---------------------------------------------------------------------------
 
@@ -124,6 +144,11 @@ pub enum Op {
     /// does not begin with a reserved operational head and contains no
     /// incomplete executable skeleton (Rules O2–O5 from the F2 spec).
     Ornament,
+
+    /// SPL-F2 staging marker: emitted once per dialogue header in F2 mode.
+    /// Updates the interpreter's speech mode and validates staging constraints
+    /// (solus stage count, explicit addressee on stage) at block entry.
+    BeginSpeech(SpeechMode),
 }
 
 // ---------------------------------------------------------------------------
@@ -156,4 +181,6 @@ pub struct Play {
     pub ops: Vec<FlatOp>,
     /// Map of (act, scene) -> index into ops for Goto resolution.
     pub scene_index: std::collections::HashMap<(u32, u32), usize>,
+    /// Attestation warnings produced by F1-profile parsing. Empty in Classic/F2 mode.
+    pub warnings: Vec<String>,
 }

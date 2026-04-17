@@ -9,7 +9,11 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 2,
+    "plays": [
+      "R2"
+    ]
   },
   {
     "word": "beautiful",
@@ -21,7 +25,22 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 33,
+    "plays": [
+      "1H6",
+      "Cym",
+      "LLL",
+      "MND",
+      "MV",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim"
+    ]
   },
   {
     "word": "blossoming",
@@ -33,7 +52,12 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 4,
+    "plays": [
+      "Ant",
+      "MM"
+    ]
   },
   {
     "word": "bold",
@@ -45,7 +69,49 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 311,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Cor",
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "brave",
@@ -57,7 +123,45 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 350,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT"
+    ]
   },
   {
     "word": "charming",
@@ -69,7 +173,15 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 12,
+    "plays": [
+      "1H4",
+      "1H6",
+      "Cym",
+      "H5",
+      "Tit"
+    ]
   },
   {
     "word": "clearest",
@@ -81,7 +193,11 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 2,
+    "plays": [
+      "Lr"
+    ]
   },
   {
     "word": "cunning",
@@ -93,7 +209,44 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 162,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "AWW",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven"
+    ]
   },
   {
     "word": "cute",
@@ -103,7 +256,9 @@
     "attested_in": [
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "delicious",
@@ -115,7 +270,14 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 8,
+    "plays": [
+      "Ant",
+      "Luc",
+      "Shr",
+      "Tit"
+    ]
   },
   {
     "word": "embroidered",
@@ -127,7 +289,11 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 3,
+    "plays": [
+      "3H6"
+    ]
   },
   {
     "word": "fair",
@@ -139,7 +305,52 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1777,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "fine",
@@ -151,7 +362,42 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 211,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "AWW",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Oth",
+      "Per",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "gentle",
@@ -163,7 +409,51 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 803,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "golden",
@@ -175,7 +465,46 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 212,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MND",
+      "MV",
+      "Mac",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "good",
@@ -187,7 +516,51 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 5930,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "handsome",
@@ -199,7 +572,22 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 40,
+    "plays": [
+      "2H4",
+      "AWW",
+      "Ado",
+      "Ant",
+      "H8",
+      "Ham",
+      "Oth",
+      "Per",
+      "R3",
+      "Rom",
+      "TNK",
+      "Wiv"
+    ]
   },
   {
     "word": "happy",
@@ -211,7 +599,50 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 435,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "healthy",
@@ -223,7 +654,12 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 4,
+    "plays": [
+      "2H4",
+      "MM"
+    ]
   },
   {
     "word": "honest",
@@ -235,7 +671,52 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 658,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "lovely",
@@ -247,7 +728,30 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 113,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H6",
+      "3H6",
+      "Ado",
+      "H5",
+      "H8",
+      "Jn",
+      "LLL",
+      "MM",
+      "MND",
+      "MV",
+      "Oth",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "Tit",
+      "Ven"
+    ]
   },
   {
     "word": "loving",
@@ -259,7 +763,46 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 262,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT"
+    ]
   },
   {
     "word": "mighty",
@@ -271,7 +814,41 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 235,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ant",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MND",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Shr",
+      "TGV",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "noble",
@@ -283,7 +860,48 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1350,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT"
+    ]
   },
   {
     "word": "peaceful",
@@ -295,7 +913,19 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 28,
+    "plays": [
+      "1H6",
+      "2H6",
+      "3H6",
+      "H5",
+      "Jn",
+      "Per",
+      "R2",
+      "Tro",
+      "Ven"
+    ]
   },
   {
     "word": "pretty",
@@ -307,7 +937,46 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 274,
+    "plays": [
+      "1H4",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "Ham",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "prompt",
@@ -319,7 +988,21 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 25,
+    "plays": [
+      "2H4",
+      "Ant",
+      "Cor",
+      "H5",
+      "Oth",
+      "Rom",
+      "TN",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro"
+    ]
   },
   {
     "word": "proud",
@@ -331,7 +1014,48 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 471,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven"
+    ]
   },
   {
     "word": "reddest",
@@ -343,7 +1067,11 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 2,
+    "plays": [
+      "MV"
+    ]
   },
   {
     "word": "rich",
@@ -355,7 +1083,49 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 372,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "smooth",
@@ -367,7 +1137,33 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 89,
+    "plays": [
+      "1H4",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AYL",
+      "Ant",
+      "H5",
+      "Ham",
+      "Jn",
+      "LLL",
+      "Lr",
+      "MND",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "TN",
+      "Tim",
+      "Tit",
+      "Tro",
+      "Ven"
+    ]
   },
   {
     "word": "sunny",
@@ -379,7 +1175,13 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 6,
+    "plays": [
+      "Err",
+      "MND",
+      "MV"
+    ]
   },
   {
     "word": "sweet",
@@ -391,7 +1193,51 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1741,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "sweetest",
@@ -403,7 +1249,27 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 54,
+    "plays": [
+      "2H4",
+      "2H6",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cym",
+      "H8",
+      "LLL",
+      "MND",
+      "MV",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Son",
+      "TGV"
+    ]
   },
   {
     "word": "trustworthy",
@@ -411,7 +1277,9 @@
     "const": "POSITIVE_ADJECTIVES",
     "status": "legacy-only",
     "attested_in": [],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "warm",
@@ -423,7 +1291,35 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 97,
+    "plays": [
+      "1H4",
+      "2H6",
+      "3H6",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Err",
+      "H5",
+      "Jn",
+      "Lr",
+      "MM",
+      "MV",
+      "Oth",
+      "Per",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT"
+    ]
   },
   {
     "word": "cleaner",
@@ -433,15 +1329,21 @@
     "attested_in": [
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "clever",
     "spl_class": "positive-adjective",
     "const": "POSITIVE_ADJECTIVES",
-    "status": "legacy-only",
-    "attested_in": [],
-    "attested_as": null
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "courageous",
@@ -453,7 +1355,21 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 24,
+    "plays": [
+      "1H6",
+      "2H4",
+      "AYL",
+      "Ant",
+      "Luc",
+      "MND",
+      "MV",
+      "R3",
+      "Rom",
+      "TNK",
+      "Wiv"
+    ]
   },
   {
     "word": "flirtatious",
@@ -461,7 +1377,9 @@
     "const": "POSITIVE_ADJECTIVES",
     "status": "legacy-only",
     "attested_in": [],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "innocent",
@@ -473,7 +1391,31 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 116,
+    "plays": [
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cym",
+      "H8",
+      "Ham",
+      "Jn",
+      "Lr",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "TNK",
+      "Tit",
+      "Tmp",
+      "WT"
+    ]
   },
   {
     "word": "kind",
@@ -485,7 +1427,51 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 676,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "meek",
@@ -497,7 +1483,18 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 16,
+    "plays": [
+      "3H6",
+      "Ant",
+      "Err",
+      "H8",
+      "JC",
+      "Luc",
+      "Mac",
+      "Tim"
+    ]
   },
   {
     "word": "merry",
@@ -509,7 +1506,48 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 365,
+    "plays": [
+      "1H4",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "pure",
@@ -521,7 +1559,47 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 195,
+    "plays": [
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT"
+    ]
   },
   {
     "word": "wonderful",
@@ -533,7 +1611,23 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 48,
+    "plays": [
+      "2H4",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cym",
+      "H5",
+      "Ham",
+      "JC",
+      "Jn",
+      "R3",
+      "Shr",
+      "TN",
+      "Wiv"
+    ]
   },
   {
     "word": "young",
@@ -545,7 +1639,50 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1052,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "big",
@@ -557,7 +1694,38 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 93,
+    "plays": [
+      "1H4",
+      "2H4",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "JC",
+      "LLL",
+      "Lr",
+      "MM",
+      "MND",
+      "MV",
+      "Oth",
+      "R2",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "Tim",
+      "Tit",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "black",
@@ -569,7 +1737,49 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 403,
+    "plays": [
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "blue",
@@ -581,7 +1791,31 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 65,
+    "plays": [
+      "1H4",
+      "1H6",
+      "AYL",
+      "Ant",
+      "Cym",
+      "Err",
+      "Ham",
+      "JC",
+      "LLL",
+      "Luc",
+      "Oth",
+      "R3",
+      "Shr",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "bluest",
@@ -592,7 +1826,11 @@
       "guten-complete-2026",
       "folger-complete-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 2,
+    "plays": [
+      "Ant"
+    ]
   },
   {
     "word": "bottomless",
@@ -604,15 +1842,25 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 6,
+    "plays": [
+      "AYL",
+      "Luc",
+      "Tit"
+    ]
   },
   {
     "word": "furry",
     "spl_class": "neutral-adjective",
     "const": "NEUTRAL_ADJECTIVES",
-    "status": "legacy-only",
-    "attested_in": [],
-    "attested_as": null
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "green",
@@ -624,7 +1872,41 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 255,
+    "plays": [
+      "1H4",
+      "2H4",
+      "2H6",
+      "AYL",
+      "Ado",
+      "Ant",
+      "H5",
+      "Ham",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "hard",
@@ -636,7 +1918,52 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 449,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "huge",
@@ -648,7 +1975,30 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 79,
+    "plays": [
+      "1H4",
+      "2H4",
+      "AYL",
+      "Ant",
+      "Err",
+      "H5",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MV",
+      "Oth",
+      "Per",
+      "Rom",
+      "Son",
+      "TGV",
+      "Tim",
+      "Tmp"
+    ]
   },
   {
     "word": "large",
@@ -660,7 +2010,44 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 158,
+    "plays": [
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R2",
+      "Rom",
+      "Son",
+      "TGV",
+      "TNK",
+      "Tim",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "little",
@@ -672,15 +2059,63 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1059,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "normal",
     "spl_class": "neutral-adjective",
     "const": "NEUTRAL_ADJECTIVES",
-    "status": "legacy-only",
-    "attested_in": [],
-    "attested_as": null
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "old",
@@ -692,7 +2127,52 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1543,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "purple",
@@ -704,7 +2184,23 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 42,
+    "plays": [
+      "1H4",
+      "3H6",
+      "Ant",
+      "Luc",
+      "MND",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Son",
+      "TNK",
+      "Ven",
+      "Wiv"
+    ]
   },
   {
     "word": "red",
@@ -716,7 +2212,44 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 266,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Cor",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Per",
+      "R2",
+      "R3",
+      "Shr",
+      "Son",
+      "TN",
+      "TNK",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "rural",
@@ -728,7 +2261,12 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 4,
+    "plays": [
+      "Ant",
+      "WT"
+    ]
   },
   {
     "word": "small",
@@ -740,7 +2278,44 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 201,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AYL",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MND",
+      "MV",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tro",
+      "Ven",
+      "Wiv"
+    ]
   },
   {
     "word": "tiny",
@@ -752,7 +2327,13 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 8,
+    "plays": [
+      "2H4",
+      "Lr",
+      "TN"
+    ]
   },
   {
     "word": "white",
@@ -764,7 +2345,49 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 407,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "yellow",
@@ -776,7 +2399,25 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 60,
+    "plays": [
+      "2H4",
+      "Cym",
+      "H8",
+      "LLL",
+      "MND",
+      "Mac",
+      "Rom",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tmp",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "bad",
@@ -788,7 +2429,49 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 269,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT"
+    ]
   },
   {
     "word": "cowardly",
@@ -800,7 +2483,21 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 34,
+    "plays": [
+      "1H4",
+      "1H6",
+      "Ant",
+      "Cor",
+      "H5",
+      "JC",
+      "Lr",
+      "MND",
+      "R3",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "cursed",
@@ -812,7 +2509,33 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 102,
+    "plays": [
+      "1H6",
+      "2H6",
+      "Cym",
+      "Ham",
+      "JC",
+      "Jn",
+      "Lr",
+      "Luc",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "damned",
@@ -824,7 +2547,41 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 187,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "AWW",
+      "AYL",
+      "Cym",
+      "Err",
+      "H5",
+      "Ham",
+      "JC",
+      "Jn",
+      "Lr",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "TN",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "dirty",
@@ -836,15 +2593,29 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 17,
+    "plays": [
+      "2H4",
+      "Cym",
+      "H5",
+      "Ham",
+      "MND",
+      "TN",
+      "Wiv"
+    ]
   },
   {
     "word": "disgusting",
     "spl_class": "negative-adjective",
     "const": "NEGATIVE_ADJECTIVES",
-    "status": "legacy-only",
-    "attested_in": [],
-    "attested_as": null
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "distasteful",
@@ -856,7 +2627,11 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 2,
+    "plays": [
+      "Tim"
+    ]
   },
   {
     "word": "dusty",
@@ -868,7 +2643,13 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 6,
+    "plays": [
+      "Mac",
+      "TNK",
+      "Tro"
+    ]
   },
   {
     "word": "evil",
@@ -880,7 +2661,38 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 145,
+    "plays": [
+      "2H6",
+      "3H6",
+      "AWW",
+      "Ado",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R3",
+      "Son",
+      "TN",
+      "TNK",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "fat",
@@ -892,7 +2704,33 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 156,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "AYL",
+      "Ant",
+      "Err",
+      "H5",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Luc",
+      "MND",
+      "MV",
+      "R3",
+      "Shr",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tit",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "fat-kidneyed",
@@ -903,7 +2741,11 @@
       "guten-complete-2026",
       "folger-complete-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 2,
+    "plays": [
+      "1H4"
+    ]
   },
   {
     "word": "fatherless",
@@ -915,7 +2757,12 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 4,
+    "plays": [
+      "Mac",
+      "R3"
+    ]
   },
   {
     "word": "foul",
@@ -927,7 +2774,50 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 532,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "hairy",
@@ -939,7 +2829,15 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 12,
+    "plays": [
+      "AYL",
+      "Err",
+      "MND",
+      "Ven",
+      "WT"
+    ]
   },
   {
     "word": "half-witted",
@@ -949,7 +2847,9 @@
     "attested_in": [
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "horrible",
@@ -961,7 +2861,25 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 50,
+    "plays": [
+      "1H4",
+      "2H6",
+      "Ant",
+      "H8",
+      "Ham",
+      "Jn",
+      "Lr",
+      "MM",
+      "Mac",
+      "Oth",
+      "Rom",
+      "TN",
+      "Tim",
+      "Tmp",
+      "WT"
+    ]
   },
   {
     "word": "horrid",
@@ -973,7 +2891,20 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 33,
+    "plays": [
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Lr",
+      "Mac",
+      "TN",
+      "TNK",
+      "Tim"
+    ]
   },
   {
     "word": "infected",
@@ -985,7 +2916,25 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 42,
+    "plays": [
+      "2H4",
+      "AYL",
+      "Cor",
+      "H5",
+      "Ham",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Mac",
+      "Per",
+      "R3",
+      "Shr",
+      "Tim",
+      "Tmp",
+      "WT"
+    ]
   },
   {
     "word": "lying",
@@ -997,7 +2946,32 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 62,
+    "plays": [
+      "1H4",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "Ado",
+      "Cor",
+      "Cym",
+      "Ham",
+      "JC",
+      "Lr",
+      "MM",
+      "MND",
+      "MV",
+      "Per",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "Tmp",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "miserable",
@@ -1009,7 +2983,29 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 72,
+    "plays": [
+      "2H6",
+      "3H6",
+      "AYL",
+      "Ant",
+      "Cym",
+      "H5",
+      "Lr",
+      "MM",
+      "MND",
+      "Mac",
+      "Oth",
+      "R3",
+      "Rom",
+      "TGV",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "WT"
+    ]
   },
   {
     "word": "misused",
@@ -1021,15 +3017,34 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 10,
+    "plays": [
+      "1H4",
+      "AYL",
+      "Ado",
+      "R3"
+    ]
   },
   {
     "word": "oozing",
     "spl_class": "negative-adjective",
     "const": "NEGATIVE_ADJECTIVES",
-    "status": "legacy-only",
-    "attested_in": [],
-    "attested_as": null
+    "status": "attested",
+    "attested_in": [
+      "guten-complete-2026",
+      "folger-complete-2026",
+      "eebo-period-2026"
+    ],
+    "attested_as": "ooze",
+    "frequency": 12,
+    "plays": [
+      "Ant",
+      "Cym",
+      "H5",
+      "Per",
+      "Tmp"
+    ]
   },
   {
     "word": "rotten",
@@ -1041,23 +3056,62 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 86,
+    "plays": [
+      "1H4",
+      "2H4",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "H5",
+      "Ham",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MV",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TNK",
+      "Tim",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "smelly",
     "spl_class": "negative-adjective",
     "const": "NEGATIVE_ADJECTIVES",
-    "status": "legacy-only",
-    "attested_in": [],
-    "attested_as": null
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "snotty",
     "spl_class": "negative-adjective",
     "const": "NEGATIVE_ADJECTIVES",
-    "status": "legacy-only",
-    "attested_in": [],
-    "attested_as": null
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "sorry",
@@ -1069,7 +3123,45 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 197,
+    "plays": [
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MV",
+      "Mac",
+      "Oth",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "stinking",
@@ -1081,7 +3173,19 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 22,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H6",
+      "Cor",
+      "Cym",
+      "JC",
+      "Lr",
+      "Tmp",
+      "Wiv"
+    ]
   },
   {
     "word": "stuffed",
@@ -1093,7 +3197,23 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 28,
+    "plays": [
+      "1H4",
+      "2H4",
+      "Ado",
+      "Cor",
+      "Jn",
+      "Mac",
+      "Oth",
+      "Per",
+      "Rom",
+      "Shr",
+      "TGV",
+      "Ven",
+      "WT"
+    ]
   },
   {
     "word": "stupid",
@@ -1105,7 +3225,11 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 2,
+    "plays": [
+      "WT"
+    ]
   },
   {
     "word": "vile",
@@ -1117,7 +3241,48 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 252,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "villainous",
@@ -1129,7 +3294,22 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 49,
+    "plays": [
+      "1H4",
+      "AWW",
+      "AYL",
+      "Cym",
+      "Ham",
+      "Lr",
+      "MM",
+      "Oth",
+      "Rom",
+      "Tim",
+      "Tmp",
+      "Wiv"
+    ]
   },
   {
     "word": "worried",
@@ -1141,7 +3321,11 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 2,
+    "plays": [
+      "H5"
+    ]
   },
   {
     "word": "dark",
@@ -1153,7 +3337,42 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 189,
+    "plays": [
+      "1H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "Ham",
+      "JC",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "R2",
+      "R3",
+      "Rom",
+      "Son",
+      "TN",
+      "TNK",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "Wiv"
+    ]
   },
   {
     "word": "disagreeable",
@@ -1163,7 +3382,9 @@
     "attested_in": [
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "filthy",
@@ -1175,7 +3396,22 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 41,
+    "plays": [
+      "1H4",
+      "2H4",
+      "AWW",
+      "H5",
+      "Lr",
+      "MM",
+      "Mac",
+      "Oth",
+      "Shr",
+      "Tim",
+      "Tmp",
+      "Tro"
+    ]
   },
   {
     "word": "foolish",
@@ -1187,7 +3423,48 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 203,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "gruesome",
@@ -1195,7 +3472,9 @@
     "const": "NEGATIVE_ADJECTIVES",
     "status": "legacy-only",
     "attested_in": [],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "imminent",
@@ -1207,7 +3486,16 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 14,
+    "plays": [
+      "2H6",
+      "Ham",
+      "JC",
+      "Jn",
+      "Oth",
+      "Tro"
+    ]
   },
   {
     "word": "lazy",
@@ -1219,7 +3507,20 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 26,
+    "plays": [
+      "3H6",
+      "AYL",
+      "H5",
+      "H8",
+      "MND",
+      "Rom",
+      "TNK",
+      "Tmp",
+      "Tro",
+      "Ven"
+    ]
   },
   {
     "word": "lewd",
@@ -1231,7 +3532,22 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 28,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "Ado",
+      "Luc",
+      "MM",
+      "MV",
+      "Oth",
+      "R2",
+      "R3",
+      "Shr",
+      "WT"
+    ]
   },
   {
     "word": "miserly",
@@ -1241,7 +3557,9 @@
     "attested_in": [
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "odious",
@@ -1253,7 +3571,20 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 20,
+    "plays": [
+      "2H4",
+      "2H6",
+      "AWW",
+      "AYL",
+      "H8",
+      "MND",
+      "Oth",
+      "Per",
+      "Tmp",
+      "Wiv"
+    ]
   },
   {
     "word": "rude",
@@ -1265,7 +3596,39 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 155,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "AWW",
+      "AYL",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Oth",
+      "R2",
+      "R3",
+      "Rom",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tit",
+      "Tro"
+    ]
   },
   {
     "word": "squalid",
@@ -1275,7 +3638,9 @@
     "attested_in": [
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "terrible",
@@ -1287,7 +3652,30 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 56,
+    "plays": [
+      "1H6",
+      "2H4",
+      "2H6",
+      "AWW",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "H5",
+      "H8",
+      "JC",
+      "Lr",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "TN",
+      "Tim",
+      "Tmp"
+    ]
   },
   {
     "word": "ugly",
@@ -1299,7 +3687,30 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 60,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "AYL",
+      "Ant",
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "Jn",
+      "Lr",
+      "Luc",
+      "MND",
+      "MV",
+      "Oth",
+      "R3",
+      "Son",
+      "Tim",
+      "Tro",
+      "Ven"
+    ]
   },
   {
     "word": "unhappy",
@@ -1311,7 +3722,34 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 84,
+    "plays": [
+      "1H4",
+      "2H6",
+      "AWW",
+      "AYL",
+      "Ant",
+      "Cym",
+      "Err",
+      "H8",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MV",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tit",
+      "WT"
+    ]
   },
   {
     "word": "unkind",
@@ -1323,7 +3761,31 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 60,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H6",
+      "AYL",
+      "Err",
+      "Ham",
+      "Jn",
+      "Lr",
+      "MND",
+      "MV",
+      "Oth",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tro",
+      "Ven"
+    ]
   },
   {
     "word": "wicked",
@@ -1335,7 +3797,36 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 140,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "AWW",
+      "AYL",
+      "Cym",
+      "Ham",
+      "Jn",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "worthless",
@@ -1347,7 +3838,21 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 36,
+    "plays": [
+      "1H6",
+      "2H6",
+      "3H6",
+      "H5",
+      "JC",
+      "Luc",
+      "MV",
+      "Shr",
+      "Son",
+      "TGV",
+      "Tit"
+    ]
   },
   {
     "word": "angel",
@@ -1359,7 +3864,38 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 124,
+    "plays": [
+      "1H4",
+      "2H4",
+      "AWW",
+      "Ado",
+      "Ant",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TNK",
+      "WT"
+    ]
   },
   {
     "word": "flower",
@@ -1371,7 +3907,36 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 147,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ant",
+      "Cor",
+      "Cym",
+      "H5",
+      "LLL",
+      "Luc",
+      "MM",
+      "MND",
+      "Mac",
+      "Per",
+      "R2",
+      "Rom",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "happiness",
@@ -1383,7 +3948,37 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 128,
+    "plays": [
+      "1H6",
+      "2H4",
+      "2H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "Jn",
+      "LLL",
+      "Luc",
+      "MM",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "TGV",
+      "TNK",
+      "Tim",
+      "Tit"
+    ]
   },
   {
     "word": "hero",
@@ -1395,7 +3990,15 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 266,
+    "plays": [
+      "1H6",
+      "AYL",
+      "Ado",
+      "Rom",
+      "TGV"
+    ]
   },
   {
     "word": "joy",
@@ -1407,7 +4010,49 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 434,
+    "plays": [
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "kingdom",
@@ -1419,7 +4064,35 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 219,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "Ant",
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "Lr",
+      "Luc",
+      "MND",
+      "MV",
+      "Mac",
+      "Per",
+      "R2",
+      "R3",
+      "Son",
+      "TNK",
+      "Tit",
+      "Tmp",
+      "WT"
+    ]
   },
   {
     "word": "lord",
@@ -1431,7 +4104,50 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 6362,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "plum",
@@ -1443,15 +4159,27 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 13,
+    "plays": [
+      "2H6",
+      "Ham",
+      "Jn",
+      "TNK",
+      "Ven"
+    ]
   },
   {
     "word": "pony",
     "spl_class": "positive-noun",
     "const": "POSITIVE_NOUNS",
-    "status": "legacy-only",
-    "attested_in": [],
-    "attested_as": null
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "rose",
@@ -1463,7 +4191,37 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 244,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Luc",
+      "MND",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TNK",
+      "Tim",
+      "Tro",
+      "Ven"
+    ]
   },
   {
     "word": "Heaven",
@@ -1475,7 +4233,51 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1403,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "heaven",
@@ -1487,7 +4289,51 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1403,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "King",
@@ -1499,7 +4345,52 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 6332,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "king",
@@ -1511,7 +4402,52 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 6332,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "heaven",
@@ -1523,7 +4459,51 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1403,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "king",
@@ -1535,7 +4515,52 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 6332,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "summer's day",
@@ -1547,7 +4572,24 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 64,
+    "plays": [
+      "1H4",
+      "2H6",
+      "3H6",
+      "Cym",
+      "H5",
+      "JC",
+      "MND",
+      "Mac",
+      "R2",
+      "Rom",
+      "Son",
+      "Tit",
+      "Ven",
+      "WT"
+    ]
   },
   {
     "word": "summer",
@@ -1559,7 +4601,44 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 191,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "Ado",
+      "Cor",
+      "Cym",
+      "H5",
+      "H8",
+      "JC",
+      "Jn",
+      "LLL",
+      "Luc",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "summer",
@@ -1571,7 +4650,44 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 191,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "Ado",
+      "Cor",
+      "Cym",
+      "H5",
+      "H8",
+      "JC",
+      "Jn",
+      "LLL",
+      "Luc",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "best",
@@ -1583,7 +4699,52 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1025,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "childhood",
@@ -1595,7 +4756,15 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 12,
+    "plays": [
+      "Lr",
+      "MND",
+      "MV",
+      "Mac",
+      "Rom"
+    ]
   },
   {
     "word": "day",
@@ -1607,7 +4776,51 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1700,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "fluffy",
@@ -1615,7 +4828,9 @@
     "const": "POSITIVE_NOUNS",
     "status": "legacy-only",
     "attested_in": [],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "friend",
@@ -1627,7 +4842,51 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1123,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "lover",
@@ -1639,7 +4898,37 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 152,
+    "plays": [
+      "1H4",
+      "2H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "LLL",
+      "MM",
+      "MND",
+      "MV",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tro",
+      "Ven"
+    ]
   },
   {
     "word": "man",
@@ -1651,7 +4940,51 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 4282,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "master",
@@ -1663,7 +4996,50 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1750,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "miracle",
@@ -1675,7 +5051,27 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 55,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "Ado",
+      "Cym",
+      "Err",
+      "Jn",
+      "Lr",
+      "MV",
+      "Per",
+      "Son",
+      "TN",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "owner",
@@ -1687,7 +5083,24 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 35,
+    "plays": [
+      "1H4",
+      "2H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Err",
+      "Ham",
+      "Jn",
+      "Luc",
+      "MND",
+      "Per",
+      "Son",
+      "TNK",
+      "Wiv"
+    ]
   },
   {
     "word": "songbird",
@@ -1695,7 +5108,9 @@
     "const": "POSITIVE_NOUNS",
     "status": "legacy-only",
     "attested_in": [],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "stone",
@@ -1707,7 +5122,43 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 142,
+    "plays": [
+      "2H4",
+      "2H6",
+      "AWW",
+      "AYL",
+      "Ant",
+      "Cor",
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "sun",
@@ -1719,7 +5170,51 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 543,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "sunshine",
@@ -1731,7 +5226,17 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 18,
+    "plays": [
+      "2H4",
+      "3H6",
+      "AWW",
+      "LLL",
+      "Lr",
+      "R2",
+      "Ven"
+    ]
   },
   {
     "word": "treasure",
@@ -1743,7 +5248,38 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 130,
+    "plays": [
+      "2H6",
+      "3H6",
+      "AWW",
+      "Ant",
+      "Cor",
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Luc",
+      "MV",
+      "Mac",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Ven",
+      "WT"
+    ]
   },
   {
     "word": "wall",
@@ -1755,7 +5291,32 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 150,
+    "plays": [
+      "1H6",
+      "2H6",
+      "3H6",
+      "Cor",
+      "H5",
+      "Ham",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "R2",
+      "Rom",
+      "TGV",
+      "TN",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT"
+    ]
   },
   {
     "word": "wizard",
@@ -1767,7 +5328,13 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 6,
+    "plays": [
+      "2H6",
+      "Err",
+      "R3"
+    ]
   },
   {
     "word": "woman",
@@ -1779,7 +5346,51 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 921,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "animal",
@@ -1791,7 +5402,13 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 6,
+    "plays": [
+      "AYL",
+      "LLL",
+      "Lr"
+    ]
   },
   {
     "word": "aunt",
@@ -1803,7 +5420,22 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 54,
+    "plays": [
+      "1H4",
+      "2H6",
+      "3H6",
+      "H8",
+      "Ham",
+      "MND",
+      "R2",
+      "R3",
+      "TNK",
+      "Tit",
+      "Tro",
+      "Wiv"
+    ]
   },
   {
     "word": "brother",
@@ -1815,7 +5447,46 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1382,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "Mac",
+      "Oth",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "cat",
@@ -1827,7 +5498,29 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 78,
+    "plays": [
+      "1H4",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Cor",
+      "H5",
+      "Ham",
+      "Lr",
+      "Luc",
+      "MND",
+      "MV",
+      "Mac",
+      "Per",
+      "Rom",
+      "Shr",
+      "TGV",
+      "Tmp",
+      "Tro",
+      "Wiv"
+    ]
   },
   {
     "word": "chihuahua",
@@ -1835,7 +5528,9 @@
     "const": "NEUTRAL_NOUNS",
     "status": "legacy-only",
     "attested_in": [],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "cousin",
@@ -1847,7 +5542,35 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 661,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Cor",
+      "H5",
+      "Ham",
+      "Jn",
+      "MM",
+      "MV",
+      "Mac",
+      "Oth",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "TN",
+      "TNK",
+      "Tit",
+      "Tro",
+      "Wiv"
+    ]
   },
   {
     "word": "cow",
@@ -1859,7 +5582,17 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 18,
+    "plays": [
+      "AYL",
+      "Ado",
+      "Ant",
+      "H8",
+      "Jn",
+      "Lr",
+      "Tit"
+    ]
   },
   {
     "word": "daughter",
@@ -1871,7 +5604,46 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1162,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Oth",
+      "Per",
+      "R3",
+      "Rom",
+      "Shr",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "door",
@@ -1883,7 +5655,48 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 344,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "face",
@@ -1895,7 +5708,52 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1019,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "father",
@@ -1907,7 +5765,52 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 2309,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "fellow",
@@ -1919,7 +5822,48 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 666,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "granddaughter",
@@ -1927,7 +5871,9 @@
     "const": "NEUTRAL_NOUNS",
     "status": "legacy-only",
     "attested_in": [],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "grandfather",
@@ -1939,7 +5885,19 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 36,
+    "plays": [
+      "1H4",
+      "1H6",
+      "3H6",
+      "Cym",
+      "H5",
+      "LLL",
+      "Shr",
+      "TGV",
+      "Tit"
+    ]
   },
   {
     "word": "grandmother",
@@ -1951,7 +5909,14 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 8,
+    "plays": [
+      "H5",
+      "LLL",
+      "TGV",
+      "Tmp"
+    ]
   },
   {
     "word": "grandson",
@@ -1959,9 +5924,14 @@
     "const": "NEUTRAL_NOUNS",
     "status": "attested",
     "attested_in": [
-      "folger-complete-2026"
+      "folger-complete-2026",
+      "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1,
+    "plays": [
+      "Tit"
+    ]
   },
   {
     "word": "hair",
@@ -1973,15 +5943,57 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 256,
+    "plays": [
+      "1H4",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MND",
+      "MV",
+      "Mac",
+      "Per",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "hamster",
     "spl_class": "neutral-noun",
     "const": "NEUTRAL_NOUNS",
-    "status": "legacy-only",
-    "attested_in": [],
-    "attested_as": null
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "horse",
@@ -1993,7 +6005,47 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 521,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "LLL",
+      "Lr",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT"
+    ]
   },
   {
     "word": "lamp",
@@ -2005,7 +6057,20 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 22,
+    "plays": [
+      "1H4",
+      "3H6",
+      "AWW",
+      "Ant",
+      "Err",
+      "Mac",
+      "R2",
+      "Rom",
+      "Tro",
+      "Ven"
+    ]
   },
   {
     "word": "lantern",
@@ -2017,7 +6082,16 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 24,
+    "plays": [
+      "1H4",
+      "2H4",
+      "2H6",
+      "Ado",
+      "MND",
+      "Rom"
+    ]
   },
   {
     "word": "mistletoe",
@@ -2026,9 +6100,14 @@
     "status": "attested",
     "attested_in": [
       "guten-complete-2026",
-      "folger-complete-2026"
+      "folger-complete-2026",
+      "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 2,
+    "plays": [
+      "Tit"
+    ]
   },
   {
     "word": "moon",
@@ -2040,7 +6119,43 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 290,
+    "plays": [
+      "1H4",
+      "2H4",
+      "2H6",
+      "AYL",
+      "Ant",
+      "Cor",
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT"
+    ]
   },
   {
     "word": "morning",
@@ -2052,7 +6167,46 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 298,
+    "plays": [
+      "1H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "Wiv"
+    ]
   },
   {
     "word": "mother",
@@ -2064,7 +6218,51 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 879,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "nephew",
@@ -2076,7 +6274,26 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 69,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H6",
+      "3H6",
+      "Ado",
+      "H5",
+      "H8",
+      "Ham",
+      "Jn",
+      "MV",
+      "Rom",
+      "TGV",
+      "TN",
+      "Tit",
+      "Tro",
+      "Wiv"
+    ]
   },
   {
     "word": "niece",
@@ -2088,7 +6305,21 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 132,
+    "plays": [
+      "3H6",
+      "AYL",
+      "Ado",
+      "Jn",
+      "Oth",
+      "Per",
+      "R3",
+      "Rom",
+      "TN",
+      "Tit",
+      "Tro"
+    ]
   },
   {
     "word": "nose",
@@ -2100,7 +6331,41 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 142,
+    "plays": [
+      "1H4",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ant",
+      "Cor",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Rom",
+      "Shr",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT"
+    ]
   },
   {
     "word": "purse",
@@ -2112,7 +6377,36 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 185,
+    "plays": [
+      "1H4",
+      "2H4",
+      "2H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "Jn",
+      "LLL",
+      "Lr",
+      "MV",
+      "Oth",
+      "Per",
+      "R3",
+      "Shr",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "road",
@@ -2124,7 +6418,21 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 36,
+    "plays": [
+      "1H4",
+      "2H4",
+      "AYL",
+      "Ado",
+      "Cor",
+      "Err",
+      "H5",
+      "MV",
+      "Per",
+      "Shr",
+      "TGV"
+    ]
   },
   {
     "word": "roman",
@@ -2136,7 +6444,26 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 280,
+    "plays": [
+      "2H6",
+      "AYL",
+      "Ant",
+      "Cor",
+      "Cym",
+      "H5",
+      "Ham",
+      "JC",
+      "LLL",
+      "Luc",
+      "MV",
+      "Mac",
+      "Oth",
+      "Shr",
+      "TN",
+      "Tit"
+    ]
   },
   {
     "word": "sister",
@@ -2148,7 +6475,41 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 452,
+    "plays": [
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "LLL",
+      "Lr",
+      "MM",
+      "MND",
+      "Mac",
+      "R2",
+      "R3",
+      "Shr",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT"
+    ]
   },
   {
     "word": "sky",
@@ -2160,7 +6521,37 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 100,
+    "plays": [
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ant",
+      "Cym",
+      "Err",
+      "H5",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MND",
+      "Mac",
+      "R2",
+      "R3",
+      "Son",
+      "TGV",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "son",
@@ -2172,7 +6563,50 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1566,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "squirrel",
@@ -2184,7 +6618,13 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 6,
+    "plays": [
+      "MND",
+      "Rom",
+      "TGV"
+    ]
   },
   {
     "word": "stone wall",
@@ -2196,7 +6636,28 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 142,
+    "plays": [
+      "2H6",
+      "Cor",
+      "H5",
+      "Ham",
+      "Jn",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "R2",
+      "Rom",
+      "TGV",
+      "TN",
+      "Tim",
+      "Tit",
+      "Tro",
+      "WT"
+    ]
   },
   {
     "word": "thing",
@@ -2208,7 +6669,51 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 722,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "town",
@@ -2220,7 +6725,38 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 268,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AYL",
+      "Ado",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "Jn",
+      "LLL",
+      "Lr",
+      "MND",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tro",
+      "Wiv"
+    ]
   },
   {
     "word": "tree",
@@ -2232,7 +6768,33 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 141,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H6",
+      "3H6",
+      "AYL",
+      "Ado",
+      "Cym",
+      "H8",
+      "Ham",
+      "LLL",
+      "Lr",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R3",
+      "Rom",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Ven",
+      "Wiv"
+    ]
   },
   {
     "word": "uncle",
@@ -2244,7 +6806,33 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 425,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Cym",
+      "Err",
+      "H5",
+      "Ham",
+      "Jn",
+      "MV",
+      "Mac",
+      "Oth",
+      "R2",
+      "R3",
+      "Rom",
+      "TNK",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Wiv"
+    ]
   },
   {
     "word": "wind",
@@ -2256,7 +6844,48 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 443,
+    "plays": [
+      "1H4",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "bastard",
@@ -2268,7 +6897,37 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 415,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "AYL",
+      "Ado",
+      "Cor",
+      "Err",
+      "H5",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MV",
+      "R2",
+      "R3",
+      "Son",
+      "TGV",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT"
+    ]
   },
   {
     "word": "beggar",
@@ -2280,7 +6939,40 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 154,
+    "plays": [
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MV",
+      "Oth",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "Tim",
+      "Tmp",
+      "Tro",
+      "WT"
+    ]
   },
   {
     "word": "blister",
@@ -2292,7 +6984,16 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 11,
+    "plays": [
+      "Ham",
+      "LLL",
+      "Lr",
+      "Tim",
+      "Tmp",
+      "WT"
+    ]
   },
   {
     "word": "codpiece",
@@ -2304,7 +7005,15 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 14,
+    "plays": [
+      "Ado",
+      "Lr",
+      "MM",
+      "TGV",
+      "WT"
+    ]
   },
   {
     "word": "coward",
@@ -2316,7 +7025,44 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 190,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "H5",
+      "Ham",
+      "JC",
+      "Jn",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "Mac",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Son",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "curse",
@@ -2328,7 +7074,42 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 223,
+    "plays": [
+      "1H6",
+      "2H6",
+      "3H6",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT"
+    ]
   },
   {
     "word": "death",
@@ -2340,7 +7121,52 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1969,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "devil",
@@ -2352,7 +7178,48 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 497,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "draught",
@@ -2364,7 +7231,14 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 16,
+    "plays": [
+      "TN",
+      "TNK",
+      "Tro",
+      "Wiv"
+    ]
   },
   {
     "word": "famine",
@@ -2376,7 +7250,20 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 25,
+    "plays": [
+      "1H6",
+      "2H4",
+      "2H6",
+      "Ant",
+      "Cym",
+      "H5",
+      "Mac",
+      "Per",
+      "Rom",
+      "Son"
+    ]
   },
   {
     "word": "flirt-gill",
@@ -2384,7 +7271,9 @@
     "const": "NEGATIVE_NOUNS",
     "status": "legacy-only",
     "attested_in": [],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "goat",
@@ -2396,7 +7285,17 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 15,
+    "plays": [
+      "AYL",
+      "Cor",
+      "H5",
+      "Mac",
+      "Oth",
+      "Tit",
+      "Wiv"
+    ]
   },
   {
     "word": "hate",
@@ -2408,7 +7307,47 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 374,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT"
+    ]
   },
   {
     "word": "hell",
@@ -2420,7 +7359,46 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 367,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TN",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "hog",
@@ -2432,7 +7410,14 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 14,
+    "plays": [
+      "Lr",
+      "MND",
+      "R3",
+      "Wiv"
+    ]
   },
   {
     "word": "hound",
@@ -2444,7 +7429,22 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 30,
+    "plays": [
+      "Cor",
+      "Err",
+      "H5",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MND",
+      "Oth",
+      "Shr",
+      "Tit",
+      "Tro",
+      "Ven"
+    ]
   },
   {
     "word": "leech",
@@ -2456,7 +7456,11 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 2,
+    "plays": [
+      "Tim"
+    ]
   },
   {
     "word": "lie",
@@ -2468,7 +7472,52 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 694,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "PhT",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "microsoft",
@@ -2476,7 +7525,9 @@
     "const": "NEGATIVE_NOUNS",
     "status": "legacy-only",
     "attested_in": [],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "pig",
@@ -2488,7 +7539,17 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 23,
+    "plays": [
+      "2H4",
+      "Err",
+      "H5",
+      "MV",
+      "Mac",
+      "TNK",
+      "Tit"
+    ]
   },
   {
     "word": "plague",
@@ -2500,7 +7561,39 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 197,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H6",
+      "3H6",
+      "AWW",
+      "Ado",
+      "Cor",
+      "Cym",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Son",
+      "TN",
+      "Tim",
+      "Tmp",
+      "Tro",
+      "Ven"
+    ]
   },
   {
     "word": "starvation",
@@ -2508,7 +7601,9 @@
     "const": "NEGATIVE_NOUNS",
     "status": "legacy-only",
     "attested_in": [],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "toad",
@@ -2520,7 +7615,20 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 36,
+    "plays": [
+      "AYL",
+      "Cym",
+      "Lr",
+      "Mac",
+      "Oth",
+      "R3",
+      "Rom",
+      "Tim",
+      "Tit",
+      "Tro"
+    ]
   },
   {
     "word": "war",
@@ -2532,7 +7640,46 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 588,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven"
+    ]
   },
   {
     "word": "wolf",
@@ -2544,7 +7691,31 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 78,
+    "plays": [
+      "1H6",
+      "2H4",
+      "3H6",
+      "Cor",
+      "Cym",
+      "Err",
+      "H8",
+      "JC",
+      "Lr",
+      "Luc",
+      "MND",
+      "MV",
+      "Mac",
+      "R3",
+      "Son",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tro",
+      "Ven",
+      "WT"
+    ]
   },
   {
     "word": "answer",
@@ -2556,7 +7727,51 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 784,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "criminal",
@@ -2568,7 +7783,14 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 7,
+    "plays": [
+      "Cor",
+      "Ham",
+      "MM",
+      "WT"
+    ]
   },
   {
     "word": "dog",
@@ -2580,7 +7802,44 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 320,
+    "plays": [
+      "1H4",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "Lr",
+      "Luc",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "TGV",
+      "TN",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "Wiv"
+    ]
   },
   {
     "word": "drunkard",
@@ -2592,7 +7851,20 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 27,
+    "plays": [
+      "1H4",
+      "Ado",
+      "Err",
+      "LLL",
+      "Oth",
+      "Rom",
+      "Shr",
+      "Tit",
+      "Tmp",
+      "Wiv"
+    ]
   },
   {
     "word": "dunghill",
@@ -2604,7 +7876,17 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 20,
+    "plays": [
+      "1H6",
+      "2H4",
+      "2H6",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Wiv"
+    ]
   },
   {
     "word": "evil",
@@ -2616,7 +7898,38 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 145,
+    "plays": [
+      "2H6",
+      "3H6",
+      "AWW",
+      "Ado",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R3",
+      "Son",
+      "TN",
+      "TNK",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "fat",
@@ -2628,7 +7941,33 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 156,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "AYL",
+      "Ant",
+      "Err",
+      "H5",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Luc",
+      "MND",
+      "MV",
+      "R3",
+      "Shr",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tit",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "festering",
@@ -2639,7 +7978,9 @@
       "guten-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1,
+    "plays": []
   },
   {
     "word": "flirt",
@@ -2651,7 +7992,11 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 2,
+    "plays": [
+      "Rom"
+    ]
   },
   {
     "word": "fool",
@@ -2663,7 +8008,50 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 1182,
+    "plays": [
+      "1H4",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "gorgon",
@@ -2675,7 +8063,12 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 4,
+    "plays": [
+      "Ant",
+      "Mac"
+    ]
   },
   {
     "word": "hag",
@@ -2687,7 +8080,16 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 17,
+    "plays": [
+      "1H6",
+      "R3",
+      "Rom",
+      "Tmp",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "hatred",
@@ -2699,7 +8101,20 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 35,
+    "plays": [
+      "3H6",
+      "Cor",
+      "H5",
+      "H8",
+      "MND",
+      "Oth",
+      "R3",
+      "Rom",
+      "Son",
+      "WT"
+    ]
   },
   {
     "word": "insect",
@@ -2709,7 +8124,9 @@
     "attested_in": [
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "louse",
@@ -2721,7 +8138,12 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 4,
+    "plays": [
+      "Lr",
+      "Tro"
+    ]
   },
   {
     "word": "lying",
@@ -2733,7 +8155,32 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 62,
+    "plays": [
+      "1H4",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "Ado",
+      "Cor",
+      "Cym",
+      "Ham",
+      "JC",
+      "Lr",
+      "MM",
+      "MND",
+      "MV",
+      "Per",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "Tmp",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "mistrust",
@@ -2745,7 +8192,22 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 38,
+    "plays": [
+      "2H6",
+      "3H6",
+      "AYL",
+      "Ado",
+      "JC",
+      "Luc",
+      "MV",
+      "Mac",
+      "R3",
+      "Shr",
+      "Ven",
+      "Wiv"
+    ]
   },
   {
     "word": "misuse",
@@ -2757,7 +8219,17 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 16,
+    "plays": [
+      "1H4",
+      "2H4",
+      "Ado",
+      "Oth",
+      "Shr",
+      "Son",
+      "Wiv"
+    ]
   },
   {
     "word": "noise",
@@ -2769,7 +8241,43 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 233,
+    "plays": [
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H8",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "R2",
+      "R3",
+      "Rom",
+      "TNK",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "Ven",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "pox",
@@ -2781,7 +8289,25 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 48,
+    "plays": [
+      "1H4",
+      "2H4",
+      "AWW",
+      "Cym",
+      "H5",
+      "Ham",
+      "LLL",
+      "MM",
+      "Oth",
+      "Per",
+      "Rom",
+      "TGV",
+      "TN",
+      "Tim",
+      "Tmp"
+    ]
   },
   {
     "word": "rascal",
@@ -2793,15 +8319,44 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 121,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "AWW",
+      "AYL",
+      "Cor",
+      "Cym",
+      "H5",
+      "Ham",
+      "JC",
+      "Lr",
+      "Luc",
+      "MM",
+      "Oth",
+      "Shr",
+      "TN",
+      "Tim",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "scoundrel",
     "spl_class": "negative-noun",
     "const": "NEGATIVE_NOUNS",
-    "status": "legacy-only",
-    "attested_in": [],
-    "attested_as": null
+    "status": "attested",
+    "attested_in": [
+      "eebo-period-2026"
+    ],
+    "attested_as": null,
+    "frequency": 0,
+    "plays": []
   },
   {
     "word": "sieve",
@@ -2813,7 +8368,14 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 8,
+    "plays": [
+      "AWW",
+      "Ado",
+      "Mac",
+      "Tro"
+    ]
   },
   {
     "word": "spite",
@@ -2825,7 +8387,38 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 132,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "Ado",
+      "Cor",
+      "Cym",
+      "Err",
+      "H8",
+      "Ham",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MND",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "Rom",
+      "Shr",
+      "Son",
+      "TGV",
+      "TN",
+      "Tim",
+      "Tro",
+      "Ven"
+    ]
   },
   {
     "word": "traitor",
@@ -2837,7 +8430,39 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 301,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AWW",
+      "AYL",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "H8",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "Mac",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "TGV",
+      "TNK",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT"
+    ]
   },
   {
     "word": "villain",
@@ -2849,7 +8474,47 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 524,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Cor",
+      "Cym",
+      "Err",
+      "H5",
+      "Ham",
+      "JC",
+      "Jn",
+      "LLL",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "MV",
+      "Mac",
+      "Oth",
+      "Per",
+      "R2",
+      "R3",
+      "Rom",
+      "Shr",
+      "TGV",
+      "TN",
+      "TNK",
+      "Tim",
+      "Tit",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "witch",
@@ -2861,7 +8526,28 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 188,
+    "plays": [
+      "1H4",
+      "1H6",
+      "2H6",
+      "Ado",
+      "Ant",
+      "Cym",
+      "Err",
+      "H5",
+      "Ham",
+      "Lr",
+      "Mac",
+      "R3",
+      "TNK",
+      "Tim",
+      "Tmp",
+      "Tro",
+      "WT",
+      "Wiv"
+    ]
   },
   {
     "word": "worm",
@@ -2873,6 +8559,30 @@
       "folger-complete-2026",
       "eebo-period-2026"
     ],
-    "attested_as": null
+    "attested_as": null,
+    "frequency": 82,
+    "plays": [
+      "1H6",
+      "2H4",
+      "2H6",
+      "3H6",
+      "AYL",
+      "Ado",
+      "Ant",
+      "Ham",
+      "Lr",
+      "Luc",
+      "MM",
+      "MND",
+      "Mac",
+      "Per",
+      "R3",
+      "Rom",
+      "TN",
+      "Tim",
+      "Tmp",
+      "Ven",
+      "Wiv"
+    ]
   }
 ]
