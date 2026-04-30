@@ -11,7 +11,7 @@ use std::collections::HashMap;
 use crate::ast::*;
 use crate::error::{Result, SplError};
 use crate::vocab::{
-    as_character_name, is_adjective, is_article, is_negative_noun,
+    as_character_name, is_adjective, is_article, is_known_pack, is_negative_noun,
     is_positive_noun, is_neutral_noun, parse_roman,
 };
 
@@ -844,6 +844,26 @@ pub fn parse_play_mode(source: &str, mode: ParseMode) -> Result<Play> {
         return Err(SplError::parse(0, "play has no title"));
     };
 
+    // --- Pack declaration (optional) ---
+    // Syntax: "Pack: <name>."  anywhere between the title and the first character line.
+    skip_blank(&mut line_no, &lines);
+    let mut pack: Option<String> = None;
+    if line_no < lines.len() {
+        let l = lines[line_no].trim();
+        let lower = l.to_lowercase();
+        if lower.starts_with("pack:") {
+            let name = l[5..].trim().trim_end_matches('.').trim().to_string();
+            if !is_known_pack(&name) {
+                return Err(SplError::parse(
+                    line_no + 1,
+                    format!("unknown corpus pack {:?}; known packs: oss-moby-2026", name),
+                ));
+            }
+            pack = Some(name);
+            line_no += 1;
+        }
+    }
+
     // --- Dramatis Personae ---
     // Continues until we hit a blank line followed by "Act"
     skip_blank(&mut line_no, &lines);
@@ -1013,6 +1033,7 @@ pub fn parse_play_mode(source: &str, mode: ParseMode) -> Result<Play> {
 
     let mut play = Play {
         title,
+        pack,
         characters,
         ops,
         scene_index,

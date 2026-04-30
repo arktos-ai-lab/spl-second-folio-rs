@@ -942,6 +942,28 @@ pub const NEGATIVE_NOUNS: &[&str] = &[
 ];
 
 // ---------------------------------------------------------------------------
+// Comparatives  (used in conditional/question sentences)
+// ---------------------------------------------------------------------------
+
+/// Positive comparatives — mean "greater than" in a comparison sentence.
+/// Source: SPL 1.0/1.1 positive_comparative.wordlist + parser extension words.
+pub const POSITIVE_COMPARATIVES: &[&str] = &[
+    // SPL wordlist
+    "better", "bigger", "fresher", "friendlier", "nicer", "jollier",
+    // parser-extended (not in wordlist but accepted by parse_comparison)
+    "greater", "larger", "older", "more",
+];
+
+/// Negative comparatives — mean "less than" in a comparison sentence.
+/// Source: SPL 1.0/1.1 negative_comparative.wordlist + parser extension words.
+pub const NEGATIVE_COMPARATIVES: &[&str] = &[
+    // SPL wordlist
+    "punier", "smaller", "worse",
+    // parser-extended
+    "less", "younger", "shorter",
+];
+
+// ---------------------------------------------------------------------------
 // Articles / possessives (ignored during noun-phrase parsing)
 // ---------------------------------------------------------------------------
 
@@ -993,6 +1015,24 @@ pub fn is_negative_noun(word: &str) -> bool { eq_lower(word, NEGATIVE_NOUNS) }
 /// Returns true if `word` is any noun that yields value +1.
 pub fn is_value_positive_noun(word: &str) -> bool {
     is_positive_noun(word) || is_neutral_noun(word)
+}
+
+pub fn is_positive_comparative(word: &str) -> bool { eq_lower(word, POSITIVE_COMPARATIVES) }
+pub fn is_negative_comparative(word: &str) -> bool { eq_lower(word, NEGATIVE_COMPARATIVES) }
+
+// ---------------------------------------------------------------------------
+// Pack registry
+// ---------------------------------------------------------------------------
+
+/// All corpus packs known to this interpreter version.
+/// A program declaring a pack not in this list is rejected at parse time.
+pub const KNOWN_PACKS: &[&str] = &[
+    "oss-moby-2026",
+];
+
+/// Returns true if `name` is a recognised corpus pack.
+pub fn is_known_pack(name: &str) -> bool {
+    KNOWN_PACKS.iter().any(|&p| p == name)
 }
 
 pub fn is_article(word: &str) -> bool { eq_lower(word, ARTICLES) }

@@ -41,6 +41,8 @@ pub struct State {
     pub global_boolean: bool,
     /// Current position in the flattened ops list
     pub pc: usize,
+    /// Current speech mode (updated by Op::BeginSpeech; defaults to Normal)
+    pub speech_mode: SpeechMode,
 }
 
 impl State {
@@ -54,6 +56,7 @@ impl State {
             on_stage: Vec::new(),
             global_boolean: false,
             pc: 0,
+            speech_mode: SpeechMode::Normal,
         }
     }
 
@@ -64,6 +67,28 @@ impl State {
         }
         let other = self.on_stage.iter().find(|n| n.as_str() != speaker);
         other.map(|s| s.as_str()).ok_or(SplError::NoOpposite)
+    }
+
+    /// Resolve the addressee for second-person operations using the current speech mode.
+    ///
+    /// - `Normal`: requires exactly 2 on stage (delegates to `opposite`)
+    /// - `To(addr)` / `AsideTo(addr)`: uses the explicitly named addressee
+    /// - `Aside` / `Solus`: second-person operations are forbidden
+    pub fn resolve_addressee(&self, speaker: &str) -> Result<String> {
+        match &self.speech_mode {
+            SpeechMode::Normal => self.opposite(speaker).map(|s| s.to_string()),
+            SpeechMode::To(addr) | SpeechMode::AsideTo(addr) => {
+                if !self.on_stage.contains(addr) {
+                    return Err(SplError::runtime(format!(
+                        "addressee '{}' is not on stage", addr
+                    )));
+                }
+                Ok(addr.clone())
+            }
+            SpeechMode::Aside | SpeechMode::Solus => Err(SplError::runtime(
+                "second-person operation forbidden in aside/solus block",
+            )),
+        }
     }
 
     pub fn character_mut(&mut self, name: &str) -> Result<&mut Character> {
@@ -87,8 +112,8 @@ fn eval_expr(expr: &Expr, state: &State, speaker: &str) -> Result<i64> {
     match expr {
         Expr::FirstPerson => Ok(state.character(speaker)?.value),
         Expr::SecondPerson => {
-            let opp = state.opposite(speaker)?;
-            Ok(state.character(opp)?.value)
+            let opp = state.resolve_addressee(speaker)?;
+            Ok(state.character(&opp)?.value)
         }
         Expr::CharRef(name) => Ok(state.character(name)?.value),
         Expr::Nothing => Ok(0),
@@ -235,12 +260,12 @@ impl<R: BufRead, W: Write> Interpreter<R, W> {
             Op::Assign { expr, cond } => {
                 if !self.check_cond(*cond) { return Ok(()); }
                 let val = eval_expr(expr, &self.state, &speaker)?;
-                let opp = self.state.opposite(&speaker)?.to_string();
+                let opp = self.state.resolve_addressee(&speaker)?;
                 self.state.character_mut(&opp)?.value = val;
             }
             Op::Output { kind, cond } => {
                 if !self.check_cond(*cond) { return Ok(()); }
-                let opp = self.state.opposite(&speaker)?.to_string();
+                let opp = self.state.resolve_addressee(&speaker)?;
                 let val = self.state.character(&opp)?.value;
                 match kind {
                     IoKind::Numeric => write!(self.output, "{}", val)?,
@@ -255,7 +280,7 @@ impl<R: BufRead, W: Write> Interpreter<R, W> {
             }
             Op::Input { kind, cond } => {
                 if !self.check_cond(*cond) { return Ok(()); }
-                let opp = self.state.opposite(&speaker)?.to_string();
+                let opp = self.state.resolve_addressee(&speaker)?;
                 let val = match kind {
                     IoKind::Numeric => self.read_number()?,
                     IoKind::Char    => self.read_char()?,
@@ -265,12 +290,12 @@ impl<R: BufRead, W: Write> Interpreter<R, W> {
             Op::Push { expr, cond } => {
                 if !self.check_cond(*cond) { return Ok(()); }
                 let val = eval_expr(expr, &self.state, &speaker)?;
-                let opp = self.state.opposite(&speaker)?.to_string();
+                let opp = self.state.resolve_addressee(&speaker)?;
                 self.state.character_mut(&opp)?.push(val);
             }
             Op::Pop { cond } => {
                 if !self.check_cond(*cond) { return Ok(()); }
-                let opp = self.state.opposite(&speaker)?.to_string();
+                let opp = self.state.resolve_addressee(&speaker)?;
                 let name = opp.clone();
                 self.state.character_mut(&opp)?.pop(&name)?;
             }
@@ -290,6 +315,29 @@ impl<R: BufRead, W: Write> Interpreter<R, W> {
             }
             // SPL-F2 ornamental sentence — explicit no-op, no effect on machine state.
             Op::Ornament => {}
+
+            // SPL-F2 staging marker: validate constraints at block entry, then update mode.
+            Op::BeginSpeech(mode) => {
+                // solus: speaker must be the only character on stage
+                if matches!(mode, SpeechMode::Solus) {
+                    if self.state.on_stage.len() != 1 || !self.state.on_stage.contains(&speaker) {
+                        return Err(SplError::runtime(format!(
+                            "solus block requires '{}' to be alone on stage (on stage: {})",
+                            speaker,
+                            self.state.on_stage.join(", ")
+                        )));
+                    }
+                }
+                // to / aside to: validate addressee is on stage
+                if let SpeechMode::To(addr) | SpeechMode::AsideTo(addr) = mode {
+                    if !self.state.on_stage.contains(addr) {
+                        return Err(SplError::runtime(format!(
+                            "addressee '{}' is not on stage for 'to' directive", addr
+                        )));
+                    }
+                }
+                self.state.speech_mode = mode.clone();
+            }
         }
         Ok(())
     }
@@ -315,8 +363,15 @@ impl<R: BufRead, W: Write> Interpreter<R, W> {
     fn read_number(&mut self) -> Result<i64> {
         let mut buf = String::new();
         self.input.read_line(&mut buf)?;
-        buf.trim().parse::<i64>().map_err(|_| {
-            SplError::runtime(format!("expected integer, got {:?}", buf.trim()))
+        let trimmed = buf.trim();
+        if trimmed.is_empty() {
+            if self.eof_as_minus_one {
+                return Ok(-1);
+            }
+            return Err(crate::error::SplError::WaitingForInput);
+        }
+        trimmed.parse::<i64>().map_err(|_| {
+            SplError::runtime(format!("expected integer, got {:?}", trimmed))
         })
     }
 
@@ -357,6 +412,43 @@ pub fn run_play_with_input(source: &str, stdin: &str) -> Result<String> {
     let output = Vec::<u8>::new();
     let mut interp = Interpreter::new(play, io::BufReader::new(input), output);
     interp.run()?;
+    Ok(String::from_utf8_lossy(&interp.output).into_owned())
+}
+
+pub fn run_play_f2(source: &str) -> Result<String> {
+    use crate::parser::parse_play_f2;
+    let play = parse_play_f2(source)?;
+    let input  = io::Cursor::new(Vec::<u8>::new());
+    let output = Vec::<u8>::new();
+    let mut interp = Interpreter::new(play, io::BufReader::new(input), output);
+    interp.run()?;
+    Ok(String::from_utf8_lossy(&interp.output).into_owned())
+}
+
+pub fn run_play_f2_with_input(source: &str, stdin: &str) -> Result<String> {
+    use crate::parser::parse_play_f2;
+    let play = parse_play_f2(source)?;
+    let input  = io::Cursor::new(stdin.as_bytes().to_vec());
+    let output = Vec::<u8>::new();
+    let mut interp = Interpreter::new(play, io::BufReader::new(input), output);
+    interp.run()?;
+    Ok(String::from_utf8_lossy(&interp.output).into_owned())
+}
+
+/// Run with a step limit — useful for testing programs that may loop.
+/// Returns `Err(StepLimitExceeded)` if `max_steps` is hit.
+pub fn run_play_with_steps(source: &str, stdin: &str, max_steps: u64) -> Result<String> {
+    use crate::parser::parse_play;
+    let play = parse_play(source)?;
+    let input  = io::Cursor::new(stdin.as_bytes().to_vec());
+    let output = Vec::<u8>::new();
+    let mut interp = Interpreter::new(play, io::BufReader::new(input), output);
+    interp.eof_as_minus_one = true;
+    interp.max_steps = max_steps;
+    match interp.run() {
+        Ok(()) | Err(SplError::StepLimitExceeded { .. }) => {}
+        Err(e) => return Err(e),
+    }
     Ok(String::from_utf8_lossy(&interp.output).into_owned())
 }
 

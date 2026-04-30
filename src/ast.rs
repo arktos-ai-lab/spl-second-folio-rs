@@ -176,6 +176,8 @@ pub struct FlatOp {
 #[derive(Debug, Clone)]
 pub struct Play {
     pub title: String,
+    /// Declared corpus pack. `None` = SPL 1.0 core only (no declaration required).
+    pub pack: Option<String>,
     pub characters: Vec<CharacterDecl>,
     /// All operations in execution order (acts/scenes flattened).
     pub ops: Vec<FlatOp>,
